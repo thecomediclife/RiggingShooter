@@ -1,9 +1,9 @@
-﻿Log file open, 05/08/16 22:13:20
+﻿Log file open, 05/08/16 23:15:09
 LogInit:Display: Running engine for game: GameJamRigging
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1187390161) SRandInit(1187390163).
+LogInit:Display: RandInit(-1214592573) SRandInit(-1214592571).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.077141
+LogStats: Stats thread started at 0.068144
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -11,7 +11,7 @@ LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.11
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -29,628 +29,146 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.05.09-05.13.20:501][  0]LogInit: Selected Device Profile: [Windows]
-[2016.05.09-05.13.20:501][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.05.09-05.13.20:525][  0]LogInit: Computer: COMEDICLIFE-PC
-[2016.05.09-05.13.20:525][  0]LogInit: User: k0ola
-[2016.05.09-05.13.20:525][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.05.09-05.13.20:525][  0]LogInit: High frequency timer resolution =3.312789 MHz
-[2016.05.09-05.13.20:526][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.05.09-05.13.20:526][  0]LogMemory: Platform Memory Stats for Windows
-[2016.05.09-05.13.20:526][  0]LogMemory: Process Physical Memory: 314.75 MB used, 314.75 MB peak
-[2016.05.09-05.13.20:526][  0]LogMemory: Process Virtual Memory: 315.13 MB used, 315.13 MB peak
-[2016.05.09-05.13.20:526][  0]LogMemory: Physical Memory: 5723.00 MB used, 8085.19 MB total
-[2016.05.09-05.13.20:526][  0]LogMemory: Virtual Memory: 653.64 MB used, 134217728.00 MB total
-[2016.05.09-05.13.20:552][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.05.09-05.13.20:971][  0]LogD3D11RHI: D3D11 adapters:
-[2016.05.09-05.13.20:985][  0]LogD3D11RHI:    0. 'NVIDIA GeForce  GTX 555' (Feature Level 11_0)
-[2016.05.09-05.13.20:985][  0]LogD3D11RHI:       972MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
-[2016.05.09-05.13.21:003][  0]LogD3D11RHI:    1. 'NVIDIA GeForce  GTX 555' (Feature Level 11_0)
-[2016.05.09-05.13.21:003][  0]LogD3D11RHI:       972MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
-[2016.05.09-05.13.21:005][  0]LogD3D11RHI:    2. 'NVIDIA GeForce  GTX 555' (Feature Level 11_0)
-[2016.05.09-05.13.21:005][  0]LogD3D11RHI:       972MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
-[2016.05.09-05.13.21:005][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.05.09-05.13.21:011][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.05.09-05.13.21:011][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce  GTX 555
-[2016.05.09-05.13.21:011][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.05.09-05.13.21:011][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.05.09-05.13.21:011][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
-[2016.05.09-05.13.21:021][  0]LogD3D11RHI: Async texture creation enabled
-[2016.05.09-05.13.21:039][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/10376/).
-[2016.05.09-05.13.21:039][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/k0ola/AppData/Local/Temp/UnrealShaderWorkingDir/79FC65194D8F45D9F48AB8B46FDAEFC7/'.
-[2016.05.09-05.13.21:039][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.05.09-05.13.23:111][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.05.09-05.13.23:116][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.05.09-05.13.23:127][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.05.09-05.13.23:142][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.05.09-05.13.23:150][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.05.09-05.13.23:158][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.05.09-05.13.23:170][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.05.09-05.13.23:185][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.05.09-05.13.23:215][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.05.09-05.13.23:243][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.05.09-05.13.23:263][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.05.09-05.13.23:295][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.05.09-05.13.23:295][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.05.09-05.13.23:322][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.05.09-05.13.23:420][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.05.09-05.13.23:426][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.05.09-05.13.23:467][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.05.09-05.13.23:523][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.05.09-05.13.23:537][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.05.09-05.13.23:537][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.05.09-05.13.23:974][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.05.09-05.13.24:592][  0]LogDerivedDataCache: Loaded boot cache 0.62s 46MB C:/Users/k0ola/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.05.09-05.13.24:592][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/k0ola/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.05.09-05.13.24:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.05.09-05.13.24:593][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.05.09-05.13.24:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.05.09-05.13.24:593][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.05.09-05.13.24:611][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.05.09-05.13.24:624][  0]LogDerivedDataCache: Using Local data cache path C:/Users/k0ola/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.05.09-05.13.26:667][  0]LogInit: Selected Device Profile: [Windows]
-[2016.05.09-05.13.26:667][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.05.09-05.13.26:705][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.05.09-05.13.26:887][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.05.09-05.13.26:887][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.05.09-05.13.26:887][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.05.09-05.13.27:232][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.05.09-05.13.27:232][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.05.09-05.13.27:232][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.05.09-05.13.27:239][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.05.09-05.13.28:270][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.05.09-05.13.28:270][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.05.09-05.13.31:938][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.05.09-05.13.31:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.05.09-05.13.31:938][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.05.09-05.13.31:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.05.09-05.13.31:938][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.05.09-05.13.31:938][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.05.09-05.13.40:764][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.05.09-05.13.41:159][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
-[2016.05.09-05.13.41:637][  0]SourceControl: Info Source control is disabled
-[2016.05.09-05.13.41:638][  0]SourceControl: Info Source control is disabled
-[2016.05.09-05.13.41:693][  0]SourceControl: Info Source control is disabled
-[2016.05.09-05.13.41:715][  0]SourceControl: Info Source control is disabled
-[2016.05.09-05.13.42:204][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.05.09-05.13.42:347][  0]LogEngine: Initializing Engine...
-[2016.05.09-05.13.42:533][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.05.09-05.13.42:554][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.09-05.13.42:663][  0]LogInit: FAudioDevice initialized.
-[2016.05.09-05.13.42:696][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/k0ola/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.05.09-05.13.42:703][  0]LogInit: Texture streaming: Enabled
-[2016.05.09-05.13.42:778][  0]LogInit: Transaction tracking system initialized
-[2016.05.09-05.13.42:851][  0]BlueprintLog: New page: Editor Load
-[2016.05.09-05.13.43:354][  0]LocalizationService: Info Localization service is disabled
-[2016.05.09-05.13.43:741][  0]LogConsoleResponse:Display: 
-[2016.05.09-05.13.44:723][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.05.09-05.13.44:723][  0]LogCook:Display: Mobile HDR setting 1
-[2016.05.09-05.13.44:723][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.05.09-05.13.45:598][  0]LogFileCache: Scanning file cache for directory 'C:/Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/' took 0.03s
-[2016.05.09-05.13.45:702][  0]SourceControl: Info Source control is disabled
-[2016.05.09-05.13.45:702][  0]Cmd: MAP LOAD FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.05.09-05.13.45:923][  0]LightingResults: New page: Lighting Build
-[2016.05.09-05.13.45:926][  0]MapCheck: New page: Map Check
-[2016.05.09-05.13.45:926][  0]LightingResults: New page: Lighting Build
-[2016.05.09-05.13.50:392][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.05.09-05.13.50:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.05.09-05.13.50:648][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.05.09-05.13.50:701][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.513ms to complete.
-[2016.05.09-05.13.50:701][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.999
-[2016.05.09-05.13.50:805][  0]LogCollectionManager: Loaded 0 collections in 0.001836 seconds
-[2016.05.09-05.13.50:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
-[2016.05.09-05.13.50:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Developers/k0ola/Collections/' took 0.01s
-[2016.05.09-05.13.50:845][  0]LogFileCache: Scanning file cache for directory 'C:/Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
-[2016.05.09-05.13.50:845][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2016.05.09-05.13.50:852][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1979 classes and 343 folders.
-[2016.05.09-05.13.50:856][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.05.09-05.13.50:856][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.05.09-05.13.50:856][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2016.05.09-05.13.50:861][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.05.09-05.13.50:867][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.05.09-05.13.50:924][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.05.09-05.13.50:943][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 1 classes and 3 folders.
-[2016.05.09-05.13.50:948][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.05.09-05.13.51:087][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.05.09-05.13.51:096][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.05.09-05.13.51:122][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.05.09-05.13.51:122][  0]LogLoad: Full Startup: 32.05 seconds (BP compile: 0.70 seconds)
-[2016.05.09-05.13.51:122][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
-[2016.05.09-05.13.51:131][  0]LogOcInput: OculusInput pre-init called
-[2016.05.09-05.13.51:173][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.05.09-05.13.51:339][  0]LogRenderer: Reallocating scene render targets to support 928x652 (Frame:2).
-[2016.05.09-05.13.51:469][  1]LogAssetRegistry: Asset discovery search completed in 10.3318 seconds
-[2016.05.09-05.13.51:469][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.05.09-05.13.51:469][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000093 seconds (updated 0 objects)
-[2016.05.09-05.14.03:977][291]LogAIModule: Creating AISystem for world KennethTest
-[2016.05.09-05.14.03:979][291]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ExampleContent/Effects/ParticleSystems/P_cloud.P_cloud Component=/Game/Maps/KennethTest.KennethTest:PersistentLevel.P_cloud_30.ParticleSystemComponent0
-[2016.05.09-05.14.04:055][291]Cmd: MAP LOAD FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.05.09-05.14.04:055][291]LightingResults: New page: Lighting Build
-[2016.05.09-05.14.04:079][291]LoadErrors: New page: Loading map: KennethTest.umap
-[2016.05.09-05.14.04:084][291]MapCheck: New page: Map Check
-[2016.05.09-05.14.04:084][291]LightingResults: New page: Lighting Build
-[2016.05.09-05.14.04:145][291]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.05.09-05.14.04:171][291]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.05.09-05.14.04:233][291]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.519ms to complete.
-[2016.05.09-05.14.04:234][291]LogFileHelpers: Loading map 'KennethTest' took 0.221
-[2016.05.09-05.14.11:390][663]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.05.09-05.14.11:412][663]LightingResults: New page: Lighting Build
-[2016.05.09-05.14.11:433][663]LoadErrors: New page: Loading map: Template_Default.umap
-[2016.05.09-05.14.11:435][663]MapCheck: New page: Map Check
-[2016.05.09-05.14.11:435][663]LightingResults: New page: Lighting Build
-[2016.05.09-05.14.11:548][663]LogAIModule: Creating AISystem for world Untitled_1
-[2016.05.09-05.14.11:598][663]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.05.09-05.14.11:630][663]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.05.09-05.14.11:697][663]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.283ms to complete.
-[2016.05.09-05.14.11:698][663]LogFileHelpers: Loading map 'Template_Default' took 0.308
-[2016.05.09-05.14.13:290][796]Cmd: EDIT COPY
-[2016.05.09-05.14.14:022][837]Cmd: EDIT COPY
-[2016.05.09-05.14.15:392][951]LogAIModule: Creating AISystem for world KennethTest
-[2016.05.09-05.14.15:394][951]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/ExampleContent/Effects/ParticleSystems/P_cloud.P_cloud Component=/Game/Maps/KennethTest.KennethTest:PersistentLevel.P_cloud_30.ParticleSystemComponent0
-[2016.05.09-05.14.16:575][951]Cmd: MAP LOAD FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.05.09-05.14.16:576][951]LightingResults: New page: Lighting Build
-[2016.05.09-05.14.16:595][951]LoadErrors: New page: Loading map: KennethTest.umap
-[2016.05.09-05.14.16:596][951]MapCheck: New page: Map Check
-[2016.05.09-05.14.16:596][951]LightingResults: New page: Lighting Build
-[2016.05.09-05.14.16:666][951]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.05.09-05.14.16:689][951]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.05.09-05.14.16:745][951]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.109ms to complete.
-[2016.05.09-05.14.16:745][951]LogFileHelpers: Loading map 'KennethTest' took 0.172
-[2016.05.09-05.14.17:849][ 19]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.14.18:792][ 79]LogEditorViewport: Clicking Background
-[2016.05.09-05.14.19:276][112]Cmd: EDIT PASTE
-[2016.05.09-05.15.10:259][741]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2016.05.09-05.15.36:482][729]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2016.05.09-05.16.57:884][159]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.05.09-05.19.39:103][657]LogMaterial: Missing cached shader map for material M_GodRay, compiling. 
-[2016.05.09-05.19.39:308][657]LogMaterial: Missing cached shader map for material M_GodRay, compiling. 
-[2016.05.09-05.19.39:328][657]LogStaticMesh: Building static mesh SM_GodRay_Plane...
-[2016.05.09-05.19.39:436][657]LogStaticMesh: Built static mesh [0.11s] /Game/Environment/Blueprints/Lightshaft/SM_GodRay_Plane.SM_GodRay_Plane
-[2016.05.09-05.19.39:438][657]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\mesh\TriangleMeshBuilder.cpp (264) 32 : cleaning the mesh failed
-[2016.05.09-05.19.39:439][657]LogPhysics:Warning: Failed to cook TriMesh: /Game/Environment/Blueprints/Lightshaft/SM_GodRay_Plane.SM_GodRay_Plane.
-[2016.05.09-05.20.29:181][870]LogMaterial: Missing cached shader map for material M_SnowFlake_VelocityLerp, compiling. 
-[2016.05.09-05.20.29:230][870]LogMaterial: Missing cached shader map for material M_Snow_Blowing_unLit, compiling. 
-[2016.05.09-05.20.29:238][870]LogMaterial: Missing cached shader map for material M_SnowFlake_VelocityLerp_AA, compiling. 
-[2016.05.09-05.20.29:269][870]LogMaterial: Missing cached shader map for material M_Snow_Blowing_Lit, compiling. 
-[2016.05.09-05.20.29:322][870]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
-[2016.05.09-05.21.10:741][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.21.15:492][833]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
-[2016.05.09-05.21.22:812][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.05.09-05.21.37:594][778]LogCascade: Quitting Cascade. FXSystem=0x00000242ABD382C0
-[2016.05.09-05.21.38:951][836]LogCascade: Quitting Cascade. FXSystem=0x000002428F98D8A0
-[2016.05.09-05.21.38:973][836]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
-[2016.05.09-05.21.48:088][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.05.09-05.21.57:003][923]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.21.59:579][ 61]Cmd: DELETE
-[2016.05.09-05.21.59:579][ 61]Cmd: ACTOR DELETE
-[2016.05.09-05.21.59:590][ 61]LogEditorActor: Deleted Actor: Emitter
-[2016.05.09-05.21.59:653][ 61]LogEditorActor: Deleted 1 Actors (0.074 secs)
-[2016.05.09-05.22.08:030][646]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.05.09-05.22.20:922][528]Cmd: TRANSACTION UNDO
-[2016.05.09-05.22.20:922][528]LogEditorTransaction: Undo Clicking on Actors
-[2016.05.09-05.22.22:358][623]Cmd: TRANSACTION UNDO
-[2016.05.09-05.22.22:358][623]LogEditorTransaction: Undo Delete Actors
-[2016.05.09-05.22.23:428][688]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.22.35:731][467]LogMaterial: Missing cached shader map for material M_WaterDrop_SubUV, compiling. 
-[2016.05.09-05.22.35:775][467]LogMaterial: Missing cached shader map for material M_WaterDrop_SubUV_NoAA, compiling. 
-[2016.05.09-05.22.37:843][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.22.38:813][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.05.09-05.22.42:688][870]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_WaterDrops)
-[2016.05.09-05.22.46:158][ 88]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.05.09-05.22.47:437][163]LogEditorViewport: Clicking on Actor (LMB): BP_GodRay_C (BP_GodRay)
-[2016.05.09-05.23.15:383][956]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_WaterDrops)
-[2016.05.09-05.23.18:994][192]LogEditorViewport: Clicking on Actor (LMB): BP_GodRay_C (BP_GodRay)
-[2016.05.09-05.23.22:642][422]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_WaterDrops)
-[2016.05.09-05.23.23:257][459]Cmd: DELETE
-[2016.05.09-05.23.23:257][459]Cmd: ACTOR DELETE
-[2016.05.09-05.23.23:258][459]LogEditorActor: Deleted Actor: Emitter
-[2016.05.09-05.23.23:271][459]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2016.05.09-05.23.49:245][168]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
-[2016.05.09-05.25.08:566][623]LogStaticMesh: Building static mesh SM_FogSheet_Plane...
-[2016.05.09-05.25.08:577][623]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
-[2016.05.09-05.25.08:776][623]LogStaticMesh: Built static mesh [0.21s] /Game/Environment/Blueprints/FogSheet/Assets/SM_FogSheet_Plane.SM_FogSheet_Plane
-[2016.05.09-05.25.08:781][623]LogMaterial: Missing cached shader map for material M_FogSheet_Master, compiling. 
-[2016.05.09-05.25.19:622][255]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.25.20:369][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.09-05.25.20:417][303]PIE: New page: PIE session: KennethTest (May 8, 2016, 2:25:20 PM)
-[2016.05.09-05.25.20:417][303]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KennethTest
-[2016.05.09-05.25.20:478][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061477s)
-[2016.05.09-05.25.20:479][303]LogAIModule: Creating AISystem for world KennethTest
-[2016.05.09-05.25.20:479][303]LogPlayLevel: PIE: World Init took: (0.000745s)
-[2016.05.09-05.25.20:479][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KennethTest.KennethTest to /Game/Maps/UEDPIE_0_KennethTest.KennethTest (0.062650s)
-[2016.05.09-05.25.20:497][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.09-05.25.20:510][303]LogInit: FAudioDevice initialized.
-[2016.05.09-05.25.20:731][303]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.05.09-05.25.20:738][303]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KennethTest.KennethTest up for play (max tick rate 0) at 2016.05.08-22.25.20
-[2016.05.09-05.25.20:739][303]LogWorld: Bringing up level for play took: 0.007413
-[2016.05.09-05.25.20:986][303]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
-[2016.05.09-05.25.21:122][303]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_KennethTest 0.051
-[2016.05.09-05.25.31:295][969]LogEditorViewport: Clicking on Actor (LMB): BP_FogSheet_C (BP_FogSheet)
-[2016.05.09-05.26.07:935][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
-[2016.05.09-05.26.08:126][250]Cmd: DELETE
-[2016.05.09-05.26.08:126][250]Cmd: ACTOR DELETE
-[2016.05.09-05.26.08:128][250]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.05.09-05.26.08:144][250]LogEditorActor: Deleted 1 Actors (0.017 secs)
-[2016.05.09-05.26.09:725][356]Cmd: TRANSACTION UNDO
-[2016.05.09-05.26.09:725][356]LogEditorTransaction: Undo Delete Actors
-[2016.05.09-05.26.11:770][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
-[2016.05.09-05.26.12:226][513]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.26.12:585][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
-[2016.05.09-05.26.13:128][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
-[2016.05.09-05.26.14:738][661]LogEditorViewport: Clicking on Actor (LMB): BP_FogSheet_C (BP_FogSheet)
-[2016.05.09-05.26.15:425][705]Cmd: DELETE
-[2016.05.09-05.26.15:425][705]Cmd: ACTOR DELETE
-[2016.05.09-05.26.15:426][705]LogEditorActor: Deleted Actor: BP_FogSheet_C
-[2016.05.09-05.26.15:441][705]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2016.05.09-05.27.54:946][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x401)
-[2016.05.09-05.28.01:913][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow)
-[2016.05.09-05.28.06:794][633]Cmd: DELETE
-[2016.05.09-05.28.06:794][633]Cmd: ACTOR DELETE
-[2016.05.09-05.28.06:795][633]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.05.09-05.28.06:803][633]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2016.05.09-05.28.12:365][980]LogEditorViewport: Clicking on Actor (LMB): BP_GodRay_C (BP_GodRay)
-[2016.05.09-05.28.36:674][523]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 108 classes and 0 folders.
-[2016.05.09-05.28.42:360][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.09-05.28.42:360][765]PIE: New page: PIE session: KennethTest (May 8, 2016, 2:28:42 PM)
-[2016.05.09-05.28.42:361][765]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KennethTest
-[2016.05.09-05.28.42:376][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015198s)
-[2016.05.09-05.28.42:377][765]LogAIModule: Creating AISystem for world KennethTest
-[2016.05.09-05.28.42:377][765]LogPlayLevel: PIE: World Init took: (0.000701s)
-[2016.05.09-05.28.42:377][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KennethTest.KennethTest to /Game/Maps/UEDPIE_0_KennethTest.KennethTest (0.016336s)
-[2016.05.09-05.28.42:407][765]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.09-05.28.42:419][765]LogInit: FAudioDevice initialized.
-[2016.05.09-05.28.42:451][765]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.05.09-05.28.42:459][765]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KennethTest.KennethTest up for play (max tick rate 0) at 2016.05.08-22.28.42
-[2016.05.09-05.28.42:460][765]LogWorld: Bringing up level for play took: 0.007632
-[2016.05.09-05.28.42:463][765]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_KennethTest -0.609
-[2016.05.09-05.28.57:594][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.09-05.28.57:594][528]PIE: New page: PIE session: KennethTest (May 8, 2016, 2:28:57 PM)
-[2016.05.09-05.28.57:594][528]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KennethTest
-[2016.05.09-05.28.57:610][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015640s)
-[2016.05.09-05.28.57:611][528]LogAIModule: Creating AISystem for world KennethTest
-[2016.05.09-05.28.57:611][528]LogPlayLevel: PIE: World Init took: (0.000808s)
-[2016.05.09-05.28.57:611][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KennethTest.KennethTest to /Game/Maps/UEDPIE_0_KennethTest.KennethTest (0.016984s)
-[2016.05.09-05.28.57:630][528]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.09-05.28.57:643][528]LogInit: FAudioDevice initialized.
-[2016.05.09-05.28.57:671][528]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.05.09-05.28.57:678][528]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KennethTest.KennethTest up for play (max tick rate 0) at 2016.05.08-22.28.57
-[2016.05.09-05.28.57:679][528]LogWorld: Bringing up level for play took: 0.006258
-[2016.05.09-05.28.57:681][528]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_KennethTest 0.61
-[2016.05.09-05.29.13:085][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.09-05.29.13:085][323]PIE: New page: PIE session: KennethTest (May 8, 2016, 2:29:13 PM)
-[2016.05.09-05.29.13:086][323]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KennethTest
-[2016.05.09-05.29.13:101][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015471s)
-[2016.05.09-05.29.13:102][323]LogAIModule: Creating AISystem for world KennethTest
-[2016.05.09-05.29.13:102][323]LogPlayLevel: PIE: World Init took: (0.000659s)
-[2016.05.09-05.29.13:102][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KennethTest.KennethTest to /Game/Maps/UEDPIE_0_KennethTest.KennethTest (0.016583s)
-[2016.05.09-05.29.13:121][323]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.09-05.29.13:132][323]LogInit: FAudioDevice initialized.
-[2016.05.09-05.29.13:162][323]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.05.09-05.29.13:169][323]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KennethTest.KennethTest up for play (max tick rate 0) at 2016.05.08-22.29.13
-[2016.05.09-05.29.13:169][323]LogWorld: Bringing up level for play took: 0.005998
-[2016.05.09-05.29.13:173][323]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_KennethTest 0.101
-[2016.05.09-05.29.51:726][274]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.29.52:848][329]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
-[2016.05.09-05.29.54:098][390]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.29.58:492][608]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.30.00:805][715]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.30.20:753][694]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.30.23:264][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.30.24:137][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.05.09-05.31.25:786][  3]Cmd: TRANSACTION UNDO
-[2016.05.09-05.31.25:786][  3]LogEditorTransaction: Undo Clicking on Actors
-[2016.05.09-05.31.26:397][ 31]Cmd: TRANSACTION UNDO
-[2016.05.09-05.31.26:397][ 31]LogEditorTransaction: Undo Clicking on Actors
-[2016.05.09-05.31.27:305][ 79]Cmd: TRANSACTION UNDO
-[2016.05.09-05.31.27:305][ 79]LogEditorTransaction: Undo Edit Refresh Material
-[2016.05.09-05.31.28:525][142]Cmd: TRANSACTION UNDO
-[2016.05.09-05.31.28:525][142]LogEditorTransaction: Undo Clicking on Actors
-[2016.05.09-05.31.29:198][177]Cmd: TRANSACTION UNDO
-[2016.05.09-05.31.29:198][177]LogEditorTransaction: Undo Rotate Actors
-[2016.05.09-05.31.35:306][486]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2016.05.09-05.32.22:188][865]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
-[2016.05.09-05.32.23:361][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.32.36:355][580]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.32.36:907][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.32.45:714][ 55]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.32.46:325][ 83]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.32.48:195][171]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
-[2016.05.09-05.32.51:683][342]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.05.09-05.32.52:915][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_QuadPyramid)
-[2016.05.09-05.33.06:227][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.33.57:076][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.05.09-05.34.32:806][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.34.39:329][774]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.34.40:189][816]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.34.50:709][293]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.34.51:442][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.35.28:653][146]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
-[2016.05.09-05.35.30:181][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-05.36.05:038][  6]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
-[2016.05.09-05.38.17:284][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.05.09-05.38.17:284][665]PIE: New page: PIE session: KennethTest (May 8, 2016, 2:38:17 PM)
-[2016.05.09-05.38.17:284][665]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KennethTest
-[2016.05.09-05.38.17:303][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019225s)
-[2016.05.09-05.38.17:304][665]LogAIModule: Creating AISystem for world KennethTest
-[2016.05.09-05.38.17:304][665]LogPlayLevel: PIE: World Init took: (0.000769s)
-[2016.05.09-05.38.17:305][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KennethTest.KennethTest to /Game/Maps/UEDPIE_0_KennethTest.KennethTest (0.020427s)
-[2016.05.09-05.38.17:333][665]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.05.09-05.38.17:346][665]LogInit: FAudioDevice initialized.
-[2016.05.09-05.38.17:378][665]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2016.05.09-05.38.17:385][665]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KennethTest.KennethTest up for play (max tick rate 0) at 2016.05.08-22.38.17
-[2016.05.09-05.38.17:386][665]LogWorld: Bringing up level for play took: 0.006362
-[2016.05.09-05.38.17:389][665]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_KennethTest 0.317
-[2016.05.09-05.38.36:790][698]Cmd: DUPLICATE
-[2016.05.09-05.38.36:790][698]Cmd: ACTOR DUPLICATE
-[2016.05.09-05.38.47:170][214]LogSavePackage: Save=197.79ms
-[2016.05.09-05.38.47:170][214]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/KennethTest52F636FE402BEBE4F95130BB32977776.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap'
-[2016.05.09-05.38.47:173][214]LogSavePackage: Total save time: 232.05ms
-[2016.05.09-05.38.47:173][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap
-[2016.05.09-05.38.47:197][214]LogFileHelpers: Saving map 'KennethTest' took 0.380
-[2016.05.09-05.39.00:264][886]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.39.01:344][933]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
-[2016.05.09-05.39.02:819][995]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.05.09-05.39.06:487][165]LogSavePackage: Save=142.89ms
-[2016.05.09-05.39.06:487][165]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/KennethTest73A717D447A012888B241A9D08BC0D24.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap'
-[2016.05.09-05.39.06:491][165]LogSavePackage: Total save time: 149.43ms
-[2016.05.09-05.39.06:491][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap
-[2016.05.09-05.39.06:512][165]LogFileHelpers: Saving map 'KennethTest' took 0.262
-[2016.05.09-05.39.23:989][ 46]LogRenderer: Reallocating scene render targets to support 932x652 (Frame:91969).
-[2016.05.09-05.39.24:002][ 46]LogRenderer: Reallocating scene render targets to support 1112x652 (Frame:91970).
-[2016.05.09-05.39.24:016][ 46]LogRenderer: Reallocating scene render targets to support 1292x652 (Frame:91971).
-[2016.05.09-05.39.51:042][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
-[2016.05.09-05.40.24:428][ 50]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_cloud)
-[2016.05.09-05.40.25:825][ 97]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2016.05.09-05.40.31:824][296]LogSavePackage: Save=124.76ms
-[2016.05.09-05.40.31:824][296]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/KennethTestA3EEAB024D3196095E7AC7947A3ECDF2.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap'
-[2016.05.09-05.40.31:826][296]LogSavePackage: Total save time: 130.79ms
-[2016.05.09-05.40.31:827][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap
-[2016.05.09-05.40.31:861][296]LogFileHelpers: Saving map 'KennethTest' took 0.262
-[2016.05.09-05.57.27:750][783]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
-[2016.05.09-05.59.44:176][405]Cmd: DELETE
-[2016.05.09-05.59.44:176][405]Cmd: ACTOR DELETE
-[2016.05.09-05.59.44:177][405]LogEditorActor: Deleted Actor: Emitter
-[2016.05.09-05.59.44:206][405]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2016.05.09-06.00.31:890][ 73]LogSavePackage: Save=135.58ms
-[2016.05.09-06.00.31:891][ 73]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/KennethTest_Auto1720C6D1049BCDE6529F50887B977C2BE.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/KennethTest_Auto1.umap'
-[2016.05.09-06.00.31:893][ 73]LogSavePackage: Total save time: 144.42ms
-[2016.05.09-06.00.31:893][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/KennethTest_Auto1.umap
-[2016.05.09-06.00.31:895][ 73]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/KennethTest' took 0.170
-[2016.05.09-06.00.31:895][ 73]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.170
-[2016.05.09-06.02.16:334][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2016.05.09-06.02.17:708][793]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_spark_burst)
-[2016.05.09-06.02.27:084][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
-[2016.05.09-06.02.29:211][123]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_SnowFlare)
-[2016.05.09-06.02.30:059][150]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_spark_burst)
-[2016.05.09-06.02.31:065][184]Cmd: DELETE
-[2016.05.09-06.02.31:065][184]Cmd: ACTOR DELETE
-[2016.05.09-06.02.31:066][184]LogEditorActor: Deleted Actor: Emitter
-[2016.05.09-06.02.31:094][184]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2016.05.09-06.04.06:676][495]LogSavePackage: Save=121.72ms
-[2016.05.09-06.04.06:676][495]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/KennethTest676F663A4BCDEAF184A4A694D0202710.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap'
-[2016.05.09-06.04.06:679][495]LogSavePackage: Total save time: 128.50ms
-[2016.05.09-06.04.06:679][495]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap
-[2016.05.09-06.04.06:700][495]LogFileHelpers: Saving map 'KennethTest' took 0.241
-[2016.05.09-06.04.06:766][495]LogCascade: Quitting Cascade. FXSystem=0x00000242D3492D40
-[2016.05.09-06.04.06:941][495]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.05.09-06.04.07:191][496]Cmd: QUIT_EDITOR
-[2016.05.09-06.04.07:670][496]LogExit: Preparing to exit.
-[2016.05.09-06.04.08:788][496]LogExit: Editor shut down
-[2016.05.09-06.04.08:790][496]LogExit: Transaction tracking system shut down
-[2016.05.09-06.04.09:068][496]LogObj: Freed 0b from 0 cluster array pools.
-[2016.05.09-06.04.09:069][496]LogExit: Object subsystem successfully closed.
-[2016.05.09-06.04.09:101][496]LogD3D11RHI: Shutdown
-[2016.05.09-06.04.09:101][496]LogD3D11RHI: CleanupD3DDevice
-[2016.05.09-06.04.09:256][496]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.05.09-06.04.09:342][496]LogDerivedDataCache: Shutdown
-[2016.05.09-06.04.09:342][496]LogModuleManager: Shutting down and abandoning module BlueprintGraph (210)
-[2016.05.09-06.04.09:342][496]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (209)
-[2016.05.09-06.04.09:342][496]LogModuleManager: Shutting down and abandoning module DistCurveEditor (208)
-[2016.05.09-06.04.09:342][496]LogModuleManager: Shutting down and abandoning module Cascade (207)
-[2016.05.09-06.04.09:342][496]LogModuleManager: Shutting down and abandoning module NewLevelDialog (206)
-[2016.05.09-06.04.09:343][496]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
-[2016.05.09-06.04.09:343][496]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
-[2016.05.09-06.04.09:343][496]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
-[2016.05.09-06.04.09:343][496]LogModuleManager: Shutting down and abandoning module WorldBrowser (202)
-[2016.05.09-06.04.09:343][496]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
-[2016.05.09-06.04.09:343][496]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
-[2016.05.09-06.04.09:343][496]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module BspMode (189)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
-[2016.05.09-06.04.09:348][496]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
-[2016.05.09-06.04.09:349][496]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
-[2016.05.09-06.04.09:349][496]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
-[2016.05.09-06.04.09:349][496]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
-[2016.05.09-06.04.09:349][496]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
-[2016.05.09-06.04.09:349][496]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
-[2016.05.09-06.04.09:349][496]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module MergeActors (173)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module SizeMap (172)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module TreeMap (171)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
-[2016.05.09-06.04.10:340][496]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module XmlParser (163)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module Blutility (162)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
-[2016.05.09-06.04.10:341][496]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module AutomationController (151)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module Layers (149)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module Persona (145)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module Kismet (144)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module Toolbox (141)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module OutputLog (138)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module GammaUI (137)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module Documentation (136)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module Analytics (133)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module PortalServices (132)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
-[2016.05.09-06.04.10:373][496]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
-[2016.05.09-06.04.10:374][496]LogModuleManager: Shutting down and abandoning module AIModule (127)
-[2016.05.09-06.04.10:374][496]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module SteamVR (122)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module OculusInput (119)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module CableComponent (117)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
-[2016.05.09-06.04.10:415][496]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module SourceControl (105)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2016.05.09-06.04.10:416][496]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2016.05.09-06.04.10:418][496]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
-[2016.05.09-06.04.10:421][496]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
-[2016.05.09-06.04.10:587][496]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
-[2016.05.09-06.04.10:588][496]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
-[2016.05.09-06.04.10:588][496]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.05.09-06.04.10:689][496]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.05.09-06.04.10:690][496]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.05.09-06.04.10:690][496]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.05.09-06.04.10:692][496]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.05.09-06.04.10:693][496]LogDerivedDataCache: Shutdown
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.05.09-06.04.10:693][496]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.05.09-06.04.12:697][496]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.05.09-06.04.12:697][496]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.05.09-06.04.12:697][496]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.05.09-06.04.12:697][496]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.05.09-06.04.12:698][496]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.05.09-06.04.12:698][496]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.05.09-06.04.12:698][496]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.05.09-06.04.12:706][496]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.05.09-06.04.12:707][496]LogExit: Exiting.
-[2016.05.09-06.04.12:722][496]Log file closed, 05/08/16 23:04:12
+[2016.05.09-06.15.09:757][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-06.15.09:757][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.09-06.15.09:762][  0]LogInit: Computer: DUMPRING
+[2016.05.09-06.15.09:762][  0]LogInit: User: theco000
+[2016.05.09-06.15.09:762][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.09-06.15.09:762][  0]LogInit: High frequency timer resolution =3.615396 MHz
+[2016.05.09-06.15.09:762][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.09-06.15.09:762][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.09-06.15.09:762][  0]LogMemory: Process Physical Memory: 314.53 MB used, 314.53 MB peak
+[2016.05.09-06.15.09:762][  0]LogMemory: Process Virtual Memory: 315.00 MB used, 315.00 MB peak
+[2016.05.09-06.15.09:762][  0]LogMemory: Physical Memory: 5242.50 MB used, 16326.09 MB total
+[2016.05.09-06.15.09:762][  0]LogMemory: Virtual Memory: 635.30 MB used, 134217728.00 MB total
+[2016.05.09-06.15.09:791][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.09-06.15.10:173][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.09-06.15.10:191][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.05.09-06.15.10:191][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.05.09-06.15.10:192][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.09-06.15.10:192][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.05.09-06.15.10:192][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.09-06.15.10:196][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.09-06.15.10:196][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.05.09-06.15.10:196][  0]LogD3D11RHI:   Driver Version: 10.18.13.6472 (internal 10.18.13.6472)
+[2016.05.09-06.15.10:196][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.05.09-06.15.10:196][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.09-06.15.10:207][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.09-06.15.10:218][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/Git/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/6868/).
+[2016.05.09-06.15.10:218][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/THECO_~1/AppData/Local/Temp/UnrealShaderWorkingDir/7B44568046416571DA66A38FBFF63BD9/'.
+[2016.05.09-06.15.10:218][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.09-06.15.11:139][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.09-06.15.11:143][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.09-06.15.11:148][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.09-06.15.11:152][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.09-06.15.11:155][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.09-06.15.11:158][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.09-06.15.11:161][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.09-06.15.11:163][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.09-06.15.11:166][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.09-06.15.11:169][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.09-06.15.11:171][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.09-06.15.11:177][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.09-06.15.11:177][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.09-06.15.11:177][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.09-06.15.11:197][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.09-06.15.11:203][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.09-06.15.11:209][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.09-06.15.11:213][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.09-06.15.11:220][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.09-06.15.11:220][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.09-06.15.11:285][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.09-06.15.11:329][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-06.15.11:329][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.09-06.15.11:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.09-06.15.11:329][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.09-06.15.11:330][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.09-06.15.11:330][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.09-06.15.11:343][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.09-06.15.11:355][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theco_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.09-06.15.11:536][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-06.15.11:537][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.09-06.15.11:582][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.09-06.15.11:716][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.09-06.15.11:716][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.09-06.15.11:716][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.09-06.15.11:927][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.09-06.15.11:927][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.09-06.15.11:927][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.09-06.15.11:935][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.09-06.15.12:019][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.09-06.15.12:019][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.09-06.15.12:112][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-06.15.12:112][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-06.15.12:113][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-06.15.12:113][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-06.15.12:113][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-06.15.12:113][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-06.15.12:581][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.09-06.15.12:679][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2016.05.09-06.15.12:801][  0]SourceControl: Info Source control is disabled
+[2016.05.09-06.15.12:802][  0]SourceControl: Info Source control is disabled
+[2016.05.09-06.15.12:809][  0]SourceControl: Info Source control is disabled
+[2016.05.09-06.15.12:816][  0]SourceControl: Info Source control is disabled
+[2016.05.09-06.15.12:916][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.09-06.15.12:981][  0]LogEngine: Initializing Engine...
+[2016.05.09-06.15.13:122][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.09-06.15.13:133][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-06.15.13:152][  0]LogInit: FAudioDevice initialized.
+[2016.05.09-06.15.13:173][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-06.15.13:177][  0]LogInit: Texture streaming: Enabled
+[2016.05.09-06.15.13:194][  0]LogInit: Transaction tracking system initialized
+[2016.05.09-06.15.13:212][  0]BlueprintLog: New page: Editor Load
+[2016.05.09-06.15.13:270][  0]LocalizationService: Info Localization service is disabled
+[2016.05.09-06.15.13:326][  0]LogConsoleResponse:Display: 
+[2016.05.09-06.15.13:416][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.09-06.15.13:416][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.09-06.15.13:416][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.09-06.15.13:457][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/' took 0.02s
+[2016.05.09-06.15.13:457][  0]SourceControl: Info Source control is disabled
+[2016.05.09-06.15.13:457][  0]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.09-06.15.13:457][  0]LightingResults: New page: Lighting Build
+[2016.05.09-06.15.13:459][  0]MapCheck: New page: Map Check
+[2016.05.09-06.15.13:459][  0]LightingResults: New page: Lighting Build
+[2016.05.09-06.15.14:032][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.05.09-06.15.14:050][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.09-06.15.14:051][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.09-06.15.14:104][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.233ms to complete.
+[2016.05.09-06.15.14:104][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.647
+[2016.05.09-06.15.14:235][  0]LogCollectionManager: Loaded 0 collections in 0.001316 seconds
+[2016.05.09-06.15.14:277][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
+[2016.05.09-06.15.14:277][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Developers/theco000/Collections/' took 0.01s
+[2016.05.09-06.15.14:277][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
+[2016.05.09-06.15.14:277][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.05.09-06.15.14:284][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 1979 classes and 343 folders.
+[2016.05.09-06.15.14:287][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.09-06.15.14:287][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.09-06.15.14:288][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.09-06.15.14:291][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.09-06.15.14:296][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.09-06.15.14:330][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.09-06.15.14:336][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 1 classes and 3 folders.
+[2016.05.09-06.15.14:340][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.09-06.15.14:400][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.09-06.15.14:404][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.09-06.15.14:431][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.09-06.15.14:431][  0]LogLoad: Full Startup: 5.38 seconds (BP compile: 0.13 seconds)
+[2016.05.09-06.15.14:431][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.09-06.15.14:431][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.09-06.15.14:441][  0]LogOcInput: OculusInput pre-init called
+[2016.05.09-06.15.14:494][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.09-06.15.14:647][  0]LogRenderer: Reallocating scene render targets to support 1596x808 (Frame:2).
+[2016.05.09-06.15.14:714][  1]LogAssetRegistry: Asset discovery search completed in 2.0562 seconds
+[2016.05.09-06.15.14:714][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.09-06.15.14:714][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.05.09-06.15.32:964][318]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-06.15.33:006][318]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.09-06.15.33:006][318]LightingResults: New page: Lighting Build
+[2016.05.09-06.15.33:021][318]LoadErrors: New page: Loading map: ChrisTest.umap
+[2016.05.09-06.15.33:022][318]MapCheck: New page: Map Check
+[2016.05.09-06.15.33:022][318]LightingResults: New page: Lighting Build
+[2016.05.09-06.15.33:086][318]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.09-06.15.33:102][318]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.09-06.15.33:149][318]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.141ms to complete.
+[2016.05.09-06.15.33:149][318]LogFileHelpers: Loading map 'ChrisTest' took 0.145
+[2016.05.09-06.15.42
