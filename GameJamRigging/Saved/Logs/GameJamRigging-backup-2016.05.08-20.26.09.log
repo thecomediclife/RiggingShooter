@@ -1,0 +1,1336 @@
+﻿Log file open, 05/08/16 16:31:52
+LogInit:Display: Running engine for game: GameJamRigging
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2035147531) SRandInit(2035147533).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.074416
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.08-23.31.52:715][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.08-23.31.52:715][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.08-23.31.52:722][  0]LogInit: Computer: COMEDICLIFE-PC
+[2016.05.08-23.31.52:722][  0]LogInit: User: k0ola
+[2016.05.08-23.31.52:722][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.08-23.31.52:722][  0]LogInit: High frequency timer resolution =3.312789 MHz
+[2016.05.08-23.31.52:722][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.05.08-23.31.52:722][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.08-23.31.52:722][  0]LogMemory: Process Physical Memory: 313.84 MB used, 313.84 MB peak
+[2016.05.08-23.31.52:722][  0]LogMemory: Process Virtual Memory: 315.14 MB used, 315.14 MB peak
+[2016.05.08-23.31.52:722][  0]LogMemory: Physical Memory: 5851.89 MB used, 8085.19 MB total
+[2016.05.08-23.31.52:722][  0]LogMemory: Virtual Memory: 653.64 MB used, 134217728.00 MB total
+[2016.05.08-23.31.52:749][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.08-23.31.53:134][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.08-23.31.53:148][  0]LogD3D11RHI:    0. 'NVIDIA GeForce  GTX 555' (Feature Level 11_0)
+[2016.05.08-23.31.53:148][  0]LogD3D11RHI:       972MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2016.05.08-23.31.53:163][  0]LogD3D11RHI:    1. 'NVIDIA GeForce  GTX 555' (Feature Level 11_0)
+[2016.05.08-23.31.53:163][  0]LogD3D11RHI:       972MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
+[2016.05.08-23.31.53:165][  0]LogD3D11RHI:    2. 'NVIDIA GeForce  GTX 555' (Feature Level 11_0)
+[2016.05.08-23.31.53:165][  0]LogD3D11RHI:       972MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 0 output[s]
+[2016.05.08-23.31.53:165][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.08-23.31.53:170][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.08-23.31.53:170][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce  GTX 555
+[2016.05.08-23.31.53:170][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.08-23.31.53:170][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.08-23.31.53:170][  0]LogRHI: Texture pool is 680 MB (70% of 972 MB)
+[2016.05.08-23.31.53:179][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.08-23.31.53:196][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/4764/).
+[2016.05.08-23.31.53:196][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/k0ola/AppData/Local/Temp/UnrealShaderWorkingDir/0725C23E4A57D92D00ACE3A497E38122/'.
+[2016.05.08-23.31.53:196][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.08-23.31.54:405][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.08-23.31.54:410][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.08-23.31.54:415][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.08-23.31.54:420][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.08-23.31.54:426][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.08-23.31.54:433][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.08-23.31.54:436][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.08-23.31.54:440][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.08-23.31.54:443][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.08-23.31.54:446][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.08-23.31.54:449][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.08-23.31.54:456][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.08-23.31.54:456][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.08-23.31.54:457][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.08-23.31.54:474][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.08-23.31.54:477][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.08-23.31.54:480][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.08-23.31.54:483][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.08-23.31.54:486][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.08-23.31.54:486][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.08-23.31.54:562][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.08-23.31.54:611][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/k0ola/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.08-23.31.54:611][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/k0ola/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.08-23.31.54:611][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.08-23.31.54:611][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.08-23.31.54:611][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.08-23.31.54:611][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.08-23.31.54:626][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.08-23.31.54:638][  0]LogDerivedDataCache: Using Local data cache path C:/Users/k0ola/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.08-23.31.54:824][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.08-23.31.54:825][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.08-23.31.54:865][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.08-23.31.54:996][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.08-23.31.54:996][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.08-23.31.54:996][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.08-23.31.55:229][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.08-23.31.55:229][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.08-23.31.55:229][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.08-23.31.55:236][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.08-23.31.55:325][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.08-23.31.55:325][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.08-23.31.55:432][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.08-23.31.55:432][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.08-23.31.55:432][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.08-23.31.55:432][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.08-23.31.55:432][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.08-23.31.55:432][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.08-23.31.55:985][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.08-23.31.56:105][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2016.05.08-23.31.56:314][  0]SourceControl: Info Source control is disabled
+[2016.05.08-23.31.56:315][  0]SourceControl: Info Source control is disabled
+[2016.05.08-23.31.56:326][  0]SourceControl: Info Source control is disabled
+[2016.05.08-23.31.56:335][  0]SourceControl: Info Source control is disabled
+[2016.05.08-23.31.56:468][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.08-23.31.56:540][  0]LogEngine: Initializing Engine...
+[2016.05.08-23.31.56:666][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.08-23.31.56:672][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.08-23.31.56:781][  0]LogInit: FAudioDevice initialized.
+[2016.05.08-23.31.56:804][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/k0ola/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.08-23.31.56:811][  0]LogInit: Texture streaming: Enabled
+[2016.05.08-23.31.56:835][  0]LogInit: Transaction tracking system initialized
+[2016.05.08-23.31.56:859][  0]BlueprintLog: New page: Editor Load
+[2016.05.08-23.31.56:937][  0]LocalizationService: Info Localization service is disabled
+[2016.05.08-23.31.57:013][  0]LogConsoleResponse:Display: 
+[2016.05.08-23.31.57:135][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.08-23.31.57:135][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.08-23.31.57:135][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.08-23.31.57:191][  0]LogFileCache: Scanning file cache for directory 'C:/Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/' took 0.01s
+[2016.05.08-23.31.57:191][  0]SourceControl: Info Source control is disabled
+[2016.05.08-23.31.57:191][  0]Cmd: MAP LOAD FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.08-23.31.57:192][  0]LightingResults: New page: Lighting Build
+[2016.05.08-23.31.57:195][  0]MapCheck: New page: Map Check
+[2016.05.08-23.31.57:195][  0]LightingResults: New page: Lighting Build
+[2016.05.08-23.31.57:850][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.05.08-23.31.57:859][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.08-23.31.57:860][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.08-23.31.57:911][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.01ms to complete.
+[2016.05.08-23.31.57:911][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.719
+[2016.05.08-23.31.58:021][  0]LogCollectionManager: Loaded 0 collections in 0.001903 seconds
+[2016.05.08-23.31.58:060][  0]LogFileCache: Scanning file cache for directory 'C:/Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
+[2016.05.08-23.31.58:060][  0]LogFileCache: Scanning file cache for directory 'C:/Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Developers/k0ola/Collections/' took 0.01s
+[2016.05.08-23.31.58:060][  0]LogFileCache: Scanning file cache for directory 'C:/Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
+[2016.05.08-23.31.58:060][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.08-23.31.58:067][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1979 classes and 343 folders.
+[2016.05.08-23.31.58:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.08-23.31.58:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.08-23.31.58:072][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.08-23.31.58:077][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.08-23.31.58:082][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.08-23.31.58:126][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.08-23.31.58:142][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2016.05.08-23.31.58:147][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.08-23.31.58:204][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.08-23.31.58:207][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.08-23.31.58:233][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.08-23.31.58:233][  0]LogLoad: Full Startup: 6.27 seconds (BP compile: 0.14 seconds)
+[2016.05.08-23.31.58:233][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.05.08-23.31.58:242][  0]LogOcInput: OculusInput pre-init called
+[2016.05.08-23.31.58:283][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.05.08-23.31.58:437][  0]LogRenderer: Reallocating scene render targets to support 936x548 (Frame:2).
+[2016.05.08-23.31.58:523][  1]LogAssetRegistry: Asset discovery search completed in 2.4399 seconds
+[2016.05.08-23.31.58:523][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.08-23.31.58:523][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000158 seconds (updated 0 objects)
+[2016.05.08-23.32.46:642][722]LogMaterial: Missing cached shader map for material Mat_Sparks, compiling. 
+[2016.05.08-23.32.46:790][722]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.05.08-23.32.47:251][722]LogSavePackage: Save=134.82ms
+[2016.05.08-23.32.47:251][722]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/P_Sparks_GPU21334F9748A5366FE175E1A8D6578094.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/MyParticleSystems/GPUSprites/P_Sparks_GPU.uasset'
+[2016.05.08-23.32.47:255][722]LogSavePackage: Total save time: 138.98ms
+[2016.05.08-23.32.47:255][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/MyParticleSystems/GPUSprites/P_Sparks_GPU.uasset
+[2016.05.08-23.32.49:898][722]LogSavePackage: Save=8.50ms
+[2016.05.08-23.32.49:898][722]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Mat_Sparks09457699476058B974C877962A705019.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/MyParticleSystems/Sprite/Mat_Sparks.uasset'
+[2016.05.08-23.32.49:901][722]LogSavePackage: Total save time: 11.13ms
+[2016.05.08-23.32.49:901][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/MyParticleSystems/Sprite/Mat_Sparks.uasset
+[2016.05.08-23.32.49:930][722]LogSavePackage: Save=15.04ms
+[2016.05.08-23.32.49:930][722]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/P_Sparks80FCDE594E4E2F32F71EA4ABF41316D1.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/MyParticleSystems/Sprite/P_Sparks.uasset'
+[2016.05.08-23.32.49:933][722]LogSavePackage: Total save time: 17.64ms
+[2016.05.08-23.32.49:933][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/MyParticleSystems/Sprite/P_Sparks.uasset
+[2016.05.08-23.32.49:963][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.08-23.32.49:963][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.08-23.34.00:973][950]LogSavePackage: Save=14.16ms
+[2016.05.08-23.34.00:974][950]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/P_Sparks_GPU668647B342100505CE9DC59F951361E3.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/Effects/ParticleSystems/P_Sparks_GPU.uasset'
+[2016.05.08-23.34.00:976][950]LogSavePackage: Total save time: 17.15ms
+[2016.05.08-23.34.00:976][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/Effects/ParticleSystems/P_Sparks_GPU.uasset
+[2016.05.08-23.34.07:729][599]LogSavePackage: Save=8.38ms
+[2016.05.08-23.34.07:729][599]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Mat_Sparks518BCF514A7BF73EC1A492AE538B11E3.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/Effects/ParticleSystems/Mat_Sparks.uasset'
+[2016.05.08-23.34.07:731][599]LogSavePackage: Total save time: 11.37ms
+[2016.05.08-23.34.07:732][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/Effects/ParticleSystems/Mat_Sparks.uasset
+[2016.05.08-23.34.07:761][599]LogSavePackage: Save=16.48ms
+[2016.05.08-23.34.07:761][599]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/P_Sparks950593ED40DDBA8731EFFE83A29F8ABE.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/Effects/ParticleSystems/P_Sparks.uasset'
+[2016.05.08-23.34.07:763][599]LogSavePackage: Total save time: 19.47ms
+[2016.05.08-23.34.07:764][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/Effects/ParticleSystems/P_Sparks.uasset
+[2016.05.08-23.34.07:900][599]LogSavePackage: Save=8.78ms
+[2016.05.08-23.34.07:900][599]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/P_Sparks_GPUE4FA8FE048318B3C0B909B8FFB7E8F42.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/Effects/ParticleSystems/P_Sparks_GPU.uasset'
+[2016.05.08-23.34.07:902][599]LogSavePackage: Total save time: 12.85ms
+[2016.05.08-23.34.07:902][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/ExampleContent/Effects/ParticleSystems/P_Sparks_GPU.uasset
+[2016.05.08-23.39.40:284][253]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.05.08-23.39.40:287][253]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0468.32] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 7 ms]
+[2016.05.08-23.39.40:287][253]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0468.32] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.08-23.39.40:287][253]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0468.32] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.08-23.39.40:358][253]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.05.08-23.39.40:362][253]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0468.39] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 7 ms]
+[2016.05.08-23.39.40:362][253]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0468.39] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.05.08-23.39.40:362][253]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0468.40] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.05.08-23.39.40:422][253]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.05.08-23.39.40:602][253]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2016.05.08-23.39.40:998][253]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1)
+[2016.05.08-23.39.41:143][253]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.05.08-23.39.41:184][253]LogTexture:Display: Building textures: T_ML_Aluminum01 (DXT1)
+[2016.05.08-23.39.41:307][253]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2016.05.08-23.39.41:405][253]LogTexture:Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1)
+[2016.05.08-23.39.41:525][253]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2016.05.08-23.39.41:660][253]LogTexture:Display: Building textures: UE4Man_Logo_N (BC5)
+[2016.05.08-23.39.41:705][253]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2016.05.08-23.39.43:011][253]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 108 classes and 0 folders.
+[2016.05.08-23.39.43:977][253]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.05.08-23.40.45:433][722]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.08-23.40.45:461][722]LightingResults: New page: Lighting Build
+[2016.05.08-23.40.45:481][722]LoadErrors: New page: Loading map: Template_Default.umap
+[2016.05.08-23.40.45:482][722]MapCheck: New page: Map Check
+[2016.05.08-23.40.45:482][722]LightingResults: New page: Lighting Build
+[2016.05.08-23.40.45:482][722]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.08-23.40.45:546][722]LogAIModule: Creating AISystem for world Untitled_1
+[2016.05.08-23.40.45:644][722]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.08-23.40.45:653][722]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.08-23.40.45:723][722]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.136ms to complete.
+[2016.05.08-23.40.45:724][722]LogFileHelpers: Loading map 'Template_Default' took 0.299
+[2016.05.08-23.41.00:624][434]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.08-23.41.32:741][827]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2016.05.08-23.41.37:298][320]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.08-23.41.38:010][394]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.08-23.41.38:296][421]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2016.05.08-23.42.15:393][315]Cmd: TRANSACTION UNDO
+[2016.05.08-23.42.15:393][315]LogEditorTransaction: Undo Edit Refresh Material
+[2016.05.08-23.42.39:420][914]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.05.08-23.42.57:028][839]LogEditorActor: Deleted Actor: AtmosphericFog
+[2016.05.08-23.42.57:089][839]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2016.05.08-23.42.58:515][  7]Cmd: TRANSACTION UNDO
+[2016.05.08-23.42.58:516][  7]LogEditorTransaction: Undo Delete selection
+[2016.05.08-23.43.00:438][194]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.05.08-23.43.00:461][194]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.05.08-23.43.42:951][981]LogEditorViewport: Clicking Background
+[2016.05.08-23.43.44:175][120]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2016.05.08-23.44.18:624][ 93]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.08-23.44.32:397][648]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.05.08-23.45.01:504][870]LogEditorViewport: Clicking Background
+[2016.05.08-23.49.42:605][422]Cmd: DUPLICATE
+[2016.05.08-23.49.42:605][422]Cmd: ACTOR DUPLICATE
+[2016.05.08-23.50.51:933][954]Cmd: DUPLICATE
+[2016.05.08-23.50.51:933][954]Cmd: ACTOR DUPLICATE
+[2016.05.08-23.50.53:645][117]LogSavePackage: Save=51.63ms
+[2016.05.08-23.50.53:645][117]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Untitled_1_Auto1564A49D9467700849EB3339E2DDBFD7D.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2016.05.08-23.50.53:647][117]LogSavePackage: Total save time: 54.17ms
+[2016.05.08-23.50.53:647][117]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2016.05.08-23.50.53:649][117]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.106
+[2016.05.08-23.50.53:650][117]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2016.05.08-23.51.07:049][512]Cmd: DUPLICATE
+[2016.05.08-23.51.07:049][512]Cmd: ACTOR DUPLICATE
+[2016.05.08-23.51.40:257][767]LogEditorViewport: Clicking Background
+[2016.05.08-23.51.42:838][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.08-23.51.55:806][503]Cmd: DUPLICATE
+[2016.05.08-23.51.55:807][503]Cmd: ACTOR DUPLICATE
+[2016.05.08-23.52.29:256][190]LogEditorViewport: Clicking Background
+[2016.05.08-23.53.01:865][806]Cmd: TRANSACTION UNDO
+[2016.05.08-23.53.01:866][806]LogEditorTransaction: Undo Edit Z
+[2016.05.08-23.53.02:199][828]Cmd: TRANSACTION UNDO
+[2016.05.08-23.53.02:199][828]LogEditorTransaction: Undo Select Brush Surface
+[2016.05.08-23.53.02:448][845]Cmd: TRANSACTION UNDO
+[2016.05.08-23.53.02:448][845]LogEditorTransaction: Undo Edit Z
+[2016.05.08-23.53.02:689][861]Cmd: TRANSACTION UNDO
+[2016.05.08-23.53.02:689][861]LogEditorTransaction: Undo Select Brush Surface
+[2016.05.08-23.53.02:956][887]Cmd: TRANSACTION UNDO
+[2016.05.08-23.53.02:956][887]LogEditorTransaction: Undo Edit Z
+[2016.05.08-23.53.03:515][944]Cmd: TRANSACTION UNDO
+[2016.05.08-23.53.03:516][944]LogEditorTransaction: Undo Select Brush Surface
+[2016.05.08-23.53.10:637][716]LogEditorViewport: Clicking Background
+[2016.05.08-23.53.22:042][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.08-23.53.23:568][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.08-23.53.24:015][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.08-23.53.24:658][260]LogEditorViewport: Clicking Background
+[2016.05.08-23.53.33:783][273]LogEditorViewport: Clicking Background
+[2016.05.08-23.53.41:237][118]LogEditorViewport: Clicking Background
+[2016.05.08-23.54.16:180][967]LogEditorViewport: Clicking Background
+[2016.05.08-23.54.18:611][231]LogEditorViewport: Clicking Background
+[2016.05.08-23.54.24:526][843]LogEditorViewport: Clicking Background
+[2016.05.08-23.54.35:157][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.08-23.54.38:906][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.08-23.54.49:311][400]Cmd: TRANSACTION UNDO
+[2016.05.08-23.54.49:312][400]LogEditorTransaction: Undo Move Actors
+[2016.05.08-23.54.55:264][985]LogUnrealMath: Expression Error : No value recognized
+[2016.05.08-23.54.55:264][985]LogUnrealMath: Expression Error : Error in expression
+[2016.05.08-23.54.56:010][ 62]LogUnrealMath: Expression Error : No value recognized
+[2016.05.08-23.54.56:010][ 62]LogUnrealMath: Expression Error : Error in expression
+[2016.05.08-23.55.03:213][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.08-23.55.14:533][981]LogUnrealMath: Expression Error : No value recognized
+[2016.05.08-23.55.14:533][981]LogUnrealMath: Expression Error : Error in expression
+[2016.05.08-23.59.25:307][ 59]Cmd: TRANSACTION UNDO
+[2016.05.08-23.59.25:307][ 59]LogEditorTransaction: Undo Rotate Actors
+[2016.05.08-23.59.50:059][706]Cmd: TRANSACTION UNDO
+[2016.05.08-23.59.50:059][706]LogEditorTransaction: Undo Edit Bloom Tint
+[2016.05.09-00.00.00:118][752]Cmd: TRANSACTION UNDO
+[2016.05.09-00.00.00:118][752]LogEditorTransaction: Undo Edit Bloom Tint
+[2016.05.09-00.00.00:878][815]Cmd: TRANSACTION UNDO
+[2016.05.09-00.00.00:878][815]LogEditorTransaction: Undo Rotate Actors
+[2016.05.09-00.00.02:135][954]Cmd: TRANSACTION UNDO
+[2016.05.09-00.00.02:135][954]LogEditorTransaction: Undo Edit Bloom Tint
+[2016.05.09-00.00.46:411][691]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.11/FeaturePacks/StarterContent.upack)
+[2016.05.09-00.00.46:562][691]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.05.09-00.00.46:575][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.05.09-00.00.46:600][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.05.09-00.00.46:615][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.05.09-00.00.46:627][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.05.09-00.00.46:629][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.05.09-00.00.46:641][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.05.09-00.00.46:666][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.05.09-00.00.46:680][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.05.09-00.00.46:691][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.05.09-00.00.46:702][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.05.09-00.00.46:704][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.05.09-00.00.46:747][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.05.09-00.00.46:762][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.05.09-00.00.46:773][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.05.09-00.00.46:783][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.05.09-00.00.46:804][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.05.09-00.00.46:806][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.05.09-00.00.46:817][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Fire01.uasset"
+[2016.05.09-00.00.46:832][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.05.09-00.00.46:847][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.05.09-00.00.46:852][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.05.09-00.00.46:864][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Light01.uasset"
+[2016.05.09-00.00.46:875][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.05.09-00.00.46:890][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Light02.uasset"
+[2016.05.09-00.00.46:897][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.05.09-00.00.46:910][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.05.09-00.00.46:917][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.05.09-00.00.46:924][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.05.09-00.00.46:982][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.05.09-00.00.47:052][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.05.09-00.00.47:067][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.05.09-00.00.47:096][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.05.09-00.00.47:122][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.05.09-00.00.47:137][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Steam01.uasset"
+[2016.05.09-00.00.47:153][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.05.09-00.00.47:164][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.05.09-00.00.47:177][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.05.09-00.00.47:189][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.05.09-00.00.47:195][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.05.09-00.00.47:204][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.05.09-00.00.47:210][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.05.09-00.00.47:220][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.05.09-00.00.47:230][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.05.09-00.00.47:236][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.05.09-00.00.47:238][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.05.09-00.00.47:242][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.05.09-00.00.47:256][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.05.09-00.00.47:272][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.05.09-00.00.47:286][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.05.09-00.00.47:303][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.05.09-00.00.47:311][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.05.09-00.00.48:348][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.05.09-00.00.48:393][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.05.09-00.00.48:419][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.05.09-00.00.48:539][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Maps/StarterMap.umap"
+[2016.05.09-00.00.48:550][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.05.09-00.00.48:558][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.05.09-00.00.48:569][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.05.09-00.00.48:585][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.05.09-00.00.48:594][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.05.09-00.00.48:602][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.05.09-00.00.48:608][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.05.09-00.00.48:624][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.05.09-00.00.48:635][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.05.09-00.00.48:643][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.05.09-00.00.48:696][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.05.09-00.00.48:719][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.05.09-00.00.48:730][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.05.09-00.00.48:739][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.05.09-00.00.48:755][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.05.09-00.00.49:036][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.05.09-00.00.49:110][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.05.09-00.00.49:124][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.05.09-00.00.49:136][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.05.09-00.00.49:145][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.05.09-00.00.49:159][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.05.09-00.00.49:176][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.05.09-00.00.49:190][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.05.09-00.00.49:203][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.05.09-00.00.49:219][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.05.09-00.00.49:233][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.05.09-00.00.49:252][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.05.09-00.00.49:272][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.05.09-00.00.49:287][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.05.09-00.00.49:302][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.05.09-00.00.49:313][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.05.09-00.00.49:322][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.05.09-00.00.49:330][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.05.09-00.00.49:345][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.05.09-00.00.49:362][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.05.09-00.00.49:372][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.05.09-00.00.49:389][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.05.09-00.00.49:393][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.05.09-00.00.49:409][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.05.09-00.00.49:431][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.05.09-00.00.49:448][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.05.09-00.00.49:461][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.05.09-00.00.49:477][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.05.09-00.00.49:489][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.05.09-00.00.49:499][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.05.09-00.00.49:507][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.05.09-00.00.49:522][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.05.09-00.00.49:531][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.05.09-00.00.49:540][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.05.09-00.00.49:542][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.05.09-00.00.49:557][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.05.09-00.00.49:572][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.05.09-00.00.49:585][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.05.09-00.00.49:600][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.05.09-00.00.49:624][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.05.09-00.00.49:626][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.05.09-00.00.49:628][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.05.09-00.00.49:642][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.05.09-00.00.49:658][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.05.09-00.00.49:671][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.05.09-00.00.49:684][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.05.09-00.00.49:699][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.05.09-00.00.49:708][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.05.09-00.00.49:716][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.05.09-00.00.49:720][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Door.uasset"
+[2016.05.09-00.00.49:731][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.05.09-00.00.49:746][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.05.09-00.00.49:760][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.05.09-00.00.49:774][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.05.09-00.00.49:805][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.05.09-00.00.49:824][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.05.09-00.00.49:836][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.05.09-00.00.49:853][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.05.09-00.00.49:861][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.05.09-00.00.49:873][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.05.09-00.00.49:891][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.05.09-00.00.49:903][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.05.09-00.00.49:909][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.05.09-00.00.49:921][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.05.09-00.00.49:928][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.05.09-00.00.49:935][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.05.09-00.00.49:950][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.05.09-00.00.49:963][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.05.09-00.00.49:969][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.05.09-00.00.49:986][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.05.09-00.00.50:004][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.05.09-00.00.50:013][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.05.09-00.00.50:027][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.05.09-00.00.50:387][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.05.09-00.00.50:407][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.05.09-00.00.50:477][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.05.09-00.00.50:484][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.05.09-00.00.50:493][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.05.09-00.00.50:503][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.05.09-00.00.50:508][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.05.09-00.00.50:522][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.05.09-00.00.50:529][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.05.09-00.00.50:541][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.05.09-00.00.50:556][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.05.09-00.00.50:574][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.05.09-00.00.50:585][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.05.09-00.00.50:600][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.05.09-00.00.50:612][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.05.09-00.00.50:619][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.05.09-00.00.50:631][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.05.09-00.00.50:643][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.05.09-00.00.50:653][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.05.09-00.00.50:663][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.05.09-00.00.50:672][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.05.09-00.00.50:754][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.05.09-00.00.50:820][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.05.09-00.00.50:875][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.05.09-00.00.50:927][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.05.09-00.00.51:001][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.05.09-00.00.51:109][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.05.09-00.00.51:191][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.05.09-00.00.51:252][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.05.09-00.00.51:360][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.05.09-00.00.51:584][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.05.09-00.00.51:657][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.05.09-00.00.51:723][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.05.09-00.00.51:799][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.05.09-00.00.51:806][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.05.09-00.00.51:817][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.05.09-00.00.51:832][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.05.09-00.00.51:864][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.05.09-00.00.51:877][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.05.09-00.00.51:888][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.05.09-00.00.51:907][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.05.09-00.00.51:920][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.05.09-00.00.52:006][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.05.09-00.00.52:030][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.05.09-00.00.52:115][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.05.09-00.00.52:146][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.05.09-00.00.52:170][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.05.09-00.00.52:223][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.05.09-00.00.52:277][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.05.09-00.00.52:352][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.05.09-00.00.52:429][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.05.09-00.00.52:498][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.05.09-00.00.52:549][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.05.09-00.00.52:653][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.05.09-00.00.52:726][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.05.09-00.00.55:146][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.05.09-00.00.56:294][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.05.09-00.00.56:365][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.05.09-00.00.56:382][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.05.09-00.00.56:413][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.05.09-00.00.56:424][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.05.09-00.00.56:444][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.05.09-00.00.56:465][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.05.09-00.00.56:498][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.05.09-00.00.56:510][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.05.09-00.00.56:523][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.05.09-00.00.56:543][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.05.09-00.00.56:563][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.05.09-00.00.56:574][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.05.09-00.00.57:222][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.05.09-00.00.57:363][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.05.09-00.00.57:478][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.05.09-00.00.57:540][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.05.09-00.00.57:643][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.05.09-00.00.57:724][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.05.09-00.00.57:744][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.05.09-00.00.57:771][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.05.09-00.00.57:861][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.05.09-00.00.57:985][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.05.09-00.00.58:215][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.05.09-00.00.58:295][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.05.09-00.00.58:332][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.05.09-00.00.58:404][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.05.09-00.00.58:466][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.05.09-00.00.58:503][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.05.09-00.00.58:547][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.05.09-00.00.58:607][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.05.09-00.00.58:638][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.05.09-00.00.58:687][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.05.09-00.00.58:756][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.05.09-00.00.59:315][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.05.09-00.00.59:358][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.05.09-00.01.00:442][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.05.09-00.01.00:573][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.05.09-00.01.00:708][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.05.09-00.01.01:579][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.05.09-00.01.01:711][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.05.09-00.01.01:755][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.05.09-00.01.01:783][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.05.09-00.01.01:812][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.05.09-00.01.01:862][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.05.09-00.01.01:879][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.05.09-00.01.01:924][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.05.09-00.01.01:952][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.05.09-00.01.01:963][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.05.09-00.01.01:975][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.05.09-00.01.02:027][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.05.09-00.01.02:042][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.05.09-00.01.02:051][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.05.09-00.01.02:072][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.05.09-00.01.02:086][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.05.09-00.01.02:189][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.05.09-00.01.02:231][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.05.09-00.01.02:294][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.05.09-00.01.02:334][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.05.09-00.01.02:393][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.05.09-00.01.02:454][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.05.09-00.01.02:492][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.05.09-00.01.02:549][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.05.09-00.01.02:624][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.05.09-00.01.02:718][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.05.09-00.01.02:748][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.05.09-00.01.03:802][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.05.09-00.01.03:850][691]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.05.09-00.01.04:068][691]LogSavePackage: Save=9.84ms
+[2016.05.09-00.01.04:068][691]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Floor_400x400B90DD66744806F93C5C998A2F47EC4E2.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.05.09-00.01.04:072][691]LogSavePackage: Total save time: 15.85ms
+[2016.05.09-00.01.04:072][691]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.05.09-00.01.04:400][692]LogSavePackage: Save=126.76ms
+[2016.05.09-00.01.04:400][692]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Untitled_1_Auto2B01B3DB84C7064018533CCBFC063DE27.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2016.05.09-00.01.04:402][692]LogSavePackage: Total save time: 128.54ms
+[2016.05.09-00.01.04:402][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2016.05.09-00.01.04:403][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.150
+[2016.05.09-00.01.04:403][692]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2016.05.09-00.02.09:174][369]LogEditorViewport: Clicking Background
+[2016.05.09-00.02.12:892][789]LogEditorViewport: Clicking Background
+[2016.05.09-00.04.24:822][  8]Cmd: DUPLICATE
+[2016.05.09-00.04.24:822][  8]Cmd: ACTOR DUPLICATE
+[2016.05.09-00.04.30:535][632]LogEditorViewport: Clicking Background
+[2016.05.09-00.04.49:325][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.09-00.04.57:479][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.09-00.05.03:479][264]Cmd: DUPLICATE
+[2016.05.09-00.05.03:480][264]Cmd: ACTOR DUPLICATE
+[2016.05.09-00.05.17:240][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.09-00.05.21:113][140]Cmd: DUPLICATE
+[2016.05.09-00.05.21:113][140]Cmd: ACTOR DUPLICATE
+[2016.05.09-00.05.28:286][899]LogEditorViewport: Clicking Background
+[2016.05.09-00.05.34:852][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.05.09-00.05.35:836][706]LogEditorViewport: Clicking Background
+[2016.05.09-00.05.44:542][658]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2016.05.09-00.05.45:316][741]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2016.05.09-00.06.03:945][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2016.05.09-00.06.04:820][691]Cmd: DELETE
+[2016.05.09-00.06.04:820][691]Cmd: ACTOR DELETE
+[2016.05.09-00.06.04:821][691]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.05.09-00.06.04:837][691]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2016.05.09-00.07.25:847][809]LogMaterial: Missing cached shader map for material E_Blue, compiling. 
+[2016.05.09-00.07.26:266][809]LogMaterial: Missing cached shader map for material E_Blue, compiling. 
+[2016.05.09-00.07.26:272][809]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.07.27:207][884]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.09-00.07.27:207][884]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.07.27:207][884]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.07.35:555][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Emissive" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset" SILENT=true
+[2016.05.09-00.07.35:567][716]LogSavePackage: Save=10.60ms
+[2016.05.09-00.07.35:567][716]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Emissive2D9336B64F311BAFE8395FA42CF6E383.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset'
+[2016.05.09-00.07.35:569][716]LogSavePackage: Total save time: 12.95ms
+[2016.05.09-00.07.35:569][716]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset
+[2016.05.09-00.07.36:586][806]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.07.36:654][806]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.07.36:659][806]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.07.37:459][884]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.09-00.07.37:459][884]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.07.37:459][884]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.05:279][195]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.05:284][195]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.05:289][195]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.06:358][310]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.09-00.08.06:358][310]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.06:358][310]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.07:123][401]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.07:129][401]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.07:159][401]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.07:929][492]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.09-00.08.07:930][492]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.07:930][492]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.08:910][607]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.08:916][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.08:945][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.08:952][607]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.08:960][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.08:989][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.08:996][607]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.09:003][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.09:027][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.09:035][607]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.09:043][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.09:073][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.09:078][607]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.09:087][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.09:117][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.09:135][607]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.09:143][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.09:181][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.09:188][607]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.09:198][607]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.09:226][607]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.09:894][683]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.09:904][683]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.09:935][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.09:952][684]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.09:962][684]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.09:986][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.09:996][684]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.10:004][684]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.10:031][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.10:042][684]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.10:051][684]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.10:093][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.10:102][684]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.10:110][684]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.10:140][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.10:147][684]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.10:156][684]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.10:185][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.10:192][684]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.10:203][684]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.10:230][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.11:214][796]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.11:214][796]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.11:214][796]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.13:437][ 62]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:442][ 62]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:466][ 62]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.13:495][ 64]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:503][ 64]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:531][ 64]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.13:539][ 64]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:550][ 64]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:575][ 64]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.13:583][ 64]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:592][ 64]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:620][ 64]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.13:627][ 64]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:639][ 64]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:665][ 64]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.13:682][ 65]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:692][ 65]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:722][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.13:728][ 65]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:738][ 65]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:767][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.13:774][ 65]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:786][ 65]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:811][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.13:819][ 65]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.13:828][ 65]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.13:890][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.14:844][174]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.14:844][174]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.14:844][174]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.17:765][464]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.09-00.08.17:990][464]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2016.05.09-00.08.18:227][464]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Intensity.
+[2016.05.09-00.08.18:229][464]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2016.05.09-00.08.19:057][558]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.19:062][558]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.19:065][558]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.19:070][558]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.19:099][558]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.09-00.08.19:849][641]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.19:849][641]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.19:849][641]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.20:692][741]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.20:697][741]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.21:508][837]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.21:508][837]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.21:508][837]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.26:898][471]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.26:903][471]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.27:695][560]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.27:695][560]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.27:695][560]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.28:864][699]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.28:869][699]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.29:663][788]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.29:663][788]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.29:663][788]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.31:082][958]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.31:088][958]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.31:880][ 50]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.31:880][ 50]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.31:880][ 50]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.39:230][922]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.39:235][922]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.39:264][922]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2016.05.09-00.08.39:268][922]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.40:028][  7]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.40:028][  7]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.40:029][  7]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.41:031][126]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.41:037][126]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.41:065][126]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.41:875][221]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.41:875][221]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.41:875][221]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.44:904][581]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.44:910][581]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.44:939][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.44:957][582]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.44:966][582]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.44:991][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.44:998][582]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.45:009][582]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.45:035][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.45:042][582]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.45:052][582]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.45:080][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.45:197][595]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.45:206][595]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.45:243][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.45:249][595]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.45:257][595]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.45:286][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.45:293][595]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.45:302][595]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.45:330][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.45:541][619]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.45:549][619]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.45:577][619]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.45:583][619]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.45:591][619]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.45:621][619]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.45:627][619]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.45:633][619]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.45:659][619]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.46:698][732]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.46:698][732]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.46:698][732]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.46:809][744]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.46:816][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.46:858][744]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.46:873][745]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.46:882][745]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.46:906][745]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.46:913][745]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.46:920][745]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.46:952][745]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.46:965][745]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.46:972][745]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.47:002][745]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.47:085][754]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.47:094][754]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.47:125][754]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:070][859]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.48:070][859]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.48:070][859]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.08.48:466][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:471][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:496][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:501][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:510][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:534][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:542][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:551][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:579][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:589][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:599][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:631][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:637][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:646][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:675][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:682][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:691][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:720][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:726][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:735][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:764][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:769][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:777][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:803][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:810][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:817][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:847][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:853][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:863][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:901][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:907][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:914][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:943][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.48:957][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.48:967][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.48:994][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:000][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:007][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:033][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:040][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:048][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:088][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:095][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:101][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:128][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:133][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:142][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:166][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:179][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:188][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:217][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:223][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:233][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:262][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:269][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:279][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:307][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:314][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:324][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:352][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:363][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:373][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:403][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:409][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:419][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:448][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:454][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:465][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:501][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:509][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:520][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:551][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:557][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:564][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:603][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.49:610][902]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.08.49:620][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.08.49:648][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.08.50:536][996]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.08.50:536][996]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.08.50:536][996]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.09.01:461][306]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.09.01:466][306]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.09.01:496][306]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2016.05.09-00.09.02:347][405]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.09.02:347][405]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.09.02:347][405]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.09.21:934][218]LogEditorViewport: Clicking Background
+[2016.05.09-00.09.25:393][599]LogMaterialEditor: Saving and Compiling material Emissive
+[2016.05.09-00.09.25:937][599]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.09.25:952][599]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.09.25:985][599]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.09.26:008][599]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.09.26:020][599]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.09.28:447][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Emissive" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset" SILENT=true
+[2016.05.09-00.09.28:461][599]LogSavePackage: Save=10.26ms
+[2016.05.09-00.09.28:462][599]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Emissive8B5991314D0298DEA7C7CD84945C13D3.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset'
+[2016.05.09-00.09.28:464][599]LogSavePackage: Total save time: 15.15ms
+[2016.05.09-00.09.28:464][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset
+[2016.05.09-00.09.28:468][599]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.09-00.09.28:468][599]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.09.28:468][599]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.09-00.10.59:006][549]LogEditorViewport: Clicking Background
+[2016.05.09-00.11.04:733][125]LogSavePackage: Save=214.31ms
+[2016.05.09-00.11.04:733][125]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Untitled_1_Auto3F2638B624087C258A00E6BA699E9B419.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2016.05.09-00.11.04:735][125]LogSavePackage: Total save time: 215.91ms
+[2016.05.09-00.11.04:735][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2016.05.09-00.11.04:736][125]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.238
+[2016.05.09-00.11.04:736][125]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2016.05.09-00.11.04:769][125]LogSavePackage: Save=1.42ms
+[2016.05.09-00.11.04:769][125]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/E_Blue_Auto3CAFD372649EE74220DF897806696CFCD.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Materials/E_Blue_Auto3.uasset'
+[2016.05.09-00.11.04:770][125]LogSavePackage: Total save time: 2.97ms
+[2016.05.09-00.11.04:770][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Materials/E_Blue_Auto3.uasset
+[2016.05.09-00.11.04:770][125]LogFileHelpers: Auto-saving content packages took 0.032
+[2016.05.09-00.11.06:738][326]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.11.06:802][326]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.11.06:808][326]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.06:834][326]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2016.05.09-00.11.06:839][326]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.11.07:918][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.11.07:918][437]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.11.07:918][437]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.11.10:730][770]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.11.10:736][770]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.11:628][872]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.11.11:628][872]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.11.11:628][872]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.11.14:939][268]LogMaterialEditor: Saving and Compiling material Emissive
+[2016.05.09-00.11.15:356][268]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.11.15:370][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.15:399][268]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.11.15:421][268]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.11.15:432][268]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.17:647][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Emissive" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset" SILENT=true
+[2016.05.09-00.11.17:659][268]LogSavePackage: Save=9.38ms
+[2016.05.09-00.11.17:660][268]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/EmissiveCBCC8FB84CC4D16A29D51D8496B78703.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset'
+[2016.05.09-00.11.17:662][268]LogSavePackage: Total save time: 13.45ms
+[2016.05.09-00.11.17:662][268]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset
+[2016.05.09-00.11.17:667][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.09-00.11.17:667][268]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.11.17:667][268]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.09-00.11.33:450][ 40]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.11.33:455][ 40]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.34:299][137]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.11.34:299][137]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.11.34:299][137]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.11.34:941][214]LogMaterialEditor: Saving and Compiling material Emissive
+[2016.05.09-00.11.35:360][214]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.11.35:374][214]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.35:401][214]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.11.35:422][214]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.11.35:435][214]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.37:662][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Emissive" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset" SILENT=true
+[2016.05.09-00.11.37:674][214]LogSavePackage: Save=9.84ms
+[2016.05.09-00.11.37:675][214]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Emissive3900C8AE4657CB8F9199C7A800A9CBD2.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset'
+[2016.05.09-00.11.37:677][214]LogSavePackage: Total save time: 13.48ms
+[2016.05.09-00.11.37:677][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset
+[2016.05.09-00.11.37:681][214]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.09-00.11.37:681][214]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.11.37:682][214]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.09-00.11.43:014][832]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.11.43:020][832]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.43:048][832]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.11.43:829][921]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.11.43:829][921]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.11.43:829][921]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.11.45:930][173]LogMaterialEditor: Saving and Compiling material Emissive
+[2016.05.09-00.11.46:345][173]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.11.46:360][173]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.46:390][173]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.11.46:411][173]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.11.46:424][173]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.11.48:624][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Emissive" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset" SILENT=true
+[2016.05.09-00.11.48:635][173]LogSavePackage: Save=9.00ms
+[2016.05.09-00.11.48:635][173]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/EmissiveEC8EE9C34C4F5568B65BF185B80C00DD.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset'
+[2016.05.09-00.11.48:638][173]LogSavePackage: Total save time: 12.67ms
+[2016.05.09-00.11.48:638][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset
+[2016.05.09-00.11.48:642][173]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.09-00.11.48:642][173]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.11.48:642][173]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.09-00.13.02:484][228]Cmd: TRANSACTION UNDO
+[2016.05.09-00.13.02:484][228]LogEditorTransaction: Undo Edit #1 Tint
+[2016.05.09-00.13.02:498][228]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.13.02:504][228]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.13.03:575][311]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.13.03:575][311]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.13.03:575][311]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.21.05:091][339]LogSavePackage: Save=217.09ms
+[2016.05.09-00.21.05:091][339]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Untitled_1_Auto4D8CD1E0349FCE4C384C65EB5FF7C0024.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Temp/Untitled_1_Auto4.umap'
+[2016.05.09-00.21.05:092][339]LogSavePackage: Total save time: 218.51ms
+[2016.05.09-00.21.05:092][339]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Autosaves/Temp/Untitled_1_Auto4.umap
+[2016.05.09-00.21.05:093][339]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.244
+[2016.05.09-00.21.05:093][339]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.244
+[2016.05.09-00.38.17:692][191]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.38.17:698][191]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.18:782][318]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.38.18:782][318]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.38.18:782][318]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.38.23:543][889]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.38.23:549][889]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.24:359][983]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.38.24:359][983]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.38.24:359][983]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.38.28:877][519]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.38.28:883][519]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.28:908][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2016.05.09-00.38.29:740][609]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.38.29:740][609]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.38.29:740][609]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.38.31:338][800]LogMaterialEditor: Saving and Compiling material Emissive
+[2016.05.09-00.38.31:776][800]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.38.31:792][800]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.31:810][800]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.38.31:834][800]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.38.31:847][800]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.34:058][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Emissive" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset" SILENT=true
+[2016.05.09-00.38.34:072][800]LogSavePackage: Save=10.24ms
+[2016.05.09-00.38.34:072][800]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/Emissive4A3B0F70449F63644F874EAE34C97000.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset'
+[2016.05.09-00.38.34:074][800]LogSavePackage: Total save time: 14.96ms
+[2016.05.09-00.38.34:074][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset
+[2016.05.09-00.38.34:078][800]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.09-00.38.34:078][800]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.38.34:078][800]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.09-00.38.43:841][893]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.38.43:847][893]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.43:877][893]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_3, compiling. 
+[2016.05.09-00.38.44:736][992]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.38.44:736][992]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.38.44:736][992]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.38.48:250][413]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.38.48:256][413]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.49:079][508]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.38.49:079][508]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.38.49:079][508]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.38.50:645][696]LogMaterialEditor: Saving and Compiling material Emissive
+[2016.05.09-00.38.51:069][696]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.38.51:084][696]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.51:113][696]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.38.51:136][696]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.38.51:146][696]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.38.53:291][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Emissive" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset" SILENT=true
+[2016.05.09-00.38.53:303][696]LogSavePackage: Save=9.59ms
+[2016.05.09-00.38.53:303][696]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/EmissiveA60A055B462A21F5129B9D8E0A4DA40D.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset'
+[2016.05.09-00.38.53:306][696]LogSavePackage: Total save time: 13.86ms
+[2016.05.09-00.38.53:306][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset
+[2016.05.09-00.38.53:310][696]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.09-00.38.53:311][696]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.38.53:311][696]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.09-00.39.15:235][ 47]Cmd: DELETE
+[2016.05.09-00.39.15:235][ 47]Cmd: ACTOR DELETE
+[2016.05.09-00.39.15:236][ 47]LogEditorActor: Deleted Actor: Brush
+[2016.05.09-00.39.15:280][ 47]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2016.05.09-00.39.17:414][279]Cmd: TRANSACTION UNDO
+[2016.05.09-00.39.17:414][279]LogEditorTransaction: Undo Delete Actors
+[2016.05.09-00.39.17:440][279]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.BoxBrush7.BrushComponent0) Component already registered.
+[2016.05.09-00.39.17:481][279]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.39.17:486][279]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.39.18:588][358]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.39.18:588][358]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.39.18:588][358]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.39.27:350][267]Cmd: EDCALLBACK SURFPROPS
+[2016.05.09-00.39.28:070][342]Cmd: EDCALLBACK SURFPROPS
+[2016.05.09-00.40.22:977][  6]LogEditorViewport: Clicking Background
+[2016.05.09-00.40.30:090][670]LogEditorViewport: Clicking Background
+[2016.05.09-00.40.35:665][249]LogEditorViewport: Clicking Background
+[2016.05.09-00.41.40:708][408]Cmd: TRANSACTION UNDO
+[2016.05.09-00.41.40:708][408]LogEditorTransaction: Undo Rotate Actors
+[2016.05.09-00.41.40:723][408]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.41.40:728][408]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.41.41:824][495]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.41.41:825][495]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.41.41:825][495]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.42.02:921][764]LogEditorViewport: Clicking Background
+[2016.05.09-00.42.24:190][984]Cmd: DUPLICATE
+[2016.05.09-00.42.24:190][984]Cmd: ACTOR DUPLICATE
+[2016.05.09-00.43.01:895][847]LogEditorViewport: Clicking Background
+[2016.05.09-00.43.18:028][551]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.43.18:034][551]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.43.19:118][671]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.09-00.43.19:119][671]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.43.19:119][671]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.09-00.43.19:502][717]LogMaterialEditor: Saving and Compiling material Emissive
+[2016.05.09-00.43.19:917][717]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.05.09-00.43.19:932][717]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.43.19:950][717]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.43.19:974][717]LogMaterial: Missing cached shader map for material Emissive, compiling. 
+[2016.05.09-00.43.19:989][717]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.09-00.43.22:199][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Emissive" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset" SILENT=true
+[2016.05.09-00.43.22:212][717]LogSavePackage: Save=10.42ms
+[2016.05.09-00.43.22:213][717]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/EmissiveA613E54946F4312397405EB81E01790B.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset'
+[2016.05.09-00.43.22:215][717]LogSavePackage: Total save time: 14.61ms
+[2016.05.09-00.43.22:215][717]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/Emissive.uasset
+[2016.05.09-00.43.22:220][717]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.09-00.43.22:220][717]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.09-00.43.22:220][717]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.09-00.43.30:744][622]LogEditorViewport: Clicking Background
+[2016.05.09-00.43.33:997][960]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.05.09-00.44.16:509][420]LogSavePackage: Save=390.02ms
+[2016.05.09-00.44.16:509][420]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/KennethTestA582EC864DE1AF298EB6598E925AD5D5.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap'
+[2016.05.09-00.44.16:512][420]LogSavePackage: Total save time: 393.16ms
+[2016.05.09-00.44.16:512][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Maps/KennethTest.umap
+[2016.05.09-00.44.16:561][420]LogFileHelpers: Saving map 'KennethTest' took 1.819
+[2016.05.09-00.44.16:576][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/E_Blue" FILE="../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/E_Blue.uasset" SILENT=true
+[2016.05.09-00.44.16:579][420]LogSavePackage: Save=1.26ms
+[2016.05.09-00.44.16:579][420]LogSavePackage: Moving '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Saved/E_Blue3BF7AC6B495657ADA3C132A707310AD8.tmp' to '../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/E_Blue.uasset'
+[2016.05.09-00.44.16:581][420]LogSavePackage: Total save time: 3.96ms
+[2016.05.09-00.44.16:581][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/k0ola/Documents/GitHub/RiggingShooter/GameJamRigging/Content/Materials/E_Blue.uasset
+[2016.05.09-00.44.19:379][705]LogEditorViewport: Clicking Background
+[2016.05.09-00.44.22:189][983]LogEditorViewport: Clicking Background
+[2016.05.09-00.44.24:835][209]Cmd: QUIT_EDITOR
+[2016.05.09-00.44.24:907][209]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.09-00.44.24:949][209]LogExit: Preparing to exit.
+[2016.05.09-00.44.25:612][209]LogExit: Editor shut down
+[2016.05.09-00.44.25:613][209]LogExit: Transaction tracking system shut down
+[2016.05.09-00.44.26:900][209]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.09-00.44.26:900][209]LogExit: Object subsystem successfully closed.
+[2016.05.09-00.44.27:130][209]LogD3D11RHI: Shutdown
+[2016.05.09-00.44.27:130][209]LogD3D11RHI: CleanupD3DDevice
+[2016.05.09-00.44.27:269][209]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.09-00.44.27:368][209]LogDerivedDataCache: Shutdown
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module MaterialEditor (208)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module NewLevelDialog (207)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module WorldBrowser (202)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.09-00.44.27:634][209]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.09-00.44.27:640][209]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.09-00.44.27:640][209]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.09-00.44.27:640][209]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.09-00.44.27:640][209]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.09-00.44.27:641][209]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.09-00.44.27:648][209]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.09-00.44.27:667][209]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.09-00.44.27:678][209]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.09-00.44.27:678][209]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.09-00.44.27:678][209]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.09-00.44.27:678][209]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.09-00.44.28:075][209]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.09-00.44.28:076][209]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.09-00.44.28:085][209]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.09-00.44.28:085][209]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.09-00.44.28:085][209]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.09-00.44.28:085][209]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.09-00.44.28:085][209]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.09-00.44.28:085][209]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.09-00.44.28:085][209]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.09-00.44.28:150][209]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.09-00.44.28:150][209]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.09-00.44.28:150][209]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.09-00.44.28:150][209]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.09-00.44.28:150][209]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.09-00.44.28:158][209]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.09-00.44.28:158][209]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.09-00.44.28:188][209]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.09-00.44.28:190][209]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.09-00.44.28:190][209]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.09-00.44.28:207][209]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.09-00.44.28:208][209]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.09-00.44.28:208][209]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.09-00.44.28:213][209]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.09-00.44.28:379][209]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.09-00.44.28:423][209]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.09-00.44.28:423][209]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.09-00.44.28:423][209]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.09-00.44.28:423][209]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.09-00.44.28:424][209]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.09-00.44.28:446][209]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.09-00.44.28:446][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.09-00.44.28:446][209]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.09-00.44.28:446][209]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.09-00.44.28:446][209]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.09-00.44.28:446][209]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.09-00.44.28:446][209]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.09-00.44.28:447][209]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.09-00.44.28:448][209]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.09-00.44.28:452][209]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.09-00.44.28:705][209]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.09-00.44.28:707][209]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.09-00.44.28:707][209]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.09-00.44.28:808][209]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.09-00.44.28:823][209]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.09-00.44.28:823][209]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.09-00.44.28:835][209]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.09-00.44.28:835][209]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.09-00.44.28:835][209]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.09-00.44.28:861][209]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.09-00.44.28:873][209]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.09-00.44.28:897][209]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.09-00.44.28:923][209]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.09-00.44.28:949][209]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.09-00.44.28:949][209]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.09-00.44.28:952][209]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.09-00.44.28:952][209]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.09-00.44.28:952][209]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.09-00.44.28:952][209]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.09-00.44.28:952][209]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.09-00.44.28:952][209]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.09-00.44.28:952][209]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.09-00.44.28:961][209]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.09-00.44.28:961][209]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.09-00.44.28:978][209]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.09-00.44.28:981][209]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.09-00.44.28:981][209]LogDerivedDataCache: Shutdown
+[2016.05.09-00.44.28:981][209]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.09-00.44.28:994][209]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.09-00.44.28:994][209]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.09-00.44.29:000][209]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.09-00.44.29:000][209]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.09-00.44.29:000][209]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.09-00.44.29:000][209]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.09-00.44.29:000][209]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.09-00.44.29:000][209]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.09-00.44.29:000][209]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.09-00.44.29:000][209]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.09-00.44.29:006][209]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.09-00.44.29:012][209]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.09-00.44.31:015][209]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.09-00.44.31:051][209]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.09-00.44.31:085][209]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.09-00.44.31:085][209]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.09-00.44.31:085][209]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.09-00.44.31:085][209]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.09-00.44.31:086][209]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.09-00.44.31:117][209]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.09-00.44.31:130][209]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.09-00.44.31:130][209]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.09-00.44.31:130][209]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.09-00.44.31:130][209]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.09-00.44.31:130][209]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.09-00.44.31:130][209]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.09-00.44.31:140][209]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.09-00.44.31:140][209]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.09-00.44.31:140][209]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.09-00.44.31:152][209]LogExit: Exiting.
+[2016.05.09-00.44.31:177][209]Log file closed, 05/08/16 17:44:31
