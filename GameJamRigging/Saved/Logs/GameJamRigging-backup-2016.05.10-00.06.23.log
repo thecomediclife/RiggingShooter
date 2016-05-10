@@ -1,0 +1,859 @@
+﻿Log file open, 05/09/16 00:40:55
+LogInit:Display: Running engine for game: GameJamRigging
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(209493722) SRandInit(209493724).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.069393
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.09-07.40.55:467][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-07.40.55:467][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.09-07.40.55:473][  0]LogInit: Computer: DUMPRING
+[2016.05.09-07.40.55:473][  0]LogInit: User: theco000
+[2016.05.09-07.40.55:473][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.09-07.40.55:473][  0]LogInit: High frequency timer resolution =3.615396 MHz
+[2016.05.09-07.40.55:473][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.09-07.40.55:473][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.09-07.40.55:473][  0]LogMemory: Process Physical Memory: 313.45 MB used, 313.45 MB peak
+[2016.05.09-07.40.55:473][  0]LogMemory: Process Virtual Memory: 315.02 MB used, 315.02 MB peak
+[2016.05.09-07.40.55:473][  0]LogMemory: Physical Memory: 4527.05 MB used, 16326.09 MB total
+[2016.05.09-07.40.55:473][  0]LogMemory: Virtual Memory: 635.30 MB used, 134217728.00 MB total
+[2016.05.09-07.40.55:502][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.09-07.40.55:901][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.09-07.40.55:924][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.05.09-07.40.55:924][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.05.09-07.40.55:925][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.09-07.40.55:925][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.05.09-07.40.55:925][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.09-07.40.55:929][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.09-07.40.55:929][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.05.09-07.40.55:929][  0]LogD3D11RHI:   Driver Version: 10.18.13.6472 (internal 10.18.13.6472)
+[2016.05.09-07.40.55:929][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.05.09-07.40.55:929][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.09-07.40.55:940][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.09-07.40.55:952][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (D:/Git/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/10728/).
+[2016.05.09-07.40.55:952][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/THECO_~1/AppData/Local/Temp/UnrealShaderWorkingDir/0007526B4C135E6D3EB561A4E9D926E5/'.
+[2016.05.09-07.40.55:952][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.09-07.40.56:888][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.09-07.40.56:892][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.09-07.40.56:895][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.09-07.40.56:899][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.09-07.40.56:903][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.09-07.40.56:906][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.09-07.40.56:908][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.09-07.40.56:911][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.09-07.40.56:914][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.09-07.40.56:916][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.09-07.40.56:919][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.09-07.40.56:925][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.09-07.40.56:925][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.09-07.40.56:926][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.09-07.40.56:942][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.09-07.40.56:944][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.09-07.40.56:947][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.09-07.40.56:950][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.09-07.40.56:955][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.09-07.40.56:955][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.09-07.40.57:024][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.09-07.40.57:068][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-07.40.57:068][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.09-07.40.57:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.09-07.40.57:068][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.09-07.40.57:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.09-07.40.57:068][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.09-07.40.57:081][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.09-07.40.57:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theco_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.09-07.40.57:279][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.09-07.40.57:279][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.09-07.40.57:312][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.09-07.40.57:467][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.09-07.40.57:467][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.09-07.40.57:467][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.09-07.40.57:716][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.09-07.40.57:716][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.09-07.40.57:716][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.09-07.40.57:721][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.09-07.40.57:801][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.09-07.40.57:801][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.09-07.40.57:887][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-07.40.57:887][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-07.40.57:887][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-07.40.57:887][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-07.40.57:887][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.09-07.40.57:887][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.09-07.40.58:395][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.09-07.40.58:496][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2016.05.09-07.40.58:614][  0]SourceControl: Info Source control is disabled
+[2016.05.09-07.40.58:615][  0]SourceControl: Info Source control is disabled
+[2016.05.09-07.40.58:621][  0]SourceControl: Info Source control is disabled
+[2016.05.09-07.40.58:627][  0]SourceControl: Info Source control is disabled
+[2016.05.09-07.40.58:733][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.09-07.40.58:801][  0]LogEngine: Initializing Engine...
+[2016.05.09-07.40.58:919][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.09-07.40.58:931][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.40.58:951][  0]LogInit: FAudioDevice initialized.
+[2016.05.09-07.40.58:973][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.09-07.40.58:976][  0]LogInit: Texture streaming: Enabled
+[2016.05.09-07.40.58:993][  0]LogInit: Transaction tracking system initialized
+[2016.05.09-07.40.59:010][  0]BlueprintLog: New page: Editor Load
+[2016.05.09-07.40.59:067][  0]LocalizationService: Info Localization service is disabled
+[2016.05.09-07.40.59:127][  0]LogConsoleResponse:Display: 
+[2016.05.09-07.40.59:218][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.09-07.40.59:218][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.09-07.40.59:218][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.09-07.40.59:259][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/' took 0.02s
+[2016.05.09-07.40.59:259][  0]SourceControl: Info Source control is disabled
+[2016.05.09-07.40.59:259][  0]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.09-07.40.59:260][  0]LightingResults: New page: Lighting Build
+[2016.05.09-07.40.59:262][  0]MapCheck: New page: Map Check
+[2016.05.09-07.40.59:262][  0]LightingResults: New page: Lighting Build
+[2016.05.09-07.40.59:821][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.05.09-07.40.59:834][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.09-07.40.59:834][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.09-07.40.59:882][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.446ms to complete.
+[2016.05.09-07.40.59:882][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.622
+[2016.05.09-07.41.00:030][  0]LogCollectionManager: Loaded 0 collections in 0.001280 seconds
+[2016.05.09-07.41.00:071][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
+[2016.05.09-07.41.00:071][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Developers/theco000/Collections/' took 0.01s
+[2016.05.09-07.41.00:071][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
+[2016.05.09-07.41.00:071][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.09-07.41.00:078][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1979 classes and 343 folders.
+[2016.05.09-07.41.00:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.09-07.41.00:081][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.09-07.41.00:081][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.09-07.41.00:085][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.05.09-07.41.00:089][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.09-07.41.00:122][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.09-07.41.00:127][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 1 classes and 3 folders.
+[2016.05.09-07.41.00:131][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.09-07.41.00:183][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.09-07.41.00:187][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.09-07.41.00:215][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.05.09-07.41.00:216][  0]LogLoad: Full Startup: 5.41 seconds (BP compile: 0.12 seconds)
+[2016.05.09-07.41.00:216][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.09-07.41.00:216][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.09-07.41.00:225][  0]LogOcInput: OculusInput pre-init called
+[2016.05.09-07.41.00:264][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.09-07.41.00:419][  0]LogRenderer: Reallocating scene render targets to support 1596x808 (Frame:2).
+[2016.05.09-07.41.00:517][  1]LogAssetRegistry: Asset discovery search completed in 2.0432 seconds
+[2016.05.09-07.41.00:518][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.09-07.41.00:518][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.05.09-07.41.04:499][372]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.41.04:548][372]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.09-07.41.04:548][372]LightingResults: New page: Lighting Build
+[2016.05.09-07.41.04:563][372]LoadErrors: New page: Loading map: ChrisTest.umap
+[2016.05.09-07.41.04:564][372]MapCheck: New page: Map Check
+[2016.05.09-07.41.04:564][372]LightingResults: New page: Lighting Build
+[2016.05.09-07.41.04:624][372]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.09-07.41.04:648][372]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.09-07.41.04:698][372]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.323ms to complete.
+[2016.05.09-07.41.04:698][372]LogFileHelpers: Loading map 'ChrisTest' took 0.152
+[2016.05.09-07.41.05:341][446]LogEditorViewport: Clicking Background
+[2016.05.09-07.41.24:775][635]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.05.09-07.41.30:678][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.41.30:678][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.41.31:945][ 93]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.41.31:962][ 93]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.05.09-07.41.32:038][ 93]BlueprintEditorCompileResults: Info [0037.23] Compile of FirstPersonProjectile successful! [in 92 ms]
+[2016.05.09-07.41.33:349][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.41.33:349][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.41.33:349][200]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:41:33 PM)
+[2016.05.09-07.41.33:349][200]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.41.33:366][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017185s)
+[2016.05.09-07.41.33:367][200]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.41.33:367][200]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2016.05.09-07.41.33:367][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.017900s)
+[2016.05.09-07.41.33:367][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.41.33:367][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.41.33:404][200]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.41.33:413][200]LogInit: FAudioDevice initialized.
+[2016.05.09-07.41.33:456][200]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.41.33:458][200]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.41.33
+[2016.05.09-07.41.33:459][200]LogWorld: Bringing up level for play took: 0.001475
+[2016.05.09-07.41.33:462][200]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.05.09-07.41.33:464][200]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.721
+[2016.05.09-07.41.33:464][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.41.46:549][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.41.46:591][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.42.00:776][673]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.42.00:791][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.42.00:862][673]BlueprintEditorCompileResults: Info [0066.05] Compile of FirstPersonProjectile successful! [in 85 ms]
+[2016.05.09-07.42.01:934][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.42.01:934][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.42.01:935][764]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:42:01 PM)
+[2016.05.09-07.42.01:935][764]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.42.01:952][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017203s)
+[2016.05.09-07.42.01:952][764]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.42.01:952][764]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2016.05.09-07.42.01:953][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.017971s)
+[2016.05.09-07.42.01:953][764]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.42.01:953][764]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.42.01:976][764]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.42.01:983][764]LogInit: FAudioDevice initialized.
+[2016.05.09-07.42.02:014][764]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.42.02:016][764]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.42.02
+[2016.05.09-07.42.02:016][764]LogWorld: Bringing up level for play took: 0.001390
+[2016.05.09-07.42.02:019][764]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.166
+[2016.05.09-07.42.02:019][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.42.09:888][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.42.09:927][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.42.32:396][632]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.42.32:411][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.42.32:485][632]BlueprintEditorCompileResults: Info [0097.68] Compile of FirstPersonProjectile successful! [in 88 ms]
+[2016.05.09-07.42.34:740][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.42.34:740][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.42.34:740][839]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:42:34 PM)
+[2016.05.09-07.42.34:740][839]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.42.34:758][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017557s)
+[2016.05.09-07.42.34:758][839]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.42.34:758][839]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2016.05.09-07.42.34:758][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018272s)
+[2016.05.09-07.42.34:758][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.42.34:758][839]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.42.34:783][839]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.42.34:790][839]LogInit: FAudioDevice initialized.
+[2016.05.09-07.42.34:821][839]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.42.34:823][839]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.42.34
+[2016.05.09-07.42.34:823][839]LogWorld: Bringing up level for play took: 0.001463
+[2016.05.09-07.42.34:825][839]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.641
+[2016.05.09-07.42.34:826][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.42.39:565][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.42.39:604][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.44.27:984][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.44.27:985][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.44.33:795][846]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.44.33:852][846]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.05.09-07.44.33:939][846]BlueprintEditorCompileResults: Info [0219.13] Compile of FirstPersonProjectile successful! [in 142 ms]
+[2016.05.09-07.44.36:752][ 80]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.44.36:768][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.44.36:768][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.44.36:839][ 80]BlueprintEditorCompileResults: Info [0222.03] Compile of FirstPersonProjectile successful! [in 87 ms]
+[2016.05.09-07.44.38:144][191]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.44.38:145][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.44.38:145][191]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:44:38 PM)
+[2016.05.09-07.44.38:145][191]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.44.38:162][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017128s)
+[2016.05.09-07.44.38:162][191]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.44.38:162][191]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2016.05.09-07.44.38:163][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.017860s)
+[2016.05.09-07.44.38:163][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.44.38:163][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.44.38:185][191]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.44.38:192][191]LogInit: FAudioDevice initialized.
+[2016.05.09-07.44.38:224][191]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.44.38:226][191]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.44.38
+[2016.05.09-07.44.38:226][191]LogWorld: Bringing up level for play took: 0.001425
+[2016.05.09-07.44.38:228][191]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.044
+[2016.05.09-07.44.38:234][191]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.44.57:250][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.44.57:294][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.01:094][254]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.45.01:110][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.45.01:180][254]BlueprintEditorCompileResults: Info [0246.37] Compile of FirstPersonProjectile successful! [in 86 ms]
+[2016.05.09-07.45.02:311][350]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.02:311][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.45.02:311][350]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:45:02 PM)
+[2016.05.09-07.45.02:311][350]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.45.02:328][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016879s)
+[2016.05.09-07.45.02:329][350]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.45.02:329][350]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2016.05.09-07.45.02:329][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.017609s)
+[2016.05.09-07.45.02:329][350]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.45.02:329][350]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.45.02:351][350]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.45.02:358][350]LogInit: FAudioDevice initialized.
+[2016.05.09-07.45.02:389][350]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.45.02:391][350]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.45.02
+[2016.05.09-07.45.02:391][350]LogWorld: Bringing up level for play took: 0.001390
+[2016.05.09-07.45.02:393][350]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.209
+[2016.05.09-07.45.02:393][350]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.07:948][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.07:985][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.38:986][200]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.45.39:001][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.45.39:072][200]BlueprintEditorCompileResults: Info [0284.26] Compile of FirstPersonProjectile successful! [in 86 ms]
+[2016.05.09-07.45.40:164][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.40:164][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.45.40:164][293]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:45:40 PM)
+[2016.05.09-07.45.40:164][293]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.45.40:181][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017157s)
+[2016.05.09-07.45.40:182][293]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.45.40:182][293]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2016.05.09-07.45.40:182][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.017850s)
+[2016.05.09-07.45.40:182][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.45.40:182][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.45.40:216][293]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.45.40:224][293]LogInit: FAudioDevice initialized.
+[2016.05.09-07.45.40:254][293]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.45.40:256][293]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.45.40
+[2016.05.09-07.45.40:257][293]LogWorld: Bringing up level for play took: 0.002053
+[2016.05.09-07.45.40:260][293]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.075
+[2016.05.09-07.45.40:260][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.46:235][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.46:271][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.51:640][294]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.45.51:656][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.45.51:728][294]BlueprintEditorCompileResults: Info [0296.92] Compile of FirstPersonProjectile successful! [in 87 ms]
+[2016.05.09-07.45.52:537][360]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.45.52:537][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.45.52:538][360]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:45:52 PM)
+[2016.05.09-07.45.52:538][360]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.45.52:555][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017278s)
+[2016.05.09-07.45.52:555][360]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.45.52:556][360]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2016.05.09-07.45.52:556][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.017965s)
+[2016.05.09-07.45.52:556][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.45.52:556][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.45.52:578][360]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.45.52:585][360]LogInit: FAudioDevice initialized.
+[2016.05.09-07.45.52:615][360]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.45.52:617][360]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.45.52
+[2016.05.09-07.45.52:617][360]LogWorld: Bringing up level for play took: 0.001432
+[2016.05.09-07.45.52:620][360]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.435
+[2016.05.09-07.45.52:620][360]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.46.05:691][668]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.46.05:731][668]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.46.35:529][888]LogActorFactory: Actor Factory created Cube
+[2016.05.09-07.46.37:013][986]LogActorFactory: Actor Factory created Cube
+[2016.05.09-07.46.45:480][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.46.45:480][535]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.09-07.46.45:481][535]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.46.45:482][535]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.46.45:486][535]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2016.05.09-07.46.45:561][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (4 blueprints)
+[2016.05.09-07.46.45:562][535]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.05.09-07.46.45:645][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 165 ms (4 blueprints)
+[2016.05.09-07.46.45:646][535]LogPlayLevel: [PlayLevel] Compiling GravityWell before play...
+[2016.05.09-07.46.45:722][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 242 ms (5 blueprints)
+[2016.05.09-07.46.45:723][535]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.05.09-07.46.45:875][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 394 ms (6 blueprints)
+[2016.05.09-07.46.45:875][535]LogPlayLevel: [PlayLevel] Compiling ChrisTest before play...
+[2016.05.09-07.46.45:965][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 484 ms (6 blueprints)
+[2016.05.09-07.46.45:968][535]LogPlayLevel: [PlayLevel] Compiling UE4ASP_HeroTPP_AnimBlueprint2 before play...
+[2016.05.09-07.46.46:127][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 646 ms (6 blueprints)
+[2016.05.09-07.46.46:160][535]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:46:46 PM)
+[2016.05.09-07.46.46:160][535]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.46.46:178][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018273s)
+[2016.05.09-07.46.46:179][535]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.46.46:179][535]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2016.05.09-07.46.46:179][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018944s)
+[2016.05.09-07.46.46:213][535]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.46.46:222][535]LogInit: FAudioDevice initialized.
+[2016.05.09-07.46.46:253][535]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.46.46:255][535]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.46.46
+[2016.05.09-07.46.46:256][535]LogWorld: Bringing up level for play took: 0.001497
+[2016.05.09-07.46.46:258][535]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.073
+[2016.05.09-07.46.46:258][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.45:726][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.45:776][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.45:776][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.47.45:776][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.47.48:969][818]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.48:969][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.47.48:969][818]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:47:48 PM)
+[2016.05.09-07.47.48:969][818]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.47.48:987][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017664s)
+[2016.05.09-07.47.48:987][818]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.47.48:987][818]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2016.05.09-07.47.48:988][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018376s)
+[2016.05.09-07.47.49:010][818]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.47.49:018][818]LogInit: FAudioDevice initialized.
+[2016.05.09-07.47.49:045][818]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.47.49:047][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.47.49
+[2016.05.09-07.47.49:048][818]LogWorld: Bringing up level for play took: 0.001548
+[2016.05.09-07.47.49:050][818]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.865
+[2016.05.09-07.47.49:050][818]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.51:972][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.52:018][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.54:988][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.54:988][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.47.54:988][346]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:47:54 PM)
+[2016.05.09-07.47.54:988][346]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.47.55:006][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017533s)
+[2016.05.09-07.47.55:006][346]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.47.55:006][346]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2016.05.09-07.47.55:006][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018222s)
+[2016.05.09-07.47.55:028][346]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.47.55:036][346]LogInit: FAudioDevice initialized.
+[2016.05.09-07.47.55:065][346]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.47.55:067][346]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.47.55
+[2016.05.09-07.47.55:067][346]LogWorld: Bringing up level for play took: 0.001511
+[2016.05.09-07.47.55:070][346]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.885
+[2016.05.09-07.47.55:070][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.56:205][459]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.47.56:250][459]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.06:829][196]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.48.06:845][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.48.06:915][196]BlueprintEditorCompileResults: Info [0432.11] Compile of FirstPersonProjectile successful! [in 86 ms]
+[2016.05.09-07.48.08:250][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.08:250][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.48.08:250][282]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:48:08 PM)
+[2016.05.09-07.48.08:250][282]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.48.08:267][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017445s)
+[2016.05.09-07.48.08:268][282]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.48.08:268][282]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2016.05.09-07.48.08:268][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018185s)
+[2016.05.09-07.48.08:268][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.48.08:268][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.48.08:290][282]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.48.08:297][282]LogInit: FAudioDevice initialized.
+[2016.05.09-07.48.08:329][282]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.48.08:331][282]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.48.08
+[2016.05.09-07.48.08:332][282]LogWorld: Bringing up level for play took: 0.001565
+[2016.05.09-07.48.08:334][282]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.149
+[2016.05.09-07.48.08:334][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.08:652][306]LogBlueprintUserMessages: [FirstPersonProjectile_C_6] Hello
+[2016.05.09-07.48.09:378][364]LogBlueprintUserMessages: [FirstPersonProjectile_C_7] Hello
+[2016.05.09-07.48.09:591][381]LogBlueprintUserMessages: [FirstPersonProjectile_C_8] Hello
+[2016.05.09-07.48.09:937][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.09:982][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.12:875][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.12:875][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.48.12:875][600]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:48:12 PM)
+[2016.05.09-07.48.12:875][600]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.48.12:893][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017398s)
+[2016.05.09-07.48.12:893][600]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.48.12:893][600]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2016.05.09-07.48.12:893][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018114s)
+[2016.05.09-07.48.12:915][600]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.48.12:922][600]LogInit: FAudioDevice initialized.
+[2016.05.09-07.48.12:952][600]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.48.12:954][600]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.48.12
+[2016.05.09-07.48.12:955][600]LogWorld: Bringing up level for play took: 0.001972
+[2016.05.09-07.48.12:958][600]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.773
+[2016.05.09-07.48.12:958][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.13:342][629]LogBlueprintUserMessages: [FirstPersonProjectile_C_9] Hello
+[2016.05.09-07.48.14:263][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.14:310][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.17:792][966]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.48.23:092][389]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.48.23:146][389]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2016.05.09-07.48.23:226][389]BlueprintEditorCompileResults: Info [0448.42] Compile of FirstPersonProjectile successful! [in 133 ms]
+[2016.05.09-07.48.26:228][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.26:228][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.48.26:228][641]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:48:26 PM)
+[2016.05.09-07.48.26:228][641]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.48.26:246][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017378s)
+[2016.05.09-07.48.26:246][641]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.48.26:246][641]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2016.05.09-07.48.26:246][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018170s)
+[2016.05.09-07.48.26:246][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.48.26:246][641]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.48.26:269][641]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.48.26:276][641]LogInit: FAudioDevice initialized.
+[2016.05.09-07.48.26:307][641]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.48.26:309][641]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.48.26
+[2016.05.09-07.48.26:309][641]LogWorld: Bringing up level for play took: 0.001563
+[2016.05.09-07.48.26:312][641]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.127
+[2016.05.09-07.48.26:312][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.35:986][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.36:030][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.44:504][238]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.48.44:576][243]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.48.44:590][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2016.05.09-07.48.44:664][243]BlueprintEditorCompileResults: Info [0469.85] Compile of FirstPersonProjectile successful! [in 88 ms]
+[2016.05.09-07.48.45:821][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.45:821][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.48.45:821][338]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:48:45 PM)
+[2016.05.09-07.48.45:821][338]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.48.45:838][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017237s)
+[2016.05.09-07.48.45:839][338]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.48.45:839][338]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2016.05.09-07.48.45:839][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.017940s)
+[2016.05.09-07.48.45:839][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.48.45:839][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.48.45:861][338]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.48.45:868][338]LogInit: FAudioDevice initialized.
+[2016.05.09-07.48.45:896][338]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.48.45:898][338]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.48.45
+[2016.05.09-07.48.45:898][338]LogWorld: Bringing up level for play took: 0.001501
+[2016.05.09-07.48.45:901][338]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.284
+[2016.05.09-07.48.45:901][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.52:444][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.52:487][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.54:008][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.54:008][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.48.54:008][147]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:48:54 PM)
+[2016.05.09-07.48.54:008][147]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.48.54:026][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017649s)
+[2016.05.09-07.48.54:026][147]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.48.54:026][147]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2016.05.09-07.48.54:026][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018370s)
+[2016.05.09-07.48.54:048][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.48.54:055][147]LogInit: FAudioDevice initialized.
+[2016.05.09-07.48.54:089][147]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.48.54:091][147]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.48.54
+[2016.05.09-07.48.54:091][147]LogWorld: Bringing up level for play took: 0.001518
+[2016.05.09-07.48.54:094][147]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.091
+[2016.05.09-07.48.54:094][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.55:589][299]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.48.55:635][299]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.49.09:048][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.49.15:292][813]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.49.15:307][813]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2016.05.09-07.49.15:379][813]BlueprintEditorCompileResults: Info [0500.57] Compile of FirstPersonProjectile successful! [in 86 ms]
+[2016.05.09-07.49.16:380][897]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.49.16:380][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.49.16:380][897]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:49:16 PM)
+[2016.05.09-07.49.16:380][897]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.49.16:397][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017475s)
+[2016.05.09-07.49.16:398][897]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.49.16:398][897]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2016.05.09-07.49.16:398][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018187s)
+[2016.05.09-07.49.16:398][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.49.16:398][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.49.16:420][897]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.49.16:428][897]LogInit: FAudioDevice initialized.
+[2016.05.09-07.49.16:457][897]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.49.16:459][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.49.16
+[2016.05.09-07.49.16:460][897]LogWorld: Bringing up level for play took: 0.001579
+[2016.05.09-07.49.16:462][897]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.277
+[2016.05.09-07.49.16:462][897]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.49.23:843][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.49.23:888][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.49.28:960][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.49.30:260][167]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.09-07.49.30:275][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2016.05.09-07.49.30:346][167]BlueprintEditorCompileResults: Info [0515.54] Compile of FirstPersonProjectile successful! [in 85 ms]
+[2016.05.09-07.49.31:118][227]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.49.31:118][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.49.31:118][227]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:49:31 PM)
+[2016.05.09-07.49.31:118][227]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.49.31:135][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017417s)
+[2016.05.09-07.49.31:135][227]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.49.31:136][227]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.05.09-07.49.31:136][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018124s)
+[2016.05.09-07.49.31:136][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.49.31:136][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.49.31:158][227]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.49.31:165][227]LogInit: FAudioDevice initialized.
+[2016.05.09-07.49.31:196][227]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.49.31:199][227]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.49.31
+[2016.05.09-07.49.31:199][227]LogWorld: Bringing up level for play took: 0.001644
+[2016.05.09-07.49.31:201][227]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 1.017
+[2016.05.09-07.49.31:201][227]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.50.04:867][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.50.04:916][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.50.59:972][270]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2016.05.09-07.51.06:913][829]LogCascade: Quitting Cascade. FXSystem=0x0000003D101351C0
+[2016.05.09-07.51.19:120][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.51.19:121][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.51.19:121][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.09-07.51.19:121][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.09-07.51.19:214][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.09-07.51.19:460][136]LogSavePackage: Save=228.76ms
+[2016.05.09-07.51.19:460][136]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest0E265CD5472AE3AD614B999D44F8CC0B.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.09-07.51.19:461][136]LogSavePackage: Total save time: 232.14ms
+[2016.05.09-07.51.19:461][136]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.09-07.51.19:477][136]LogFileHelpers: Saving map 'ChrisTest' took 0.322
+[2016.05.09-07.51.19:511][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonProjectile" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset" SILENT=true
+[2016.05.09-07.51.19:554][136]LogSavePackage: Save=40.09ms
+[2016.05.09-07.51.19:554][136]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/FirstPersonProjectile0B9750144E8A0B2076B48A9E55237730.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2016.05.09-07.51.19:556][136]LogSavePackage: Total save time: 43.52ms
+[2016.05.09-07.51.19:556][136]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2016.05.09-07.51.24:425][479]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.51.24:425][479]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.09-07.51.24:426][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.51.24:433][479]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2016.05.09-07.51.24:563][479]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (4 blueprints)
+[2016.05.09-07.51.24:564][479]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.05.09-07.51.24:657][479]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (4 blueprints)
+[2016.05.09-07.51.24:658][479]LogPlayLevel: [PlayLevel] Compiling GravityWell before play...
+[2016.05.09-07.51.24:742][479]LogPlayLevel: PlayLevel: Blueprint regeneration took 316 ms (5 blueprints)
+[2016.05.09-07.51.24:743][479]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.05.09-07.51.24:902][479]LogPlayLevel: PlayLevel: Blueprint regeneration took 476 ms (6 blueprints)
+[2016.05.09-07.51.24:902][479]LogPlayLevel: [PlayLevel] Compiling ChrisTest before play...
+[2016.05.09-07.51.25:003][479]LogPlayLevel: PlayLevel: Blueprint regeneration took 578 ms (6 blueprints)
+[2016.05.09-07.51.25:006][479]LogPlayLevel: [PlayLevel] Compiling UE4ASP_HeroTPP_AnimBlueprint2 before play...
+[2016.05.09-07.51.25:154][479]LogPlayLevel: PlayLevel: Blueprint regeneration took 729 ms (6 blueprints)
+[2016.05.09-07.51.25:197][479]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:51:25 PM)
+[2016.05.09-07.51.25:197][479]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.51.25:214][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017019s)
+[2016.05.09-07.51.25:215][479]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.51.25:215][479]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2016.05.09-07.51.25:215][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.017703s)
+[2016.05.09-07.51.25:239][479]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.51.25:247][479]LogInit: FAudioDevice initialized.
+[2016.05.09-07.51.25:283][479]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.51.25:286][479]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.51.25
+[2016.05.09-07.51.25:286][479]LogWorld: Bringing up level for play took: 0.002021
+[2016.05.09-07.51.25:290][479]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 1.105
+[2016.05.09-07.51.25:290][479]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.51.29:675][862]Set new viewmode: Wireframe
+[2016.05.09-07.51.30:426][930]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.51.30:470][930]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.51.30:471][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.51.30:471][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.09-07.51.33:604][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.51.33:605][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.09-07.51.33:605][159]PIE: New page: PIE session: ChrisTest (May 8, 2016, 4:51:33 PM)
+[2016.05.09-07.51.33:605][159]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.09-07.51.33:622][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017666s)
+[2016.05.09-07.51.33:623][159]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.09-07.51.33:623][159]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2016.05.09-07.51.33:623][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.018374s)
+[2016.05.09-07.51.33:648][159]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.09-07.51.33:655][159]LogInit: FAudioDevice initialized.
+[2016.05.09-07.51.33:684][159]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.09-07.51.33:686][159]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.09-00.51.33
+[2016.05.09-07.51.33:686][159]LogWorld: Bringing up level for play took: 0.001639
+[2016.05.09-07.51.33:689][159]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.496
+[2016.05.09-07.51.33:689][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.51.47:634][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.51.47:670][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.09-07.51.48:385][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.09-07.51.48:643][444]LogSavePackage: Save=236.80ms
+[2016.05.09-07.51.48:643][444]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest5C7C1DFD4E9A1B1D508FC9A6E9E2C6C4.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.09-07.51.48:645][444]LogSavePackage: Total save time: 239.82ms
+[2016.05.09-07.51.48:645][444]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.09-07.51.48:670][444]LogFileHelpers: Saving map 'ChrisTest' took 0.342
+[2016.05.09-07.51.48:692][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonProjectile" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset" SILENT=true
+[2016.05.09-07.51.48:736][444]LogSavePackage: Save=41.75ms
+[2016.05.09-07.51.48:736][444]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/FirstPersonProjectile0C2F1C10448527533487B0A96D79E3BB.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2016.05.09-07.51.48:737][444]LogSavePackage: Total save time: 44.19ms
+[2016.05.09-07.51.48:737][444]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2016.05.09-07.51.49:357][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.09-07.51.49:483][492]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.09-07.51.49:674][493]Cmd: QUIT_EDITOR
+[2016.05.09-07.51.50:158][493]LogExit: Preparing to exit.
+[2016.05.09-07.51.50:777][493]LogExit: Editor shut down
+[2016.05.09-07.51.50:777][493]LogExit: Transaction tracking system shut down
+[2016.05.09-07.51.50:914][493]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.09-07.51.50:914][493]LogExit: Object subsystem successfully closed.
+[2016.05.09-07.51.50:926][493]LogD3D11RHI: Shutdown
+[2016.05.09-07.51.50:926][493]LogD3D11RHI: CleanupD3DDevice
+[2016.05.09-07.51.51:001][493]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.09-07.51.51:053][493]LogDerivedDataCache: Shutdown
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module DistCurveEditor (209)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module Cascade (208)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module WorldBrowser (202)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.09-07.51.51:054][493]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.09-07.51.51:055][493]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.09-07.51.51:311][493]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.09-07.51.51:312][493]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.09-07.51.51:313][493]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.09-07.51.51:313][493]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.09-07.51.51:313][493]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.09-07.51.51:313][493]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.09-07.51.51:313][493]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.09-07.51.51:313][493]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.09-07.51.51:313][493]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.09-07.51.51:347][493]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.09-07.51.51:347][493]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.09-07.51.51:347][493]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.09-07.51.51:347][493]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.09-07.51.51:348][493]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.09-07.51.51:348][493]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.09-07.51.51:349][493]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.09-07.51.51:349][493]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.09-07.51.51:350][493]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.09-07.51.51:350][493]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.09-07.51.51:350][493]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.09-07.51.51:351][493]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.09-07.51.51:352][493]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.09-07.51.51:353][493]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.09-07.51.51:353][493]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.09-07.51.51:353][493]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.09-07.51.51:353][493]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.09-07.51.51:584][493]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.09-07.51.51:585][493]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.09-07.51.51:585][493]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.09-07.51.51:585][493]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.09-07.51.51:585][493]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.09-07.51.51:585][493]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.09-07.51.51:585][493]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.09-07.51.51:585][493]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.09-07.51.51:585][493]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.09-07.51.51:586][493]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.09-07.51.51:587][493]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.09-07.51.51:634][493]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.09-07.51.51:634][493]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.09-07.51.51:634][493]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.09-07.51.51:735][493]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.09-07.51.51:736][493]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.09-07.51.51:742][493]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.09-07.51.51:742][493]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.09-07.51.51:742][493]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.09-07.51.51:742][493]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.09-07.51.51:742][493]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.09-07.51.51:742][493]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.09-07.51.51:743][493]LogDerivedDataCache: Shutdown
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.09-07.51.51:743][493]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.09-07.51.51:744][493]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.09-07.51.52:745][493]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.09-07.51.52:745][493]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.09-07.51.52:745][493]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.09-07.51.52:745][493]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.09-07.51.52:745][493]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.09-07.51.52:745][493]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.09-07.51.52:746][493]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.09-07.51.52:749][493]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.09-07.51.52:750][493]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.09-07.51.52:753][493]LogExit: Exiting.
+[2016.05.09-07.51.52:756][493]Log file closed, 05/09/16 00:51:52
