@@ -1,0 +1,883 @@
+﻿Log file open, 05/16/16 21:25:49
+LogInit:Display: Running engine for game: GameJamRigging
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1461647375) SRandInit(1461647378).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.081656
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.17-04.25.49:562][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.17-04.25.49:562][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.17-04.25.49:571][  0]LogInit: Computer: DUMPRING
+[2016.05.17-04.25.49:571][  0]LogInit: User: theco000
+[2016.05.17-04.25.49:571][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.17-04.25.49:571][  0]LogInit: High frequency timer resolution =3.615382 MHz
+[2016.05.17-04.25.49:571][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.17-04.25.49:571][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.17-04.25.49:571][  0]LogMemory: Process Physical Memory: 313.68 MB used, 313.68 MB peak
+[2016.05.17-04.25.49:571][  0]LogMemory: Process Virtual Memory: 314.92 MB used, 314.92 MB peak
+[2016.05.17-04.25.49:571][  0]LogMemory: Physical Memory: 7194.94 MB used, 16326.09 MB total
+[2016.05.17-04.25.49:571][  0]LogMemory: Virtual Memory: 639.07 MB used, 134217728.00 MB total
+[2016.05.17-04.25.49:607][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.17-04.25.50:041][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.17-04.25.50:068][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.05.17-04.25.50:068][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.05.17-04.25.50:069][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.17-04.25.50:069][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.05.17-04.25.50:069][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.17-04.25.50:075][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.17-04.25.50:075][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.05.17-04.25.50:075][  0]LogD3D11RHI:   Driver Version: 10.18.13.6510 (internal 10.18.13.6510)
+[2016.05.17-04.25.50:075][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.05.17-04.25.50:075][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.17-04.25.50:091][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.17-04.25.50:103][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/Git/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/8500/).
+[2016.05.17-04.25.50:103][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/THECO_~1/AppData/Local/Temp/UnrealShaderWorkingDir/EF6CF6DC44383EDD01A4D9AE61405B35/'.
+[2016.05.17-04.25.50:103][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.17-04.25.51:223][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.17-04.25.51:227][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.17-04.25.51:231][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.17-04.25.51:235][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.17-04.25.51:240][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.17-04.25.51:245][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.17-04.25.51:249][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.17-04.25.51:252][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.17-04.25.51:256][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.17-04.25.51:260][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.17-04.25.51:263][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.17-04.25.51:268][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.17-04.25.51:268][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.17-04.25.51:269][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.17-04.25.51:285][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.17-04.25.51:289][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.17-04.25.51:291][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.17-04.25.51:294][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.17-04.25.51:297][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.17-04.25.51:297][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.17-04.25.51:368][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.17-04.25.51:422][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.17-04.25.51:422][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.17-04.25.51:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.17-04.25.51:423][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.17-04.25.51:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.17-04.25.51:423][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.17-04.25.51:442][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.17-04.25.51:454][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theco_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.17-04.25.51:667][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.17-04.25.51:667][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.17-04.25.51:705][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.17-04.25.51:836][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.17-04.25.51:836][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.17-04.25.51:836][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.17-04.25.52:070][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.17-04.25.52:070][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.17-04.25.52:070][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.17-04.25.52:079][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.17-04.25.52:177][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.17-04.25.52:177][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.17-04.25.52:276][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.17-04.25.52:276][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.17-04.25.52:276][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.17-04.25.52:276][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.17-04.25.52:276][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.17-04.25.52:276][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.17-04.25.52:847][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.17-04.25.52:945][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2016.05.17-04.25.53:113][  0]SourceControl: Info Source control is disabled
+[2016.05.17-04.25.53:114][  0]SourceControl: Info Source control is disabled
+[2016.05.17-04.25.53:121][  0]SourceControl: Info Source control is disabled
+[2016.05.17-04.25.53:127][  0]SourceControl: Info Source control is disabled
+[2016.05.17-04.25.53:244][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.17-04.25.53:330][  0]LogEngine: Initializing Engine...
+[2016.05.17-04.25.53:475][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.17-04.25.53:488][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.25.53:499][  0]LogInit: FAudioDevice initialized.
+[2016.05.17-04.25.53:522][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.17-04.25.53:526][  0]LogInit: Texture streaming: Enabled
+[2016.05.17-04.25.53:546][  0]LogInit: Transaction tracking system initialized
+[2016.05.17-04.25.53:564][  0]BlueprintLog: New page: Editor Load
+[2016.05.17-04.25.53:639][  0]LocalizationService: Info Localization service is disabled
+[2016.05.17-04.25.53:714][  0]LogConsoleResponse:Display: 
+[2016.05.17-04.25.53:825][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.17-04.25.53:825][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.17-04.25.53:825][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.17-04.25.53:876][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/' took 0.02s
+[2016.05.17-04.25.53:876][  0]SourceControl: Info Source control is disabled
+[2016.05.17-04.25.53:876][  0]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.17-04.25.53:876][  0]LightingResults: New page: Lighting Build
+[2016.05.17-04.25.53:879][  0]MapCheck: New page: Map Check
+[2016.05.17-04.25.53:879][  0]LightingResults: New page: Lighting Build
+[2016.05.17-04.25.54:537][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.05.17-04.25.54:549][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.17-04.25.54:550][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.17-04.25.54:598][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.641ms to complete.
+[2016.05.17-04.25.54:598][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.722
+[2016.05.17-04.25.54:727][  0]LogCollectionManager: Loaded 0 collections in 0.001301 seconds
+[2016.05.17-04.25.54:770][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
+[2016.05.17-04.25.54:770][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Developers/theco000/Collections/' took 0.01s
+[2016.05.17-04.25.54:770][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
+[2016.05.17-04.25.54:770][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.05.17-04.25.54:779][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1979 classes and 343 folders.
+[2016.05.17-04.25.54:782][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.17-04.25.54:782][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.17-04.25.54:782][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.17-04.25.54:786][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.17-04.25.54:791][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.17-04.25.54:831][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.17-04.25.54:837][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2016.05.17-04.25.54:844][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.05.17-04.25.54:919][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.17-04.25.54:925][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.17-04.25.54:950][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.17-04.25.54:950][  0]LogLoad: Full Startup: 6.26 seconds (BP compile: 0.15 seconds)
+[2016.05.17-04.25.54:950][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.17-04.25.54:950][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.17-04.25.54:959][  0]LogOcInput: OculusInput pre-init called
+[2016.05.17-04.25.55:005][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.17-04.25.55:164][  0]LogRenderer: Reallocating scene render targets to support 1596x808 (Frame:2).
+[2016.05.17-04.25.55:238][  1]LogAssetRegistry: Asset discovery search completed in 2.3136 seconds
+[2016.05.17-04.25.55:238][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.17-04.25.55:238][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2016.05.17-04.26.08:400][463]LogMetaData: Removing '/Game/Enemies/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_Event_582' ref from Metadata '/Game/Enemies/Enemy_Parent_Child.PackageMetaData'
+[2016.05.17-04.26.08:400][463]LogMetaData: Removing '/Game/Enemies/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_Event_581' ref from Metadata '/Game/Enemies/Enemy_Parent_Child.PackageMetaData'
+[2016.05.17-04.26.08:400][463]LogMetaData: Removing '/Game/Enemies/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_Event_580' ref from Metadata '/Game/Enemies/Enemy_Parent_Child.PackageMetaData'
+[2016.05.17-04.26.08:400][463]LogMetaData: Removing '/Game/Enemies/Enemy_MeleeTank.Enemy_MeleeTank_C' ref from Metadata '/Game/Enemies/Enemy_Parent_Child.PackageMetaData'
+[2016.05.17-04.26.08:400][463]LogMetaData: Removing '/Game/Enemies/Enemy_MeleeTank.Enemy_MeleeTank:UserConstructionScript.K2Node_FunctionEntry_843' ref from Metadata '/Game/Enemies/Enemy_Parent_Child.PackageMetaData'
+[2016.05.17-04.26.08:401][463]LogMetaData: Removing '/Game/Enemies/Enemy_MeleeTank.SKEL_Enemy_MeleeTank_C' ref from Metadata '/Game/Enemies/Enemy_Parent_Child.PackageMetaData'
+[2016.05.17-04.26.08:425][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.26.08:444][463]LogSavePackage: Save=17.53ms
+[2016.05.17-04.26.08:444][463]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTankB42673834DA578E865F089A64F92B35C.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_MeleeTank.uasset'
+[2016.05.17-04.26.08:445][463]LogSavePackage: Total save time: 18.82ms
+[2016.05.17-04.26.08:445][463]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_MeleeTank.uasset
+[2016.05.17-04.26.10:872][730]LogMetaData: Removing '/Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank_C' ref from Metadata '/Game/Enemies/Enemy_MeleeTank.PackageMetaData'
+[2016.05.17-04.26.10:872][730]LogMetaData: Removing '/Game/Enemies/MeleeTank/Enemy_MeleeTank.SKEL_Enemy_MeleeTank_C' ref from Metadata '/Game/Enemies/Enemy_MeleeTank.PackageMetaData'
+[2016.05.17-04.26.10:872][730]LogMetaData: Removing '/Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_Event_582' ref from Metadata '/Game/Enemies/Enemy_MeleeTank.PackageMetaData'
+[2016.05.17-04.26.10:872][730]LogMetaData: Removing '/Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_Event_581' ref from Metadata '/Game/Enemies/Enemy_MeleeTank.PackageMetaData'
+[2016.05.17-04.26.10:872][730]LogMetaData: Removing '/Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_Event_580' ref from Metadata '/Game/Enemies/Enemy_MeleeTank.PackageMetaData'
+[2016.05.17-04.26.10:872][730]LogMetaData: Removing '/Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:UserConstructionScript.K2Node_FunctionEntry_843' ref from Metadata '/Game/Enemies/Enemy_MeleeTank.PackageMetaData'
+[2016.05.17-04.26.10:872][730]LogMetaData: Removing '/Game/Enemies/MeleeTank/Enemy_MeleeTank.SKEL_Enemy_MeleeTank_C:UserConstructionScript' ref from Metadata '/Game/Enemies/Enemy_MeleeTank.PackageMetaData'
+[2016.05.17-04.26.10:872][730]LogMetaData: Removing '/Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank_C:UserConstructionScript' ref from Metadata '/Game/Enemies/Enemy_MeleeTank.PackageMetaData'
+[2016.05.17-04.26.10:910][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.26.10:935][730]LogSavePackage: Save=23.66ms
+[2016.05.17-04.26.10:935][730]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTank4308723B4AF11146F8261F9BDC44D207.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.26.10:936][730]LogSavePackage: Total save time: 25.29ms
+[2016.05.17-04.26.10:936][730]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.26.12:743][877]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.05.17-04.26.30:575][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.26.34:212][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.17-04.26.40:424][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.17-04.26.40:484][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.26.40:543][737]LogSavePackage: Save=31.36ms
+[2016.05.17-04.26.40:543][737]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTankBD623B9344C9BC90862586B810E574DF.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.26.40:544][737]LogSavePackage: Total save time: 59.41ms
+[2016.05.17-04.26.40:544][737]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.26.55:551][777]BlueprintLog: New page: Compile Enemy_Parent
+[2016.05.17-04.26.55:616][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.26.55:882][777]BlueprintEditorCompileResults: Info [0067.19] Compile of Enemy_Parent successful! [in 330 ms]
+[2016.05.17-04.26.56:461][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.26.56:491][836]LogSavePackage: Save=25.45ms
+[2016.05.17-04.26.56:491][836]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTank323CB4A14E257D703302449223E3059B.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.26.56:492][836]LogSavePackage: Total save time: 30.02ms
+[2016.05.17-04.26.56:492][836]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.26.56:497][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Enemy_Parent" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset" SILENT=true
+[2016.05.17-04.26.56:515][836]LogSavePackage: Save=14.02ms
+[2016.05.17-04.26.56:515][836]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Parent5CE0332C4FBA4F81B348D0A708AB9EFB.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset'
+[2016.05.17-04.26.56:516][836]LogSavePackage: Total save time: 19.07ms
+[2016.05.17-04.26.56:516][836]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset
+[2016.05.17-04.27.06:154][465]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.27.06:154][465]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.05.17-04.27.06:485][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.05.17-04.27.06:573][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BasicEnemy/Enemy_Basic" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset" SILENT=true
+[2016.05.17-04.27.06:667][485]LogSavePackage: Save=87.98ms
+[2016.05.17-04.27.06:667][485]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_BasicE062F1B04DD2913453359E8D4BF9F8BD.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset'
+[2016.05.17-04.27.06:668][485]LogSavePackage: Total save time: 94.71ms
+[2016.05.17-04.27.06:668][485]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset
+[2016.05.17-04.27.18:511][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.27.18:511][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.05.17-04.27.19:238][319]BlueprintLog: New page: Compile Enemy_Basic
+[2016.05.17-04.27.19:562][319]BlueprintEditorCompileResults: Info [0090.87] Compile of Enemy_Basic successful! [in 323 ms]
+[2016.05.17-04.27.19:976][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.17-04.27.56:398][582]BlueprintLog: New page: Compile Enemy_Parent
+[2016.05.17-04.27.56:425][582]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.27.56:425][582]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.05.17-04.27.56:822][582]BlueprintEditorCompileResults: Info [0128.13] Compile of Enemy_Parent successful! [in 423 ms]
+[2016.05.17-04.27.56:919][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Enemy_Parent" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset" SILENT=true
+[2016.05.17-04.27.56:951][585]LogSavePackage: Save=26.81ms
+[2016.05.17-04.27.56:951][585]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_ParentD6E9C3964E19862B098BD684B6C97FC2.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset'
+[2016.05.17-04.27.56:952][585]LogSavePackage: Total save time: 32.52ms
+[2016.05.17-04.27.56:952][585]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset
+[2016.05.17-04.28.19:340][200]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.28.19:343][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.28.19:343][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.05.17-04.28.19:363][200]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.17-04.28.19:363][200]LightingResults: New page: Lighting Build
+[2016.05.17-04.28.19:379][200]LoadErrors: New page: Loading map: ChrisTest.umap
+[2016.05.17-04.28.19:380][200]MapCheck: New page: Map Check
+[2016.05.17-04.28.19:380][200]LightingResults: New page: Lighting Build
+[2016.05.17-04.28.19:461][200]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.17-04.28.19:496][200]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.17-04.28.19:558][200]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.17ms to complete.
+[2016.05.17-04.28.19:559][200]LogFileHelpers: Loading map 'ChrisTest' took 0.198
+[2016.05.17-04.28.24:315][576]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_C (Enemy_Basic)
+[2016.05.17-04.28.24:443][579]Cmd: DELETE
+[2016.05.17-04.28.24:443][579]Cmd: ACTOR DELETE
+[2016.05.17-04.28.24:445][579]LogEditorActor: Deleted Actor: Enemy_Basic_C
+[2016.05.17-04.28.24:445][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.28.24:445][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.05.17-04.28.24:464][579]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.05.17-04.28.40:920][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.28.40:920][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.05.17-04.28.40:920][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.05.17-04.28.41:004][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.17-04.28.41:268][698]LogSavePackage: Save=235.35ms
+[2016.05.17-04.28.41:268][698]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTestBB5624484F7B3E2407FF3AA8703FE1CE.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.17-04.28.41:269][698]LogSavePackage: Total save time: 240.96ms
+[2016.05.17-04.28.41:269][698]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.17-04.28.41:300][698]LogFileHelpers: Saving map 'ChrisTest' took 0.351
+[2016.05.17-04.28.53:829][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.29.21:566][576]BlueprintLog: New page: Compile Enemy_Parent
+[2016.05.17-04.29.21:590][576]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.05.17-04.29.22:171][576]BlueprintEditorCompileResults: Info [0213.48] Compile of Enemy_Parent successful! [in 604 ms]
+[2016.05.17-04.29.22:523][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.29.22:606][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.17-04.29.22:915][601]LogSavePackage: Save=276.80ms
+[2016.05.17-04.29.22:915][601]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest8DA42B33406A5F8E8A2B97B53C1EE38B.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.17-04.29.22:917][601]LogSavePackage: Total save time: 284.38ms
+[2016.05.17-04.29.22:917][601]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.17-04.29.22:943][601]LogFileHelpers: Saving map 'ChrisTest' took 0.392
+[2016.05.17-04.29.22:971][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.29.23:003][601]LogSavePackage: Save=28.45ms
+[2016.05.17-04.29.23:003][601]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTank89D82AF141F64C803E9CDB8F7E471CDB.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.29.23:004][601]LogSavePackage: Total save time: 32.92ms
+[2016.05.17-04.29.23:004][601]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.29.23:011][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Enemy_Parent" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset" SILENT=true
+[2016.05.17-04.29.23:036][601]LogSavePackage: Save=21.02ms
+[2016.05.17-04.29.23:036][601]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Parent7D48C40E49BAE8A77E745B8961CD53FD.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset'
+[2016.05.17-04.29.23:037][601]LogSavePackage: Total save time: 25.44ms
+[2016.05.17-04.29.23:037][601]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset
+[2016.05.17-04.29.23:932][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.23:932][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.29.23:932][669]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:29:23 PM)
+[2016.05.17-04.29.23:933][669]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.29.23:951][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018486s)
+[2016.05.17-04.29.23:952][669]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.29.23:952][669]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2016.05.17-04.29.23:952][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.019234s)
+[2016.05.17-04.29.23:952][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.29.23:979][669]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.29.23:987][669]LogInit: FAudioDevice initialized.
+[2016.05.17-04.29.24:035][669]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.29.24:041][669]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.29.24
+[2016.05.17-04.29.24:043][669]LogWorld: Bringing up level for play took: 0.005941
+[2016.05.17-04.29.24:053][669]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 9 classes and 0 folders.
+[2016.05.17-04.29.24:056][669]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.873
+[2016.05.17-04.29.24:057][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.27:672][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.27:752][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.33:908][399]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.29.33:961][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.29.34:190][399]BlueprintEditorCompileResults: Info [0225.50] Compile of Enemy_MeleeTank successful! [in 281 ms]
+[2016.05.17-04.29.35:210][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.35:210][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.29.35:211][461]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:29:35 PM)
+[2016.05.17-04.29.35:211][461]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.29.35:229][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018808s)
+[2016.05.17-04.29.35:230][461]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.29.35:230][461]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2016.05.17-04.29.35:230][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.019526s)
+[2016.05.17-04.29.35:230][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.29.35:253][461]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.29.35:260][461]LogInit: FAudioDevice initialized.
+[2016.05.17-04.29.35:292][461]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.29.35:295][461]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.29.35
+[2016.05.17-04.29.35:296][461]LogWorld: Bringing up level for play took: 0.002859
+[2016.05.17-04.29.35:299][461]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.116
+[2016.05.17-04.29.35:299][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.36:882][586]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.36:956][586]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.42:480][944]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.29.42:534][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.29.42:781][944]BlueprintEditorCompileResults: Info [0234.09] Compile of Enemy_MeleeTank successful! [in 301 ms]
+[2016.05.17-04.29.43:730][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.43:730][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.29.43:731][ 14]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:29:43 PM)
+[2016.05.17-04.29.43:731][ 14]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.29.43:750][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018957s)
+[2016.05.17-04.29.43:750][ 14]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.29.43:750][ 14]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2016.05.17-04.29.43:750][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.019678s)
+[2016.05.17-04.29.43:750][ 14]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.29.43:772][ 14]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.29.43:779][ 14]LogInit: FAudioDevice initialized.
+[2016.05.17-04.29.43:808][ 14]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.29.43:811][ 14]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.29.43
+[2016.05.17-04.29.43:811][ 14]LogWorld: Bringing up level for play took: 0.002754
+[2016.05.17-04.29.43:814][ 14]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.631
+[2016.05.17-04.29.43:814][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.50:721][774]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Do shit first
+[2016.05.17-04.29.50:721][774]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.29.53:001][ 30]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.29.53:064][ 30]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.30.01:911][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.30.02:026][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.17-04.30.02:285][707]LogSavePackage: Save=238.84ms
+[2016.05.17-04.30.02:285][707]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTestC0BC1BAB4A5ECBDE67331985918F4F17.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.17-04.30.02:286][707]LogSavePackage: Total save time: 243.79ms
+[2016.05.17-04.30.02:286][707]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.17-04.30.02:312][707]LogFileHelpers: Saving map 'ChrisTest' took 0.361
+[2016.05.17-04.30.02:333][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.30.02:375][707]LogSavePackage: Save=34.00ms
+[2016.05.17-04.30.02:375][707]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTankA9F9732D4225A3E65A52A095D26189A5.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.30.02:376][707]LogSavePackage: Total save time: 41.14ms
+[2016.05.17-04.30.02:376][707]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.30.02:381][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Enemy_Parent" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset" SILENT=true
+[2016.05.17-04.30.02:404][707]LogSavePackage: Save=19.53ms
+[2016.05.17-04.30.02:404][707]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Parent7A29C55D4AF1A67C76D1A48BF3189C6E.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset'
+[2016.05.17-04.30.02:405][707]LogSavePackage: Total save time: 24.09ms
+[2016.05.17-04.30.02:405][707]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset
+[2016.05.17-04.30.02:794][732]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.30.02:838][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.30.02:925][732]BlueprintEditorCompileResults: Info [0254.23] Compile of Enemy_MeleeTank successful! [in 130 ms]
+[2016.05.17-04.30.03:756][789]BlueprintLog: New page: Compile Enemy_Parent
+[2016.05.17-04.30.03:777][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.30.04:149][789]BlueprintEditorCompileResults: Info [0255.46] Compile of Enemy_Parent successful! [in 392 ms]
+[2016.05.17-04.37.38:769][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.37.38:860][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.17-04.37.39:168][226]LogSavePackage: Save=250.13ms
+[2016.05.17-04.37.39:168][226]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTestE8BA20784D2EB3E57F4C7EBF1A17E0D7.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.17-04.37.39:169][226]LogSavePackage: Total save time: 263.39ms
+[2016.05.17-04.37.39:169][226]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.17-04.37.39:212][226]LogFileHelpers: Saving map 'ChrisTest' took 0.411
+[2016.05.17-04.37.41:110][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.17-04.37.45:565][652]LogEditorTransaction: Undo Delete current selection
+[2016.05.17-04.37.45:571][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.38.04:217][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.05.17-04.38.04:313][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.17-04.38.04:566][968]LogSavePackage: Save=222.46ms
+[2016.05.17-04.38.04:566][968]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest36998C994F987AF1F12ACE854320BCC0.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.17-04.38.04:567][968]LogSavePackage: Total save time: 227.39ms
+[2016.05.17-04.38.04:567][968]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.17-04.38.04:595][968]LogFileHelpers: Saving map 'ChrisTest' took 0.340
+[2016.05.17-04.38.04:627][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.38.04:658][968]LogSavePackage: Save=26.47ms
+[2016.05.17-04.38.04:658][968]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTank879DBF6645D21B9F7397E6A0CC525BD8.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.38.04:659][968]LogSavePackage: Total save time: 31.53ms
+[2016.05.17-04.38.04:660][968]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.38.18:126][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.38.26:999][582]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.05.17-04.38.35:491][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.05.17-04.38.55:692][544]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.38.55:752][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.05.17-04.38.56:022][544]BlueprintEditorCompileResults: Info [0787.33] Compile of Enemy_MeleeTank successful! [in 329 ms]
+[2016.05.17-04.38.56:565][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.38.56:662][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.17-04.38.56:940][575]LogSavePackage: Save=257.19ms
+[2016.05.17-04.38.56:940][575]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTestB4DEBDD040DE11512EF62FB158D03D1D.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.17-04.38.56:941][575]LogSavePackage: Total save time: 262.40ms
+[2016.05.17-04.38.56:941][575]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.17-04.38.56:966][575]LogFileHelpers: Saving map 'ChrisTest' took 0.365
+[2016.05.17-04.38.56:984][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.38.57:019][575]LogSavePackage: Save=31.18ms
+[2016.05.17-04.38.57:019][575]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTankB7CC6C3741B124717EFF04A84299B7C7.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.38.57:020][575]LogSavePackage: Total save time: 35.71ms
+[2016.05.17-04.38.57:020][575]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.39.12:227][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.39.16:551][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.05.17-04.39.22:015][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.05.17-04.39.32:154][857]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.05.17-04.39.33:890][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.05.17-04.41.20:965][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.05.17-04.42.33:590][139]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.42.33:664][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.05.17-04.42.33:958][139]BlueprintEditorCompileResults: Info [1005.26] Compile of Enemy_MeleeTank successful! [in 366 ms]
+[2016.05.17-04.42.35:172][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.42.35:172][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.42.35:172][220]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:42:35 PM)
+[2016.05.17-04.42.35:172][220]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.42.35:195][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022354s)
+[2016.05.17-04.42.35:195][220]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.42.35:195][220]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2016.05.17-04.42.35:195][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.023118s)
+[2016.05.17-04.42.35:196][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.42.35:217][220]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.42.35:225][220]LogInit: FAudioDevice initialized.
+[2016.05.17-04.42.35:255][220]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.42.35:257][220]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.42.35
+[2016.05.17-04.42.35:259][220]LogWorld: Bringing up level for play took: 0.003293
+[2016.05.17-04.42.35:263][220]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.08
+[2016.05.17-04.42.35:263][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.42.47:241][319]PIE:Warning: Warning Enemy_MeleeTank_40.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2016.05.17-04.42.47:241][319]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.42.49:184][486]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.42.49:262][486]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.09:615][739]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.43.09:680][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.43.09:784][739]BlueprintEditorCompileResults: Info [1041.09] Compile of Enemy_MeleeTank successful! [in 168 ms]
+[2016.05.17-04.43.14:479][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.14:479][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.43.14:479][ 33]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:43:14 PM)
+[2016.05.17-04.43.14:479][ 33]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.43.14:499][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019207s)
+[2016.05.17-04.43.14:499][ 33]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.43.14:499][ 33]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2016.05.17-04.43.14:499][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.019924s)
+[2016.05.17-04.43.14:499][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.43.14:521][ 33]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.43.14:529][ 33]LogInit: FAudioDevice initialized.
+[2016.05.17-04.43.14:559][ 33]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.43.14:562][ 33]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.43.14
+[2016.05.17-04.43.14:563][ 33]LogWorld: Bringing up level for play took: 0.002783
+[2016.05.17-04.43.14:565][ 33]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.618
+[2016.05.17-04.43.14:566][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.22:876][768]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.43.24:541][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.24:605][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.28:626][168]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.43.28:689][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.43.28:783][168]BlueprintEditorCompileResults: Info [1060.09] Compile of Enemy_MeleeTank successful! [in 156 ms]
+[2016.05.17-04.43.30:007][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.30:007][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.43.30:008][234]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:43:30 PM)
+[2016.05.17-04.43.30:008][234]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.43.30:031][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023166s)
+[2016.05.17-04.43.30:031][234]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.43.30:031][234]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2016.05.17-04.43.30:032][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.023890s)
+[2016.05.17-04.43.30:032][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.43.30:058][234]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.43.30:067][234]LogInit: FAudioDevice initialized.
+[2016.05.17-04.43.30:101][234]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.43.30:105][234]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.43.30
+[2016.05.17-04.43.30:106][234]LogWorld: Bringing up level for play took: 0.003422
+[2016.05.17-04.43.30:109][234]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.926
+[2016.05.17-04.43.30:109][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.38:598][986]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.43.39:921][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.39:984][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.44:928][419]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.43.44:973][419]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.43.45:058][419]BlueprintEditorCompileResults: Info [1076.36] Compile of Enemy_MeleeTank successful! [in 130 ms]
+[2016.05.17-04.43.46:041][471]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.46:041][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.43.46:041][471]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:43:46 PM)
+[2016.05.17-04.43.46:041][471]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.43.46:067][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025252s)
+[2016.05.17-04.43.46:067][471]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.43.46:067][471]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2016.05.17-04.43.46:068][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.026122s)
+[2016.05.17-04.43.46:068][471]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.43.46:099][471]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.43.46:108][471]LogInit: FAudioDevice initialized.
+[2016.05.17-04.43.46:139][471]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.43.46:143][471]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.43.46
+[2016.05.17-04.43.46:144][471]LogWorld: Bringing up level for play took: 0.003067
+[2016.05.17-04.43.46:147][471]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.964
+[2016.05.17-04.43.46:147][471]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.52:973][ 86]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.43.54:530][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.43.54:604][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.44.12:799][367]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.44.12:866][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.44.12:943][367]BlueprintEditorCompileResults: Info [1104.25] Compile of Enemy_MeleeTank successful! [in 144 ms]
+[2016.05.17-04.44.13:564][405]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.44.13:564][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.44.13:564][405]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:44:13 PM)
+[2016.05.17-04.44.13:564][405]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.44.13:592][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027529s)
+[2016.05.17-04.44.13:593][405]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.44.13:593][405]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2016.05.17-04.44.13:593][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.028529s)
+[2016.05.17-04.44.13:593][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.44.13:623][405]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.44.13:634][405]LogInit: FAudioDevice initialized.
+[2016.05.17-04.44.13:663][405]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.44.13:667][405]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.44.13
+[2016.05.17-04.44.13:668][405]LogWorld: Bringing up level for play took: 0.004035
+[2016.05.17-04.44.13:672][405]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.489
+[2016.05.17-04.44.13:672][405]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.44.22:366][208]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.44.24:141][362]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.44.24:209][362]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.44.28:898][649]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.44.28:965][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.44.29:063][649]BlueprintEditorCompileResults: Info [1120.37] Compile of Enemy_MeleeTank successful! [in 165 ms]
+[2016.05.17-04.44.30:190][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.44.30:190][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.44.30:190][717]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:44:30 PM)
+[2016.05.17-04.44.30:190][717]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.44.30:211][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021247s)
+[2016.05.17-04.44.30:212][717]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.44.30:212][717]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2016.05.17-04.44.30:212][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.022046s)
+[2016.05.17-04.44.30:212][717]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.44.30:237][717]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.44.30:245][717]LogInit: FAudioDevice initialized.
+[2016.05.17-04.44.30:275][717]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.44.30:278][717]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.44.30
+[2016.05.17-04.44.30:279][717]LogWorld: Bringing up level for play took: 0.003205
+[2016.05.17-04.44.30:283][717]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.901
+[2016.05.17-04.44.30:283][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.44.38:556][442]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.44.41:299][705]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.44.41:382][705]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.46.24:592][479]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.46.24:642][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.46.24:719][479]BlueprintEditorCompileResults: Info [1236.03] Compile of Enemy_MeleeTank successful! [in 126 ms]
+[2016.05.17-04.46.25:884][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.46.25:884][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.46.25:884][547]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:46:25 PM)
+[2016.05.17-04.46.25:885][547]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.46.25:904][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019376s)
+[2016.05.17-04.46.25:904][547]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.46.25:905][547]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2016.05.17-04.46.25:905][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.020144s)
+[2016.05.17-04.46.25:905][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.46.25:938][547]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.46.25:946][547]LogInit: FAudioDevice initialized.
+[2016.05.17-04.46.25:978][547]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.46.25:981][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.46.25
+[2016.05.17-04.46.25:982][547]LogWorld: Bringing up level for play took: 0.002826
+[2016.05.17-04.46.25:985][547]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.801
+[2016.05.17-04.46.25:985][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.46.34:330][317]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.46.40:596][871]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.46.42:226][ 19]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.46.42:304][ 19]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.46.51:208][636]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.46.51:271][636]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.46.51:371][636]BlueprintEditorCompileResults: Info [1262.68] Compile of Enemy_MeleeTank successful! [in 162 ms]
+[2016.05.17-04.46.52:468][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.46.52:468][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.46.52:468][695]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:46:52 PM)
+[2016.05.17-04.46.52:468][695]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.46.52:491][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022878s)
+[2016.05.17-04.46.52:491][695]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.46.52:492][695]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2016.05.17-04.46.52:492][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.023697s)
+[2016.05.17-04.46.52:492][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.46.52:517][695]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.46.52:525][695]LogInit: FAudioDevice initialized.
+[2016.05.17-04.46.52:561][695]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.46.52:567][695]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.46.52
+[2016.05.17-04.46.52:569][695]LogWorld: Bringing up level for play took: 0.006578
+[2016.05.17-04.46.52:576][695]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.607
+[2016.05.17-04.46.52:576][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.47.01:900][586]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.47.07:676][133]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.47.11:594][519]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.47.14:828][857]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.47.17:896][150]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.47.18:602][206]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.47.18:684][206]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.47.22:871][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.47.22:871][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.17-04.47.22:871][461]PIE: New page: PIE session: ChrisTest (May 16, 2016, 1:47:22 PM)
+[2016.05.17-04.47.22:872][461]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.17-04.47.22:890][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018622s)
+[2016.05.17-04.47.22:891][461]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.17-04.47.22:891][461]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2016.05.17-04.47.22:891][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.019378s)
+[2016.05.17-04.47.22:914][461]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.17-04.47.22:921][461]LogInit: FAudioDevice initialized.
+[2016.05.17-04.47.22:952][461]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.17-04.47.22:955][461]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.16-21.47.22
+[2016.05.17-04.47.22:956][461]LogWorld: Bringing up level for play took: 0.002812
+[2016.05.17-04.47.22:958][461]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.225
+[2016.05.17-04.47.22:958][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.47.30:173][ 94]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.47.40:521][958]LogBlueprintUserMessages: [Enemy_MeleeTank_40] Hello
+[2016.05.17-04.47.42:965][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.47.43:034][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.17-04.47.54:434][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.47.56:193][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.05.17-04.47.56:310][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.17-04.47.56:628][876]LogSavePackage: Save=265.98ms
+[2016.05.17-04.47.56:628][876]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest0DF95DDF43E360F90E52FF99BB9F6970.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.17-04.47.56:629][876]LogSavePackage: Total save time: 297.24ms
+[2016.05.17-04.47.56:629][876]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.17-04.47.56:673][876]LogFileHelpers: Saving map 'ChrisTest' took 0.434
+[2016.05.17-04.47.56:697][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.47.56:755][876]LogSavePackage: Save=54.19ms
+[2016.05.17-04.47.56:755][876]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTank79E0C555458A3CEF21B97FB322D760E5.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.47.56:757][876]LogSavePackage: Total save time: 59.66ms
+[2016.05.17-04.47.56:757][876]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.48.05:363][332]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_3641 or K2Node_CallFunction /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_3641
+[2016.05.17-04.48.05:363][332]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_3641.EdGraphPin_41470) from referencer (EdGraphPin /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_3636.EdGraphPin_41458).  Import failed...
+[2016.05.17-04.48.05:363][332]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3641.EdGraphPin_41470''
+[2016.05.17-04.48.05:363][332]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_3638 or K2Node_CallFunction /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_3638
+[2016.05.17-04.48.05:363][332]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_3638.EdGraphPin_41476) from referencer (EdGraphPin /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_3636.EdGraphPin_41459).  Import failed...
+[2016.05.17-04.48.05:363][332]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3638.EdGraphPin_41476''
+[2016.05.17-04.48.05:364][332]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_6475 or K2Node_CallFunction /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_6475
+[2016.05.17-04.48.05:364][332]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_6475.EdGraphPin_41482) from referencer (EdGraphPin /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_3636.EdGraphPin_41460).  Import failed...
+[2016.05.17-04.48.05:364][332]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6475.EdGraphPin_41482''
+[2016.05.17-04.48.05:364][332]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_Event_441.EdGraphPin_45759) from referencer (EdGraphPin /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_3638.EdGraphPin_41475).  Import failed...
+[2016.05.17-04.48.05:364][332]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_441.EdGraphPin_45759''
+[2016.05.17-04.48.05:364][332]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_6476 or K2Node_CallFunction /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_6476
+[2016.05.17-04.48.05:364][332]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_6476.EdGraphPin_41499) from referencer (EdGraphPin /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_6475.EdGraphPin_41485).  Import failed...
+[2016.05.17-04.48.05:364][332]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6476.EdGraphPin_41499''
+[2016.05.17-04.48.05:365][332]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_SpawnActorFromClass_10.EdGraphPin_41257) from referencer (EdGraphPin /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_6471.EdGraphPin_41442).  Import failed...
+[2016.05.17-04.48.05:365][332]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_10.EdGraphPin_41257''
+[2016.05.17-04.48.05:365][332]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_6476 or K2Node_CallFunction /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_6476
+[2016.05.17-04.48.05:365][332]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/BasicEnemy/Enemy_Basic.Enemy_Basic:EventGraph.K2Node_CallFunction_6476.EdGraphPin_41500) from referencer (EdGraphPin /Game/Enemies/MeleeTank/Enemy_MeleeTank.Enemy_MeleeTank:EventGraph.K2Node_CallFunction_6471.EdGraphPin_41445).  Import failed...
+[2016.05.17-04.48.05:365][332]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6476.EdGraphPin_41500''
+[2016.05.17-04.48.14:337][817]BlueprintLog: New page: Compile Enemy_MeleeTank
+[2016.05.17-04.48.14:396][817]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.48.14:396][817]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.05.17-04.48.14:396][817]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.05.17-04.48.14:687][817]BlueprintEditorCompileResults: Info [1345.99] Compile of Enemy_MeleeTank successful! [in 349 ms]
+[2016.05.17-04.48.14:943][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.48.15:059][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.17-04.48.15:364][830]LogSavePackage: Save=282.68ms
+[2016.05.17-04.48.15:364][830]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest1EEA18504B62DA53C46A19BC8D98C1B8.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.17-04.48.15:365][830]LogSavePackage: Total save time: 287.63ms
+[2016.05.17-04.48.15:365][830]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.17-04.48.15:398][830]LogFileHelpers: Saving map 'ChrisTest' took 0.412
+[2016.05.17-04.48.15:418][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/MeleeTank/Enemy_MeleeTank" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset" SILENT=true
+[2016.05.17-04.48.15:488][830]LogSavePackage: Save=63.43ms
+[2016.05.17-04.48.15:488][830]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_MeleeTank208731D54E4780420639C082A00187BD.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset'
+[2016.05.17-04.48.15:489][830]LogSavePackage: Total save time: 70.29ms
+[2016.05.17-04.48.15:489][830]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/MeleeTank/Enemy_MeleeTank.uasset
+[2016.05.17-04.48.18:053][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.17-04.48.18:232][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.17-04.48.18:283][972]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.17-04.48.18:480][973]Cmd: QUIT_EDITOR
+[2016.05.17-04.48.19:237][973]LogExit: Preparing to exit.
+[2016.05.17-04.48.20:378][973]LogExit: Editor shut down
+[2016.05.17-04.48.20:379][973]LogExit: Transaction tracking system shut down
+[2016.05.17-04.48.20:566][973]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.17-04.48.20:566][973]LogExit: Object subsystem successfully closed.
+[2016.05.17-04.48.20:585][973]LogD3D11RHI: Shutdown
+[2016.05.17-04.48.20:585][973]LogD3D11RHI: CleanupD3DDevice
+[2016.05.17-04.48.20:664][973]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.17-04.48.20:720][973]LogDerivedDataCache: Shutdown
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module WorldBrowser (202)
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.17-04.48.20:720][973]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.17-04.48.20:723][973]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.17-04.48.20:724][973]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.17-04.48.20:724][973]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.17-04.48.20:724][973]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.17-04.48.20:724][973]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.17-04.48.20:724][973]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.17-04.48.21:037][973]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.17-04.48.21:038][973]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.17-04.48.21:038][973]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.17-04.48.21:038][973]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.17-04.48.21:038][973]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.17-04.48.21:038][973]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.17-04.48.21:038][973]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.17-04.48.21:038][973]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.17-04.48.21:069][973]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.17-04.48.21:070][973]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.17-04.48.21:087][973]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.17-04.48.21:088][973]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.17-04.48.21:088][973]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.17-04.48.21:088][973]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.17-04.48.21:088][973]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.17-04.48.21:088][973]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.17-04.48.21:088][973]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.17-04.48.21:089][973]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.17-04.48.21:090][973]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.17-04.48.21:312][973]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.17-04.48.21:312][973]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.17-04.48.21:312][973]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.17-04.48.21:413][973]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.17-04.48.21:414][973]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.17-04.48.21:414][973]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.17-04.48.21:414][973]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.17-04.48.21:414][973]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.17-04.48.21:414][973]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.17-04.48.21:414][973]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.17-04.48.21:416][973]LogDerivedDataCache: Shutdown
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.17-04.48.21:416][973]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.17-04.48.23:418][973]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.17-04.48.23:418][973]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.17-04.48.23:418][973]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.17-04.48.23:418][973]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.17-04.48.23:418][973]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.17-04.48.23:418][973]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.17-04.48.23:418][973]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.17-04.48.23:421][973]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.17-04.48.23:423][973]LogExit: Exiting.
+[2016.05.17-04.48.23:424][973]Log file closed, 05/16/16 21:48:23
