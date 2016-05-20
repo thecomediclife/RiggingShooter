@@ -1,0 +1,1666 @@
+﻿Log file open, 05/19/16 15:20:25
+LogInit:Display: Running engine for game: GameJamRigging
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(793198011) SRandInit(793198013).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.074900
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.19-22.20.25:249][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.19-22.20.25:249][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.19-22.20.25:256][  0]LogInit: Computer: DUMPRING
+[2016.05.19-22.20.25:256][  0]LogInit: User: theco000
+[2016.05.19-22.20.25:256][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.19-22.20.25:256][  0]LogInit: High frequency timer resolution =3.615390 MHz
+[2016.05.19-22.20.25:256][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.19-22.20.25:256][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.19-22.20.25:256][  0]LogMemory: Process Physical Memory: 313.77 MB used, 313.77 MB peak
+[2016.05.19-22.20.25:256][  0]LogMemory: Process Virtual Memory: 315.03 MB used, 315.03 MB peak
+[2016.05.19-22.20.25:256][  0]LogMemory: Physical Memory: 5188.80 MB used, 16326.09 MB total
+[2016.05.19-22.20.25:256][  0]LogMemory: Virtual Memory: 639.07 MB used, 134217728.00 MB total
+[2016.05.19-22.20.25:287][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.19-22.20.25:660][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.19-22.20.25:687][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.05.19-22.20.25:687][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.05.19-22.20.25:689][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.19-22.20.25:689][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.05.19-22.20.25:689][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.19-22.20.25:693][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.19-22.20.25:693][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.05.19-22.20.25:693][  0]LogD3D11RHI:   Driver Version: 10.18.13.6510 (internal 10.18.13.6510)
+[2016.05.19-22.20.25:693][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.05.19-22.20.25:693][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.19-22.20.25:707][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.19-22.20.25:717][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (D:/Git/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/22848/).
+[2016.05.19-22.20.25:717][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/THECO_~1/AppData/Local/Temp/UnrealShaderWorkingDir/DCF8EEE747EC65EBD27D00A1486C89FD/'.
+[2016.05.19-22.20.25:717][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.19-22.20.26:691][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.19-22.20.26:698][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.19-22.20.26:702][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.19-22.20.26:706][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.19-22.20.26:710][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.19-22.20.26:712][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.19-22.20.26:715][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.19-22.20.26:718][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.19-22.20.26:720][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.19-22.20.26:723][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.19-22.20.26:726][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.19-22.20.26:732][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.19-22.20.26:732][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.19-22.20.26:732][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.19-22.20.26:748][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.19-22.20.26:753][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.19-22.20.26:756][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.19-22.20.26:759][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.19-22.20.26:762][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.19-22.20.26:762][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.19-22.20.26:829][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.19-22.20.26:879][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.19-22.20.26:879][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.19-22.20.26:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.19-22.20.26:879][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.19-22.20.26:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.19-22.20.26:879][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.19-22.20.26:892][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.19-22.20.26:904][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theco_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.19-22.20.27:065][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.19-22.20.27:066][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.19-22.20.27:106][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.19-22.20.27:242][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.19-22.20.27:242][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.19-22.20.27:242][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.19-22.20.27:469][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.19-22.20.27:469][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.19-22.20.27:469][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.19-22.20.27:474][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.19-22.20.27:549][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.19-22.20.27:549][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.19-22.20.27:632][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.19-22.20.27:632][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.19-22.20.27:632][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.19-22.20.27:632][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.19-22.20.27:632][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.19-22.20.27:632][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.19-22.20.28:181][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.19-22.20.28:284][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2016.05.19-22.20.28:422][  0]SourceControl: Info Source control is disabled
+[2016.05.19-22.20.28:424][  0]SourceControl: Info Source control is disabled
+[2016.05.19-22.20.28:434][  0]SourceControl: Info Source control is disabled
+[2016.05.19-22.20.28:443][  0]SourceControl: Info Source control is disabled
+[2016.05.19-22.20.28:585][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.19-22.20.28:659][  0]LogEngine: Initializing Engine...
+[2016.05.19-22.20.28:802][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.19-22.20.28:813][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.20.28:840][  0]LogInit: FAudioDevice initialized.
+[2016.05.19-22.20.28:861][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.19-22.20.28:864][  0]LogInit: Texture streaming: Enabled
+[2016.05.19-22.20.28:884][  0]LogInit: Transaction tracking system initialized
+[2016.05.19-22.20.28:905][  0]BlueprintLog: New page: Editor Load
+[2016.05.19-22.20.28:971][  0]LocalizationService: Info Localization service is disabled
+[2016.05.19-22.20.29:036][  0]LogConsoleResponse:Display: 
+[2016.05.19-22.20.29:147][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.19-22.20.29:147][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.19-22.20.29:147][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.19-22.20.29:195][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/' took 0.02s
+[2016.05.19-22.20.29:195][  0]SourceControl: Info Source control is disabled
+[2016.05.19-22.20.29:195][  0]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.19-22.20.29:196][  0]LightingResults: New page: Lighting Build
+[2016.05.19-22.20.29:198][  0]MapCheck: New page: Map Check
+[2016.05.19-22.20.29:198][  0]LightingResults: New page: Lighting Build
+[2016.05.19-22.20.30:898][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.05.19-22.20.30:910][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.19-22.20.30:910][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.19-22.20.30:968][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.699ms to complete.
+[2016.05.19-22.20.30:968][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.773
+[2016.05.19-22.20.31:086][  0]LogCollectionManager: Loaded 0 collections in 0.001322 seconds
+[2016.05.19-22.20.31:127][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
+[2016.05.19-22.20.31:127][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Developers/theco000/Collections/' took 0.01s
+[2016.05.19-22.20.31:127][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
+[2016.05.19-22.20.31:127][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.19-22.20.31:134][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1979 classes and 343 folders.
+[2016.05.19-22.20.31:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.19-22.20.31:137][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.19-22.20.31:138][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.19-22.20.31:141][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.19-22.20.31:146][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.19-22.20.31:188][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.05.19-22.20.31:196][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2016.05.19-22.20.31:202][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.19-22.20.31:264][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.19-22.20.31:269][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.19-22.20.31:295][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.19-22.20.31:295][  0]LogLoad: Full Startup: 6.71 seconds (BP compile: 0.52 seconds)
+[2016.05.19-22.20.31:295][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.19-22.20.31:295][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.19-22.20.31:304][  0]LogOcInput: OculusInput pre-init called
+[2016.05.19-22.20.31:350][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.19-22.20.31:514][  0]LogRenderer: Reallocating scene render targets to support 1596x808 (Frame:2).
+[2016.05.19-22.20.31:579][  1]LogAssetRegistry: Asset discovery search completed in 3.3159 seconds
+[2016.05.19-22.20.31:579][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.19-22.20.31:579][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2016.05.19-22.26.37:731][347]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.26.37:785][347]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.19-22.26.37:785][347]LightingResults: New page: Lighting Build
+[2016.05.19-22.26.37:805][347]LoadErrors: New page: Loading map: Level1.umap
+[2016.05.19-22.26.37:807][347]MapCheck: New page: Map Check
+[2016.05.19-22.26.37:808][347]LightingResults: New page: Lighting Build
+[2016.05.19-22.26.37:858][347]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.19-22.26.37:895][347]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.19-22.26.37:965][347]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.896ms to complete.
+[2016.05.19-22.26.37:966][347]LogFileHelpers: Loading map 'Level1' took 0.183
+[2016.05.19-22.26.55:388][330]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.05.19-22.27.33:742][737]LogEditorViewport: Clicking Background
+[2016.05.19-22.27.38:297][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.27.38:299][263]PIE: New page: PIE session: Level1 (May 19, 2016, 7:27:38 AM)
+[2016.05.19-22.27.38:300][263]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.27.38:304][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003782s)
+[2016.05.19-22.27.38:304][263]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.27.38:304][263]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2016.05.19-22.27.38:305][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.005013s)
+[2016.05.19-22.27.38:320][263]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.27.38:328][263]LogInit: FAudioDevice initialized.
+[2016.05.19-22.27.38:469][263]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.05.19-22.27.38:477][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.27.38
+[2016.05.19-22.27.38:477][263]LogWorld: Bringing up level for play took: 0.001770
+[2016.05.19-22.27.38:492][263]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.05.19-22.27.38:501][263]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.764
+[2016.05.19-22.27.43:244][807]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.19-22.27.43:267][808]Cmd: UpdateLandscapeSetup
+[2016.05.19-22.27.44:312][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.27.44:312][928]PIE: New page: PIE session: Level1 (May 19, 2016, 7:27:44 AM)
+[2016.05.19-22.27.44:312][928]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.27.44:315][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002423s)
+[2016.05.19-22.27.44:315][928]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.27.44:315][928]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2016.05.19-22.27.44:316][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003166s)
+[2016.05.19-22.27.44:331][928]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.27.44:338][928]LogInit: FAudioDevice initialized.
+[2016.05.19-22.27.44:365][928]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.27.44:367][928]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.27.44
+[2016.05.19-22.27.44:367][928]LogWorld: Bringing up level for play took: 0.001160
+[2016.05.19-22.27.44:371][928]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.634
+[2016.05.19-22.27.54:133][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.27.54:133][ 85]PIE: New page: PIE session: Level1 (May 19, 2016, 7:27:54 AM)
+[2016.05.19-22.27.54:133][ 85]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.27.54:135][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002361s)
+[2016.05.19-22.27.54:136][ 85]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.27.54:136][ 85]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2016.05.19-22.27.54:136][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.002997s)
+[2016.05.19-22.27.54:151][ 85]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.27.54:159][ 85]LogInit: FAudioDevice initialized.
+[2016.05.19-22.27.54:190][ 85]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.27.54:192][ 85]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.27.54
+[2016.05.19-22.27.54:193][ 85]LogWorld: Bringing up level for play took: 0.001307
+[2016.05.19-22.27.54:197][ 85]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.461
+[2016.05.19-22.28.32:394][541]Cmd: DELETE
+[2016.05.19-22.28.32:394][541]Cmd: ACTOR DELETE
+[2016.05.19-22.28.32:394][541]LogEditorActor: Deleted Actor: SkyLight
+[2016.05.19-22.28.32:395][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-22.28.32:402][541]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2016.05.19-22.28.43:709][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.28.43:709][846]PIE: New page: PIE session: Level1 (May 19, 2016, 7:28:43 AM)
+[2016.05.19-22.28.43:709][846]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.28.43:712][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002513s)
+[2016.05.19-22.28.43:713][846]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.28.43:713][846]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2016.05.19-22.28.43:713][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003172s)
+[2016.05.19-22.28.43:713][846]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.05.19-22.28.43:727][846]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.28.43:735][846]LogInit: FAudioDevice initialized.
+[2016.05.19-22.28.43:767][846]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.28.43:769][846]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.28.43
+[2016.05.19-22.28.43:769][846]LogWorld: Bringing up level for play took: 0.001199
+[2016.05.19-22.28.43:772][846]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.035
+[2016.05.19-22.29.02:200][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.29.02:201][ 35]PIE: New page: PIE session: Level1 (May 19, 2016, 7:29:02 AM)
+[2016.05.19-22.29.02:201][ 35]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.29.02:203][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002515s)
+[2016.05.19-22.29.02:204][ 35]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.29.02:204][ 35]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2016.05.19-22.29.02:204][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003159s)
+[2016.05.19-22.29.02:220][ 35]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.29.02:227][ 35]LogInit: FAudioDevice initialized.
+[2016.05.19-22.29.02:256][ 35]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.29.02:258][ 35]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.29.02
+[2016.05.19-22.29.02:258][ 35]LogWorld: Bringing up level for play took: 0.001225
+[2016.05.19-22.29.02:261][ 35]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.524
+[2016.05.19-22.29.14:555][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.29.14:555][493]PIE: New page: PIE session: Level1 (May 19, 2016, 7:29:14 AM)
+[2016.05.19-22.29.14:555][493]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.29.14:558][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002566s)
+[2016.05.19-22.29.14:558][493]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.29.14:558][493]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2016.05.19-22.29.14:558][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003245s)
+[2016.05.19-22.29.14:573][493]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.29.14:581][493]LogInit: FAudioDevice initialized.
+[2016.05.19-22.29.14:611][493]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.29.14:614][493]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.29.14
+[2016.05.19-22.29.14:614][493]LogWorld: Bringing up level for play took: 0.001962
+[2016.05.19-22.29.14:619][493]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.882
+[2016.05.19-22.29.27:178][828]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.05.19-22.29.36:272][297]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.29.36:272][297]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.19-22.29.36:272][297]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-22.29.37:824][389]BlueprintLog: New page: Compile Player
+[2016.05.19-22.29.38:023][389]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.19-22.29.38:204][389]BlueprintEditorCompileResults: Info [0558.06] Compile of Player successful! [in 379 ms]
+[2016.05.19-22.29.38:726][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.29.38:727][406]PIE: New page: PIE session: Level1 (May 19, 2016, 7:29:38 AM)
+[2016.05.19-22.29.38:727][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.29.38:729][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002549s)
+[2016.05.19-22.29.38:730][406]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.29.38:730][406]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2016.05.19-22.29.38:730][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003216s)
+[2016.05.19-22.29.38:730][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.29.38:752][406]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.29.38:760][406]LogInit: FAudioDevice initialized.
+[2016.05.19-22.29.38:787][406]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.29.38:789][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.29.38
+[2016.05.19-22.29.38:789][406]LogWorld: Bringing up level for play took: 0.001178
+[2016.05.19-22.29.38:792][406]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.055
+[2016.05.19-22.30.03:718][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.30.03:718][318]PIE: New page: PIE session: Level1 (May 19, 2016, 7:30:03 AM)
+[2016.05.19-22.30.03:718][318]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.30.03:721][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002845s)
+[2016.05.19-22.30.03:722][318]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.30.03:722][318]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2016.05.19-22.30.03:722][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003513s)
+[2016.05.19-22.30.03:722][318]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-22.30.03:722][318]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.30.03:744][318]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.30.03:751][318]LogInit: FAudioDevice initialized.
+[2016.05.19-22.30.03:781][318]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.30.03:783][318]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.30.03
+[2016.05.19-22.30.03:783][318]LogWorld: Bringing up level for play took: 0.001269
+[2016.05.19-22.30.03:786][318]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.049
+[2016.05.19-22.30.19:439][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.30.19:439][594]PIE: New page: PIE session: Level1 (May 19, 2016, 7:30:19 AM)
+[2016.05.19-22.30.19:439][594]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.30.19:442][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002820s)
+[2016.05.19-22.30.19:442][594]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.30.19:442][594]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2016.05.19-22.30.19:443][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003486s)
+[2016.05.19-22.30.19:463][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.30.19:471][594]LogInit: FAudioDevice initialized.
+[2016.05.19-22.30.19:499][594]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.30.19:501][594]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.30.19
+[2016.05.19-22.30.19:502][594]LogWorld: Bringing up level for play took: 0.001320
+[2016.05.19-22.30.19:505][594]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.232
+[2016.05.19-22.30.32:915][607]BlueprintLog: New page: Compile Player
+[2016.05.19-22.30.33:107][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.30.33:270][607]BlueprintEditorCompileResults: Info [0613.12] Compile of Player successful! [in 355 ms]
+[2016.05.19-22.30.34:281][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.30.34:281][664]PIE: New page: PIE session: Level1 (May 19, 2016, 7:30:34 AM)
+[2016.05.19-22.30.34:281][664]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.30.34:284][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002823s)
+[2016.05.19-22.30.34:285][664]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.30.34:285][664]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2016.05.19-22.30.34:285][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003485s)
+[2016.05.19-22.30.34:285][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.30.34:285][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.05.19-22.30.34:306][664]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.30.34:313][664]LogInit: FAudioDevice initialized.
+[2016.05.19-22.30.34:341][664]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.30.34:342][664]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.30.34
+[2016.05.19-22.30.34:343][664]LogWorld: Bringing up level for play took: 0.001244
+[2016.05.19-22.30.34:345][664]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.608
+[2016.05.19-22.30.58:445][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.30.58:445][569]PIE: New page: PIE session: Level1 (May 19, 2016, 7:30:58 AM)
+[2016.05.19-22.30.58:445][569]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.30.58:448][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002495s)
+[2016.05.19-22.30.58:448][569]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.30.58:449][569]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2016.05.19-22.30.58:449][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003165s)
+[2016.05.19-22.30.58:469][569]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.30.58:477][569]LogInit: FAudioDevice initialized.
+[2016.05.19-22.30.58:506][569]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.30.58:508][569]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.30.58
+[2016.05.19-22.30.58:509][569]LogWorld: Bringing up level for play took: 0.001237
+[2016.05.19-22.30.58:511][569]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.774
+[2016.05.19-22.32.37:349][112]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2016.05.19-22.33.24:498][401]Cmd: TRANSACTION UNDO
+[2016.05.19-22.33.24:498][401]LogEditorTransaction: Undo Move Actors
+[2016.05.19-22.34.02:288][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.34.02:288][ 14]PIE: New page: PIE session: Level1 (May 19, 2016, 7:34:02 AM)
+[2016.05.19-22.34.02:288][ 14]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.34.02:291][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002981s)
+[2016.05.19-22.34.02:292][ 14]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.34.02:292][ 14]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2016.05.19-22.34.02:292][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003743s)
+[2016.05.19-22.34.02:313][ 14]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.34.02:321][ 14]LogInit: FAudioDevice initialized.
+[2016.05.19-22.34.02:347][ 14]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.34.02:349][ 14]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.34.02
+[2016.05.19-22.34.02:349][ 14]LogWorld: Bringing up level for play took: 0.001315
+[2016.05.19-22.34.02:352][ 14]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.615
+[2016.05.19-22.34.19:868][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.34.19:869][392]PIE: New page: PIE session: Level1 (May 19, 2016, 7:34:19 AM)
+[2016.05.19-22.34.19:869][392]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.34.19:872][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003212s)
+[2016.05.19-22.34.19:872][392]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.34.19:872][392]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2016.05.19-22.34.19:872][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.003885s)
+[2016.05.19-22.34.19:893][392]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.34.19:901][392]LogInit: FAudioDevice initialized.
+[2016.05.19-22.34.19:929][392]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.34.19:931][392]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.34.19
+[2016.05.19-22.34.19:932][392]LogWorld: Bringing up level for play took: 0.001355
+[2016.05.19-22.34.19:934][392]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.197
+[2016.05.19-22.35.10:632][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.35.10:632][261]PIE: New page: PIE session: Level1 (May 19, 2016, 7:35:10 AM)
+[2016.05.19-22.35.10:632][261]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.35.10:636][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003725s)
+[2016.05.19-22.35.10:636][261]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.35.10:636][261]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2016.05.19-22.35.10:637][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.004445s)
+[2016.05.19-22.35.10:658][261]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.35.10:665][261]LogInit: FAudioDevice initialized.
+[2016.05.19-22.35.10:694][261]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.35.10:696][261]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.35.10
+[2016.05.19-22.35.10:697][261]LogWorld: Bringing up level for play took: 0.001509
+[2016.05.19-22.35.10:699][261]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.963
+[2016.05.19-22.35.37:666][419]Cmd: DELETE
+[2016.05.19-22.35.37:666][419]Cmd: ACTOR DELETE
+[2016.05.19-22.35.37:667][419]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-22.35.37:691][419]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.05.19-22.35.38:956][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.35.38:957][514]PIE: New page: PIE session: Level1 (May 19, 2016, 7:35:38 AM)
+[2016.05.19-22.35.38:957][514]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.35.38:960][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003723s)
+[2016.05.19-22.35.38:961][514]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.35.38:961][514]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2016.05.19-22.35.38:961][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.004397s)
+[2016.05.19-22.35.38:981][514]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.35.38:989][514]LogInit: FAudioDevice initialized.
+[2016.05.19-22.35.39:019][514]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.35.39:021][514]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.35.39
+[2016.05.19-22.35.39:021][514]LogWorld: Bringing up level for play took: 0.001479
+[2016.05.19-22.35.39:024][514]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.713
+[2016.05.19-22.36.50:637][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.36.50:637][186]PIE: New page: PIE session: Level1 (May 19, 2016, 7:36:50 AM)
+[2016.05.19-22.36.50:637][186]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.36.50:641][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003863s)
+[2016.05.19-22.36.50:641][186]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.36.50:642][186]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2016.05.19-22.36.50:642][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.004548s)
+[2016.05.19-22.36.50:663][186]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.36.50:671][186]LogInit: FAudioDevice initialized.
+[2016.05.19-22.36.50:699][186]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.36.50:701][186]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.36.50
+[2016.05.19-22.36.50:701][186]LogWorld: Bringing up level for play took: 0.001524
+[2016.05.19-22.36.50:704][186]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.967
+[2016.05.19-22.37.50:490][968]Set new viewmode: Wireframe
+[2016.05.19-22.39.04:614][966]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.19-22.39.51:108][ 39]LogEditorViewport: Clicking on Actor (CTRL LMB): NavModifierVolume (NavModifierVolume)
+[2016.05.19-22.41.27:896][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.41.27:897][707]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-22.41.27:925][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.19-22.41.28:023][707]LogSavePackage: Save=69.85ms
+[2016.05.19-22.41.28:023][707]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1_Auto1CFAC53B64D365353B927F8A090495086.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto1.umap'
+[2016.05.19-22.41.28:023][707]LogSavePackage: Total save time: 96.67ms
+[2016.05.19-22.41.28:023][707]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto1.umap
+[2016.05.19-22.41.28:025][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.128
+[2016.05.19-22.41.28:025][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.128
+[2016.05.19-22.41.28:031][707]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player] ([1] browsable assets)...
+[2016.05.19-22.41.28:058][707]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Player.Player]
+[2016.05.19-22.41.28:058][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player]
+[2016.05.19-22.41.28:058][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.05.19-22.41.28:599][707]LogSavePackage: Save=497.25ms
+[2016.05.19-22.41.28:599][707]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player_Auto1857659EB4A66B516B942789139F5356F.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset'
+[2016.05.19-22.41.28:601][707]LogSavePackage: Total save time: 542.29ms
+[2016.05.19-22.41.28:601][707]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Blueprints/Player_Auto1.uasset
+[2016.05.19-22.41.28:601][707]LogFileHelpers: Auto-saving content packages took 0.575
+[2016.05.19-22.44.53:367][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.44.53:368][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-22.44.53:474][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-22.44.53:567][598]LogSavePackage: Save=62.70ms
+[2016.05.19-22.44.53:567][598]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1BFA5A5254FFDDAA25248678174AAA4FE.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-22.44.53:568][598]LogSavePackage: Total save time: 73.71ms
+[2016.05.19-22.44.53:568][598]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-22.44.53:589][598]LogFileHelpers: Saving map 'Level1' took 0.176
+[2016.05.19-22.44.53:599][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.19-22.44.54:058][598]LogSavePackage: Save=445.85ms
+[2016.05.19-22.44.54:058][598]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player77D1C50243F7D237319D079BCC3C3EC9.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.19-22.44.54:060][598]LogSavePackage: Total save time: 459.98ms
+[2016.05.19-22.44.54:060][598]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.19-22.45.25:277][692]LogEditorViewport: Clicking on Actor (CTRL LMB): Enemy_Basic_C (Enemy_Basic)
+[2016.05.19-22.45.30:687][214]LogEditorViewport: Clicking Background
+[2016.05.19-22.45.31:250][266]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_C (Enemy_Basic)
+[2016.05.19-22.45.34:538][596]Cmd: DELETE
+[2016.05.19-22.45.34:538][596]Cmd: ACTOR DELETE
+[2016.05.19-22.45.34:539][596]LogEditorActor: Deleted Actor: Enemy_Basic_C
+[2016.05.19-22.45.34:540][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.45.34:540][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-22.45.34:540][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.05.19-22.45.34:540][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.05.19-22.45.34:568][596]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2016.05.19-22.45.49:044][295]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_C (Enemy_Basic)
+[2016.05.19-22.47.47:543][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.47.47:543][729]PIE: New page: PIE session: Level1 (May 19, 2016, 7:47:47 AM)
+[2016.05.19-22.47.47:543][729]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.47.47:549][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005882s)
+[2016.05.19-22.47.47:550][729]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.47.47:550][729]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2016.05.19-22.47.47:550][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.006644s)
+[2016.05.19-22.47.47:550][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.47.47:572][729]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.47.47:580][729]LogInit: FAudioDevice initialized.
+[2016.05.19-22.47.47:607][729]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.47.47:611][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.47.47
+[2016.05.19-22.47.47:616][729]LogWorld: Bringing up level for play took: 0.007704
+[2016.05.19-22.47.47:623][729]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.114
+[2016.05.19-22.47.57:490][829]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume)
+[2016.05.19-22.48.03:154][491]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume2)
+[2016.05.19-22.48.10:004][276]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume)
+[2016.05.19-22.48.13:444][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.48.13:444][670]PIE: New page: PIE session: Level1 (May 19, 2016, 7:48:13 AM)
+[2016.05.19-22.48.13:444][670]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.48.13:450][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005855s)
+[2016.05.19-22.48.13:450][670]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.48.13:451][670]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2016.05.19-22.48.13:451][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.006620s)
+[2016.05.19-22.48.13:451][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.48.13:471][670]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.48.13:479][670]LogInit: FAudioDevice initialized.
+[2016.05.19-22.48.13:507][670]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.48.13:512][670]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.48.13
+[2016.05.19-22.48.13:514][670]LogWorld: Bringing up level for play took: 0.005364
+[2016.05.19-22.48.13:518][670]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.219
+[2016.05.19-22.51.11:116][398]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.11:200][398]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.11:205][398]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.12:265][503]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.19-22.51.12:265][503]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.12:265][503]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.14:579][765]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.19-22.51.14:624][765]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2016.05.19-22.51.14:707][765]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Intensity.
+[2016.05.19-22.51.14:708][765]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2016.05.19-22.51.17:930][145]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.17:935][145]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.17:936][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.17:940][145]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.17:948][145]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.17:972][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.18:819][242]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.19-22.51.18:819][242]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.18:819][242]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.22:358][661]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.22:364][661]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.22:366][661]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.22:371][661]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.22:398][661]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.23:070][738]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.19-22.51.23:070][738]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.23:070][738]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.29:580][512]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.29:585][512]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.29:586][512]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.29:591][512]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.30:294][593]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.19-22.51.30:294][593]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.30:294][593]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.32:449][850]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.32:454][850]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.33:175][929]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.19-22.51.33:175][929]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.33:175][929]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.34:778][121]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.34:783][121]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.34:811][121]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.34:829][122]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.34:837][122]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.34:862][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.34:869][122]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.34:876][122]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.34:901][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.34:909][122]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.34:917][122]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.34:945][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.34:952][122]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.34:958][122]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.34:984][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.35:047][128]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.35:055][128]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.35:086][128]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.51.35:883][216]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.19-22.51.35:883][216]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.35:883][216]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.37:845][451]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.37:850][451]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.38:546][533]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.51.38:546][533]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.38:546][533]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.39:782][681]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.39:787][681]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.40:504][767]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.51.40:504][767]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.40:504][767]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.41:623][901]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.41:628][901]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.42:314][983]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.51.42:314][983]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.42:314][983]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.43:966][181]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.43:971][181]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.44:674][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.51.44:674][264]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.44:674][264]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.46:623][498]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.46:628][498]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.47:331][582]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.51.47:331][582]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.47:331][582]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.48:900][770]LogMaterialEditor: Applying material PulsingEmissive
+[2016.05.19-22.51.49:381][770]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.49:402][770]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.49:440][770]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.49:460][770]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.49:473][770]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.51:750][ 38]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.19-22.51.51:750][ 38]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.51:750][ 38]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.19-22.51.54:469][358]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.54:474][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.54:476][358]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.54:481][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.55:172][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.51.55:172][437]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.55:172][437]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.51.56:711][619]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.51.56:716][619]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.51.57:416][700]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.51.57:416][700]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.51.57:416][700]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.52.00:636][ 80]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.52.00:641][ 80]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.52.00:643][ 80]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.52.00:644][ 80]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PulsingEmissive for platform PCD3D_SM5, Default Material will be used in game.
+[2016.05.19-22.52.00:644][ 80]LogMaterial:Warning: 	(Node Sine) Missing Sine input
+[2016.05.19-22.52.00:644][ 80]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.52.00:646][ 80]MaterialEditorStats:Error: Error [SM5] (Node Sine) Missing Sine input
+[2016.05.19-22.52.10:647][275]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.52.10:652][275]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.52.11:346][352]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.52.11:346][352]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.52.11:346][352]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.52.12:749][514]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.52.12:754][514]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.52.13:463][595]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.52.13:463][595]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.52.13:463][595]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.52.18:048][145]LogMaterialEditor: Applying material PulsingEmissive
+[2016.05.19-22.52.18:480][145]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.52.18:493][145]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.52.18:528][145]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.52.18:545][145]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.52.18:559][145]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.52.20:801][409]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2016.05.19-22.52.20:801][409]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.52.20:801][409]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.05.19-22.52.28:737][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.52.28:737][288]PIE: New page: PIE session: Level1 (May 19, 2016, 7:52:28 AM)
+[2016.05.19-22.52.28:737][288]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.52.28:745][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007366s)
+[2016.05.19-22.52.28:745][288]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.52.28:745][288]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2016.05.19-22.52.28:745][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.008240s)
+[2016.05.19-22.52.28:745][288]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-22.52.28:769][288]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.52.28:777][288]LogInit: FAudioDevice initialized.
+[2016.05.19-22.52.28:807][288]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.52.28:811][288]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.52.28
+[2016.05.19-22.52.28:813][288]LogWorld: Bringing up level for play took: 0.004490
+[2016.05.19-22.52.28:816][288]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1.079
+[2016.05.19-22.52.58:230][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-22.52.58:230][707]PIE: New page: PIE session: Level1 (May 19, 2016, 7:52:58 AM)
+[2016.05.19-22.52.58:230][707]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-22.52.58:236][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005759s)
+[2016.05.19-22.52.58:237][707]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-22.52.58:237][707]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2016.05.19-22.52.58:237][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.006466s)
+[2016.05.19-22.52.58:258][707]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-22.52.58:265][707]LogInit: FAudioDevice initialized.
+[2016.05.19-22.52.58:297][707]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-22.52.58:301][707]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-15.52.58
+[2016.05.19-22.52.58:303][707]LogWorld: Bringing up level for play took: 0.004363
+[2016.05.19-22.52.58:306][707]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.569
+[2016.05.19-22.53.07:130][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSine_0, compiling. 
+[2016.05.19-22.54.21:026][501]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.21:031][501]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.21:033][501]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.21:038][501]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.21:982][609]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.54.21:982][609]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.54.21:982][609]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.54.29:302][486]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.29:307][486]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.30:024][569]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.54.30:024][569]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.54.30:024][569]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.54.38:955][633]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.38:960][633]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.38:963][633]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.38:968][633]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.39:683][712]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.54.39:683][712]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.54.39:683][712]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.54.40:598][820]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.40:603][820]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.41:322][901]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.54.41:322][901]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.54.41:322][901]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.54.47:921][687]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.47:926][687]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.48:634][768]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.54.48:634][768]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.54.48:634][768]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.54.50:895][ 39]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.50:900][ 39]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.51:617][120]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.54.51:617][120]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.54.51:617][120]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.54.55:553][584]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.55:558][584]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.55:560][584]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.55:565][584]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.56:287][666]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.54.56:287][666]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.54.56:287][666]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.54.58:765][963]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.54.58:771][963]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.54.59:471][ 32]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.54.59:471][ 32]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.54.59:471][ 32]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.55.04:199][598]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.55.04:204][598]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.55.04:897][666]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.55.04:897][666]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.55.04:897][666]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.55.07:753][  8]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.55.07:758][  8]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.55.08:467][ 78]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.55.08:467][ 78]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.55.08:467][ 78]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.55.16:840][ 82]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.55.16:846][ 82]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.55.17:557][164]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.55.17:557][164]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.55.17:557][164]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.55.22:021][697]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.55.22:026][697]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.55.22:739][766]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.55.22:739][766]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.55.22:739][766]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.55.26:880][262]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.55.26:885][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.55.27:594][330]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.55.27:594][330]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.55.27:594][330]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.55.44:141][312]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.55.44:146][312]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.55.44:849][393]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.55.44:849][393]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.55.44:849][393]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.55.57:393][898]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.55.57:398][898]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.55.58:111][980]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.55.58:111][980]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.55.58:111][980]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.05:364][850]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.05:370][850]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.06:066][930]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2016.05.19-22.56.06:066][930]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.06:066][930]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.15:445][ 55]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.15:450][ 55]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.16:148][135]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.56.16:148][135]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.16:148][135]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.16:467][173]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.16:472][173]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.17:162][249]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.56.17:162][249]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.17:162][249]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.30:911][890]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.30:916][890]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.30:919][890]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.30:924][890]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.31:625][968]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.56.31:625][968]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.31:625][968]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.34:910][360]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.34:915][360]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.35:603][436]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.56.35:603][436]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.35:603][436]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.36:089][494]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.36:094][494]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.36:820][574]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.56.36:820][574]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.36:820][574]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.36:906][584]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.36:911][584]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.37:625][662]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2016.05.19-22.56.37:625][662]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.37:625][662]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.41:693][149]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.41:698][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.42:407][229]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.56.42:407][229]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.42:407][229]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.56.53:745][576]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.56.53:750][576]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.56.53:780][576]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2016.05.19-22.56.54:474][643]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.56.54:474][643]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.56.54:474][643]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.57.02:188][566]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.02:193][566]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.02:908][647]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.57.02:908][647]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.57.02:909][647]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.57.12:198][750]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.12:203][750]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.12:205][750]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.12:210][750]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.12:939][824]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.57.12:939][824]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.57.12:939][824]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.57.25:388][311]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.25:393][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.25:396][311]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.25:401][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.26:101][385]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.57.26:101][385]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.57.26:101][385]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.57.28:354][655]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.28:359][655]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.29:062][720]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.57.29:062][720]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.57.29:062][720]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.57.33:676][262]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.33:681][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.34:269][323]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.34:277][323]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.35:046][390]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.57.35:046][390]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.57.35:046][390]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.57.36:319][542]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.36:324][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.37:040][610]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2016.05.19-22.57.37:040][610]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.57.37:040][610]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.57.37:896][711]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.57.37:902][711]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.57.38:624][780]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2016.05.19-22.57.38:624][780]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.19-22.57.38:624][780]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.05.19-22.58.07:383][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-22.58.07:463][216]LogSavePackage: Save=43.26ms
+[2016.05.19-22.58.07:463][216]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level114619D774BBB00F13B724CA5E27B6FF0.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-22.58.07:464][216]LogSavePackage: Total save time: 54.84ms
+[2016.05.19-22.58.07:464][216]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-22.58.07:484][216]LogFileHelpers: Saving map 'Level1' took 0.174
+[2016.05.19-22.58.07:510][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PulsingEmissive" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Materials/PulsingEmissive.uasset" SILENT=true
+[2016.05.19-22.58.07:520][216]LogSavePackage: Save=9.70ms
+[2016.05.19-22.58.07:520][216]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/PulsingEmissiveF6D085D74543285FA78777B7CFDCA220.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Materials/PulsingEmissive.uasset'
+[2016.05.19-22.58.07:521][216]LogSavePackage: Total save time: 10.79ms
+[2016.05.19-22.58.07:521][216]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Materials/PulsingEmissive.uasset
+[2016.05.19-22.58.16:836][985]LogMaterialEditor: Applying material PulsingEmissive
+[2016.05.19-22.58.17:260][985]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.58.17:274][985]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.58.17:296][985]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.58.17:321][985]LogMaterial: Missing cached shader map for material PulsingEmissive, compiling. 
+[2016.05.19-22.58.17:334][985]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.19-22.58.19:737][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/PulsingEmissive" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Materials/PulsingEmissive.uasset" SILENT=true
+[2016.05.19-22.58.19:757][131]LogSavePackage: Save=8.49ms
+[2016.05.19-22.58.19:757][131]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/PulsingEmissiveC5ADAAAE42EF254D91453A9B973F30F8.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Materials/PulsingEmissive.uasset'
+[2016.05.19-22.58.19:758][131]LogSavePackage: Total save time: 20.18ms
+[2016.05.19-22.58.19:758][131]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Materials/PulsingEmissive.uasset
+[2016.05.19-22.59.00:768][814]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_C (Enemy_Basic3)
+[2016.05.19-22.59.01:517][881]Cmd: DELETE
+[2016.05.19-22.59.01:517][881]Cmd: ACTOR DELETE
+[2016.05.19-22.59.01:518][881]LogEditorActor: Deleted Actor: Enemy_Basic_C
+[2016.05.19-22.59.01:537][881]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.05.19-22.59.03:523][112]Cmd: DELETE
+[2016.05.19-22.59.03:523][112]Cmd: ACTOR DELETE
+[2016.05.19-22.59.03:524][112]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-22.59.03:551][112]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2016.05.19-22.59.05:812][375]Cmd: DELETE
+[2016.05.19-22.59.05:812][375]Cmd: ACTOR DELETE
+[2016.05.19-22.59.05:813][375]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-22.59.05:841][375]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2016.05.19-22.59.06:431][438]Cmd: DELETE
+[2016.05.19-22.59.06:431][438]Cmd: ACTOR DELETE
+[2016.05.19-22.59.06:431][438]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-22.59.06:459][438]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2016.05.19-22.59.07:487][559]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume2)
+[2016.05.19-22.59.07:995][614]Cmd: DELETE
+[2016.05.19-22.59.07:995][614]Cmd: ACTOR DELETE
+[2016.05.19-22.59.07:997][614]LogEditorActor: Deleted Actor: NavModifierVolume
+[2016.05.19-22.59.08:011][614]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.05.19-22.59.09:099][738]Cmd: DELETE
+[2016.05.19-22.59.09:099][738]Cmd: ACTOR DELETE
+[2016.05.19-22.59.09:099][738]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-22.59.09:126][738]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2016.05.19-22.59.25:616][591]Cmd: TRANSACTION UNDO
+[2016.05.19-22.59.25:616][591]LogEditorTransaction: Undo Move Actors
+[2016.05.19-22.59.25:619][591]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.19-22.59.25:619][591]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2016.05.19-22.59.25:620][591]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2016.05.19-22.59.26:477][669]Cmd: TRANSACTION UNDO
+[2016.05.19-22.59.26:477][669]LogEditorTransaction: Undo Move Actors
+[2016.05.19-22.59.26:481][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2016.05.19-22.59.26:481][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2016.05.19-22.59.26:482][669]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2016.05.19-22.59.51:100][553]Cmd: DELETE
+[2016.05.19-22.59.51:100][553]Cmd: ACTOR DELETE
+[2016.05.19-22.59.51:100][553]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-22.59.51:130][553]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2016.05.19-22.59.51:522][594]Cmd: DELETE
+[2016.05.19-22.59.51:522][594]Cmd: ACTOR DELETE
+[2016.05.19-22.59.51:522][594]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-22.59.51:549][594]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2016.05.19-23.00.10:421][749]LogUnrealMath: Expression Error : Unrecognized Operator
+[2016.05.19-23.00.43:717][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.00.43:717][388]PIE: New page: PIE session: Level1 (May 19, 2016, 8:00:43 AM)
+[2016.05.19-23.00.43:717][388]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.00.43:722][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005322s)
+[2016.05.19-23.00.43:723][388]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.00.43:723][388]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2016.05.19-23.00.43:723][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.006113s)
+[2016.05.19-23.00.43:745][388]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.00.43:753][388]LogInit: FAudioDevice initialized.
+[2016.05.19-23.00.43:788][388]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.00.43:793][388]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.00.43
+[2016.05.19-23.00.43:794][388]LogWorld: Bringing up level for play took: 0.005173
+[2016.05.19-23.00.43:802][388]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.065
+[2016.05.19-23.08.09:695][805]LogActorFactory: Actor Factory created Cube
+[2016.05.19-23.08.10:524][892]LogActorFactory: Actor Factory created Cube
+[2016.05.19-23.08.27:213][731]LogEditorViewport: Clicking Background
+[2016.05.19-23.08.27:774][797]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_C (Enemy_Basic)
+[2016.05.19-23.08.53:700][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.08.53:718][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.19-23.08.53:791][607]LogSavePackage: Save=62.17ms
+[2016.05.19-23.08.53:791][607]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1_Auto2EF8C26C6427B0AFEF506DFBB49186A30.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto2.umap'
+[2016.05.19-23.08.53:792][607]LogSavePackage: Total save time: 73.27ms
+[2016.05.19-23.08.53:792][607]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto2.umap
+[2016.05.19-23.08.53:794][607]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.094
+[2016.05.19-23.08.53:794][607]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.094
+[2016.05.19-23.09.10:815][473]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_C (Enemy_Basic)
+[2016.05.19-23.09.16:503][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.05.19-23.09.17:556][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.05.19-23.09.18:652][230]Cmd: DELETE
+[2016.05.19-23.09.18:652][230]Cmd: ACTOR DELETE
+[2016.05.19-23.09.18:653][230]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.05.19-23.09.18:668][230]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.05.19-23.09.19:474][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.05.19-23.09.28:487][223]Cmd: DELETE
+[2016.05.19-23.09.28:487][223]Cmd: ACTOR DELETE
+[2016.05.19-23.09.28:488][223]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-23.09.28:510][223]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.05.19-23.09.38:064][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.05.19-23.09.50:597][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.05.19-23.09.54:078][ 50]Cmd: TRANSACTION UNDO
+[2016.05.19-23.09.54:078][ 50]LogEditorTransaction: Undo Move Actors
+[2016.05.19-23.12.34:338][825]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_C (Enemy_Basic3)
+[2016.05.19-23.13.09:948][450]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_C (Enemy_Basic3)
+[2016.05.19-23.14.04:578][360]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.19-23.14.28:264][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.14.28:264][ 47]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.14.31:459][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.05.19-23.14.33:824][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.05.19-23.14.35:122][793]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.14.35:291][793]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2016.05.19-23.14.35:504][793]BlueprintEditorCompileResults: Info [3255.36] Compile of FirstPersonProjectile successful! [in 381 ms]
+[2016.05.19-23.14.38:158][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.14.38:158][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.14.38:158][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.05.19-23.14.38:158][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.05.19-23.14.39:695][254]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.14.39:724][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2016.05.19-23.14.39:819][254]BlueprintEditorCompileResults: Info [3259.67] Compile of FirstPersonProjectile successful! [in 124 ms]
+[2016.05.19-23.14.40:402][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.14.40:402][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.14.40:403][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.05.19-23.14.40:403][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.05.19-23.14.40:516][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-23.14.40:649][315]LogSavePackage: Save=92.05ms
+[2016.05.19-23.14.40:649][315]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1D3F4A5AA4BE80DDD1D49B09AB851B292.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-23.14.40:651][315]LogSavePackage: Total save time: 114.82ms
+[2016.05.19-23.14.40:651][315]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-23.14.40:684][315]LogFileHelpers: Saving map 'Level1' took 0.240
+[2016.05.19-23.14.40:707][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonProjectile" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset" SILENT=true
+[2016.05.19-23.14.40:789][315]LogSavePackage: Save=69.48ms
+[2016.05.19-23.14.40:789][315]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/FirstPersonProjectile5518A76A4279BEF5955762A2B32E2856.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset'
+[2016.05.19-23.14.40:790][315]LogSavePackage: Total save time: 82.63ms
+[2016.05.19-23.14.40:790][315]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset
+[2016.05.19-23.14.43:643][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.14.44:910][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2016.05.19-23.14.45:888][866]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.14.46:014][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2016.05.19-23.14.46:141][866]BlueprintEditorCompileResults: Info [3265.99] Compile of FirstPersonProjectile successful! [in 252 ms]
+[2016.05.19-23.14.46:386][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.14.46:386][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.14.46:386][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.05.19-23.14.46:386][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.05.19-23.14.46:456][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonProjectile" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset" SILENT=true
+[2016.05.19-23.14.46:554][885]LogSavePackage: Save=87.10ms
+[2016.05.19-23.14.46:554][885]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/FirstPersonProjectile99D697954EB9D31F1D5EC6BD61B03C7C.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset'
+[2016.05.19-23.14.46:555][885]LogSavePackage: Total save time: 98.34ms
+[2016.05.19-23.14.46:555][885]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset
+[2016.05.19-23.15.01:200][133]BlueprintLog: New page: Compile Player
+[2016.05.19-23.15.01:409][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.15.01:409][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.15.01:538][133]BlueprintEditorCompileResults: Info [3281.39] Compile of Player successful! [in 337 ms]
+[2016.05.19-23.15.03:206][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.15.03:206][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.15.03:206][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.05.19-23.15.03:206][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.05.19-23.15.03:264][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.19-23.15.03:781][278]LogSavePackage: Save=500.36ms
+[2016.05.19-23.15.03:781][278]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player93D17B73467EB86602C4A7879B0B23FF.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.19-23.15.03:782][278]LogSavePackage: Total save time: 516.48ms
+[2016.05.19-23.15.03:782][278]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.19-23.15.11:959][ 46]BlueprintLog: New page: Compile Enemy_Basic
+[2016.05.19-23.15.12:028][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.15.12:028][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.15.12:028][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.05.19-23.15.12:121][ 46]BlueprintEditorCompileResults: Info [3291.97] Compile of Enemy_Basic successful! [in 161 ms]
+[2016.05.19-23.15.12:242][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.15.12:304][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BasicEnemy/Enemy_Basic" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset" SILENT=true
+[2016.05.19-23.15.12:417][ 55]LogSavePackage: Save=98.65ms
+[2016.05.19-23.15.12:417][ 55]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_BasicA868D89B47BC0F26B5DCA9A66E809688.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset'
+[2016.05.19-23.15.12:418][ 55]LogSavePackage: Total save time: 113.10ms
+[2016.05.19-23.15.12:418][ 55]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset
+[2016.05.19-23.15.22:525][935]BlueprintLog: New page: Compile GravityWell2
+[2016.05.19-23.15.22:658][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.15.22:658][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.05.19-23.15.22:658][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.05.19-23.15.22:658][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.15.22:768][935]BlueprintEditorCompileResults: Info [3302.62] Compile of GravityWell2 successful! [in 243 ms]
+[2016.05.19-23.15.22:990][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.15.23:047][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GravityWell2" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/GravityWell2.uasset" SILENT=true
+[2016.05.19-23.15.23:409][958]LogSavePackage: Save=329.66ms
+[2016.05.19-23.15.23:409][958]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/GravityWell2E81317F04CCBE3F27D36A0BB4EA20047.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/GravityWell2.uasset'
+[2016.05.19-23.15.23:411][958]LogSavePackage: Total save time: 362.94ms
+[2016.05.19-23.15.23:411][958]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/GravityWell2.uasset
+[2016.05.19-23.19.09:755][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.19.09:755][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.19.09:755][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.05.19-23.19.09:888][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-23.19.09:997][812]LogSavePackage: Save=59.00ms
+[2016.05.19-23.19.09:997][812]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level113C07F474B51AABCDC618F9FAD5576A7.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-23.19.09:998][812]LogSavePackage: Total save time: 71.51ms
+[2016.05.19-23.19.09:998][812]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-23.19.10:019][812]LogFileHelpers: Saving map 'Level1' took 0.216
+[2016.05.19-23.19.10:024][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Enemy_Parent" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset" SILENT=true
+[2016.05.19-23.19.10:065][812]LogSavePackage: Save=29.09ms
+[2016.05.19-23.19.10:065][812]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Parent9FF5D1C340C3CA5381095289C3AA81F4.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset'
+[2016.05.19-23.19.10:067][812]LogSavePackage: Total save time: 42.01ms
+[2016.05.19-23.19.10:067][812]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset
+[2016.05.19-23.19.10:093][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BasicEnemy/Enemy_Basic" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset" SILENT=true
+[2016.05.19-23.19.10:227][812]LogSavePackage: Save=122.56ms
+[2016.05.19-23.19.10:227][812]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Basic1CE9DB82415858A1DDE07FB1BBB89A90.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset'
+[2016.05.19-23.19.10:229][812]LogSavePackage: Total save time: 135.59ms
+[2016.05.19-23.19.10:229][812]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/BasicEnemy/Enemy_Basic.uasset
+[2016.05.19-23.19.10:873][886]BlueprintLog: New page: Compile Enemy_Parent
+[2016.05.19-23.19.10:952][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.19.11:790][886]BlueprintEditorCompileResults: Info [3531.64] Compile of Enemy_Parent successful! [in 917 ms]
+[2016.05.19-23.20.17:875][227]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5758.EdGraphPin_58335''
+[2016.05.19-23.20.17:875][227]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_349.EdGraphPin_58340''
+[2016.05.19-23.20.17:875][227]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_349.EdGraphPin_58339''
+[2016.05.19-23.20.17:876][227]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_175.EdGraphPin_52448''
+[2016.05.19-23.20.25:338][ 38]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.20.25:439][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.20.25:439][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.20.25:570][ 38]BlueprintEditorCompileResults: Info [3605.42] Compile of FirstPersonProjectile successful! [in 231 ms]
+[2016.05.19-23.20.35:123][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.20.35:123][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.20.35:123][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.05.19-23.20.35:240][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-23.20.35:345][105]LogSavePackage: Save=69.12ms
+[2016.05.19-23.20.35:345][105]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level11B8141BF42998CA2C6F71AA9C1F187EA.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-23.20.35:346][105]LogSavePackage: Total save time: 82.32ms
+[2016.05.19-23.20.35:346][105]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-23.20.35:376][105]LogFileHelpers: Saving map 'Level1' took 0.218
+[2016.05.19-23.20.35:413][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonProjectile" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset" SILENT=true
+[2016.05.19-23.20.35:545][105]LogSavePackage: Save=115.04ms
+[2016.05.19-23.20.35:546][105]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/FirstPersonProjectileFBAC57BB40A1BAED5BCE40A764B3737E.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset'
+[2016.05.19-23.20.35:547][105]LogSavePackage: Total save time: 132.22ms
+[2016.05.19-23.20.35:547][105]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset
+[2016.05.19-23.20.42:919][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.20.42:919][867]PIE: New page: PIE session: Level1 (May 19, 2016, 8:20:42 AM)
+[2016.05.19-23.20.42:919][867]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.20.42:926][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006870s)
+[2016.05.19-23.20.42:927][867]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.20.42:927][867]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2016.05.19-23.20.42:927][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007643s)
+[2016.05.19-23.20.42:927][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.20.42:965][867]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.20.42:979][867]LogInit: FAudioDevice initialized.
+[2016.05.19-23.20.43:010][867]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.20.43:016][867]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.20.43
+[2016.05.19-23.20.43:019][867]LogWorld: Bringing up level for play took: 0.007341
+[2016.05.19-23.20.43:022][867]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.714
+[2016.05.19-23.20.51:942][934]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_10
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.20.51:942][934]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.20.52:258][972]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_11
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.20.52:258][972]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.20.59:109][794]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_27
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.20.59:109][794]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.20.59:308][818]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_29
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.20.59:308][818]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.20.59:525][844]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_31
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.20.59:525][844]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.18:418][111]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_46
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.18:418][111]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.18:585][131]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_48
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.18:585][131]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.18:776][154]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_50
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.18:776][154]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.18:960][176]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_52
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.18:960][176]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.19:168][201]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_53
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.19:168][201]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.19:735][269]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_56
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.19:735][269]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.20:010][302]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_60
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.20:010][302]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.20:201][325]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_62
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.20:201][325]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.20:451][355]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_64
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.20:451][355]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.20:627][376]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_66
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.20:627][376]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.20:985][419]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_58
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.20:985][419]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.21:243][450]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_72
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.21:243][450]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.21:959][536]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_73
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.21:959][536]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.22:176][562]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_78
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.22:176][562]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.22:385][587]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_76
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.22:385][587]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.22:426][592]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_79
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.22:426][592]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.22:993][660]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_86
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.22:993][660]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.23:151][679]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_84
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.23:151][679]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.23:735][749]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_89
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.23:735][749]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.21.24:485][839]LogScript:Warning: Accessed None trying to read property K2Node_Event_Other
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_88
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:001E
+[2016.05.19-23.21.24:485][839]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile
+[2016.05.19-23.22.28:260][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.22.28:269][301]BlueprintLog: New page: Collapse to Function
+[2016.05.19-23.22.35:399][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2016.05.19-23.22.41:319][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2016.05.19-23.22.53:504][694]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.22.53:681][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.05.19-23.22.53:835][694]BlueprintEditorCompileResults: Info [3753.69] Compile of FirstPersonProjectile successful! [in 330 ms]
+[2016.05.19-23.22.56:035][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.22.56:035][918]PIE: New page: PIE session: Level1 (May 19, 2016, 8:22:56 AM)
+[2016.05.19-23.22.56:035][918]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.22.56:042][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006669s)
+[2016.05.19-23.22.56:042][918]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.22.56:042][918]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2016.05.19-23.22.56:042][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007383s)
+[2016.05.19-23.22.56:042][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.22.56:042][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.22.56:042][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.05.19-23.22.56:067][918]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.22.56:075][918]LogInit: FAudioDevice initialized.
+[2016.05.19-23.22.56:121][918]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.22.56:127][918]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.22.56
+[2016.05.19-23.22.56:130][918]LogWorld: Bringing up level for play took: 0.007393
+[2016.05.19-23.22.56:139][918]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.402
+[2016.05.19-23.22.59:378][304]LogScript:Warning: Accessed None trying to read property InputPin
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_6
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:HitActor:00EE
+[2016.05.19-23.22.59:378][304]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property InputPin from function: 'HitActor' from node: Branch in graph: HitActor in object: FirstPersonProjectile
+[2016.05.19-23.23.00:223][405]Set new viewmode: Wireframe
+[2016.05.19-23.23.21:357][855]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.23.21:386][855]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.23.21:506][855]BlueprintEditorCompileResults: Info [3781.36] Compile of FirstPersonProjectile successful! [in 149 ms]
+[2016.05.19-23.23.22:344][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.23.22:344][951]PIE: New page: PIE session: Level1 (May 19, 2016, 8:23:22 AM)
+[2016.05.19-23.23.22:344][951]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.23.22:351][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006835s)
+[2016.05.19-23.23.22:352][951]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.23.22:352][951]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2016.05.19-23.23.22:352][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007580s)
+[2016.05.19-23.23.22:352][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.23.22:352][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.23.22:352][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.05.19-23.23.22:376][951]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.23.22:384][951]LogInit: FAudioDevice initialized.
+[2016.05.19-23.23.22:425][951]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.23.22:431][951]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.23.22
+[2016.05.19-23.23.22:433][951]LogWorld: Bringing up level for play took: 0.007391
+[2016.05.19-23.23.22:441][951]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.704
+[2016.05.19-23.23.24:486][195]LogScript:Warning: Accessed None trying to read property InputPin
+	FirstPersonProjectile_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.FirstPersonProjectile_C_6
+	Function /Game/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:HitActor:00EE
+[2016.05.19-23.23.24:486][195]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property InputPin from function: 'HitActor' from node: Branch in graph: HitActor in object: FirstPersonProjectile
+[2016.05.19-23.23.39:202][872]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.23.39:372][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.23.39:530][872]BlueprintEditorCompileResults: Info [3799.38] Compile of FirstPersonProjectile successful! [in 327 ms]
+[2016.05.19-23.23.43:987][384]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.23.44:017][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.23.44:017][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.23.44:017][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.05.19-23.23.44:128][384]BlueprintEditorCompileResults: Info [3803.98] Compile of FirstPersonProjectile successful! [in 140 ms]
+[2016.05.19-23.23.44:997][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.23.44:997][479]PIE: New page: PIE session: Level1 (May 19, 2016, 8:23:44 AM)
+[2016.05.19-23.23.44:997][479]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.23.45:004][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006798s)
+[2016.05.19-23.23.45:005][479]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.23.45:005][479]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.05.19-23.23.45:005][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007493s)
+[2016.05.19-23.23.45:005][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.23.45:005][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.23.45:005][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.05.19-23.23.45:030][479]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.23.45:038][479]LogInit: FAudioDevice initialized.
+[2016.05.19-23.23.45:080][479]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.23.45:086][479]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.23.45
+[2016.05.19-23.23.45:088][479]LogWorld: Bringing up level for play took: 0.007756
+[2016.05.19-23.23.45:097][479]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.641
+[2016.05.19-23.24.16:548][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.24.23:508][922]BlueprintLog: New page: Compile FirstPersonProjectile
+[2016.05.19-23.24.23:539][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2016.05.19-23.24.23:660][922]BlueprintEditorCompileResults: Info [3843.51] Compile of FirstPersonProjectile successful! [in 152 ms]
+[2016.05.19-23.24.24:490][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.24.24:490][ 16]PIE: New page: PIE session: Level1 (May 19, 2016, 8:24:24 AM)
+[2016.05.19-23.24.24:490][ 16]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.24.24:497][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007000s)
+[2016.05.19-23.24.24:498][ 16]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.24.24:498][ 16]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2016.05.19-23.24.24:498][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007752s)
+[2016.05.19-23.24.24:498][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.24.24:498][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.24.24:498][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.05.19-23.24.24:523][ 16]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.24.24:532][ 16]LogInit: FAudioDevice initialized.
+[2016.05.19-23.24.24:576][ 16]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.24.24:582][ 16]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.24.24
+[2016.05.19-23.24.24:585][ 16]LogWorld: Bringing up level for play took: 0.007508
+[2016.05.19-23.24.24:593][ 16]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.856
+[2016.05.19-23.24.30:938][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FirstPersonProjectile" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset" SILENT=true
+[2016.05.19-23.24.31:027][767]LogSavePackage: Save=78.29ms
+[2016.05.19-23.24.31:027][767]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/FirstPersonProjectile334772854CD9BE5EC3C9CA8F6A0BBCE6.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset'
+[2016.05.19-23.24.31:029][767]LogSavePackage: Total save time: 89.53ms
+[2016.05.19-23.24.31:029][767]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/FirstPersonProjectile.uasset
+[2016.05.19-23.24.32:447][924]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.24.56:915][  7]BlueprintLog: New page: Compile Player
+[2016.05.19-23.24.57:271][  7]BlueprintEditorCompileResults: Info [3877.12] Compile of Player successful! [in 356 ms]
+[2016.05.19-23.24.57:828][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.24.57:828][ 41]PIE: New page: PIE session: Level1 (May 19, 2016, 8:24:57 AM)
+[2016.05.19-23.24.57:828][ 41]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.24.57:835][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006801s)
+[2016.05.19-23.24.57:835][ 41]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.24.57:835][ 41]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2016.05.19-23.24.57:835][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007489s)
+[2016.05.19-23.24.57:835][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.24.57:835][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.24.57:835][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.05.19-23.24.57:861][ 41]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.24.57:868][ 41]LogInit: FAudioDevice initialized.
+[2016.05.19-23.24.57:918][ 41]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.24.57:924][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.24.57
+[2016.05.19-23.24.57:928][ 41]LogWorld: Bringing up level for play took: 0.009219
+[2016.05.19-23.24.57:945][ 41]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.208
+[2016.05.19-23.25.18:878][833]BlueprintLog: New page: Compile Player
+[2016.05.19-23.25.19:230][833]BlueprintEditorCompileResults: Info [3899.08] Compile of Player successful! [in 351 ms]
+[2016.05.19-23.25.20:205][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.25.20:205][899]PIE: New page: PIE session: Level1 (May 19, 2016, 8:25:20 AM)
+[2016.05.19-23.25.20:206][899]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.25.20:212][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006887s)
+[2016.05.19-23.25.20:213][899]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.25.20:213][899]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2016.05.19-23.25.20:213][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007579s)
+[2016.05.19-23.25.20:213][899]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.25.20:213][899]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.25.20:213][899]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.05.19-23.25.20:238][899]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.25.20:246][899]LogInit: FAudioDevice initialized.
+[2016.05.19-23.25.20:299][899]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.25.20:305][899]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.25.20
+[2016.05.19-23.25.20:307][899]LogWorld: Bringing up level for play took: 0.007325
+[2016.05.19-23.25.20:322][899]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0.585
+[2016.05.19-23.25.21:758][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.19-23.25.22:249][ 15]LogSavePackage: Save=478.28ms
+[2016.05.19-23.25.22:249][ 15]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player91566DAD49FBF978319D7F8A75A6408D.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.19-23.25.22:251][ 15]LogSavePackage: Total save time: 491.13ms
+[2016.05.19-23.25.22:251][ 15]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.19-23.25.22:479][ 34]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.31.23:053][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.19-23.31.23:600][278]LogSavePackage: Save=534.85ms
+[2016.05.19-23.31.23:600][278]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player52D4F3894F56ABD358C0388E1CAC9CAE.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.19-23.31.23:602][278]LogSavePackage: Total save time: 548.27ms
+[2016.05.19-23.31.23:602][278]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.19-23.33.11:228][888]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.33.11:254][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.05.19-23.33.11:332][888]LogSavePackage: Save=64.06ms
+[2016.05.19-23.33.11:332][888]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1_Auto3AB63BEBA47A370902CBB60BF02A9D76B.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto3.umap'
+[2016.05.19-23.33.11:332][888]LogSavePackage: Total save time: 77.15ms
+[2016.05.19-23.33.11:332][888]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Saved/Autosaves/Game/Maps/Level1_Auto3.umap
+[2016.05.19-23.33.11:333][888]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.104
+[2016.05.19-23.33.11:333][888]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.104
+[2016.05.19-23.35.44:495][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2016.05.19-23.36.32:618][190]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2016.05.19-23.36.42:243][211]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_RapidFire_C (Enemy_Basic_RapidFire)
+[2016.05.19-23.36.45:199][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.05.19-23.37.07:244][854]LogEditorViewport: Clicking on Actor (LMB): Enemy_Basic_RapidFire_C (Enemy_Basic_RapidFire)
+[2016.05.19-23.38.02:937][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2016.05.19-23.38.05:068][123]Cmd: TRANSACTION UNDO
+[2016.05.19-23.38.05:068][123]LogEditorTransaction: Undo Move Actors
+[2016.05.19-23.38.10:965][733]Cmd: TRANSACTION UNDO
+[2016.05.19-23.38.10:965][733]LogEditorTransaction: Undo Move Actors
+[2016.05.19-23.38.12:180][851]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume)
+[2016.05.19-23.38.24:955][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.38.24:955][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2016.05.19-23.38.25:084][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-23.38.25:215][ 94]LogSavePackage: Save=91.71ms
+[2016.05.19-23.38.25:215][ 94]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1AAD43D704963F6A0FF92EFBA701E2FB8.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-23.38.25:217][ 94]LogSavePackage: Total save time: 106.54ms
+[2016.05.19-23.38.25:217][ 94]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-23.38.25:244][ 94]LogFileHelpers: Saving map 'Level1' took 0.239
+[2016.05.19-23.38.30:395][695]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.19-23.38.39:251][714]Cmd: DELETE
+[2016.05.19-23.38.39:251][714]Cmd: ACTOR DELETE
+[2016.05.19-23.38.39:252][714]LogEditorActor: Deleted Actor: NavModifierVolume
+[2016.05.19-23.38.39:274][714]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.05.19-23.38.59:621][920]Cmd: TRANSACTION UNDO
+[2016.05.19-23.38.59:621][920]LogEditorTransaction: Undo Move Actors
+[2016.05.19-23.38.59:630][920]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush9_31.BrushComponent0) Component already registered.
+[2016.05.19-23.39.00:423][992]Cmd: TRANSACTION UNDO
+[2016.05.19-23.39.00:423][992]LogEditorTransaction: Undo Move Actors
+[2016.05.19-23.39.00:431][992]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush9_31.BrushComponent0) Component already registered.
+[2016.05.19-23.39.00:974][ 54]Cmd: TRANSACTION UNDO
+[2016.05.19-23.39.00:974][ 54]LogEditorTransaction: Undo Scale Actors
+[2016.05.19-23.39.00:982][ 54]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Level1.Level1:PersistentLevel.BoxBrush9_31.BrushComponent0) Component already registered.
+[2016.05.19-23.39.56:500][477]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.39.56:501][477]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2016.05.19-23.40.31:591][138]BlueprintLog: New page: Compile Player
+[2016.05.19-23.40.32:076][138]BlueprintEditorCompileResults: Info [4811.93] Compile of Player successful! [in 484 ms]
+[2016.05.19-23.40.32:798][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.40.32:798][182]PIE: New page: PIE session: Level1 (May 19, 2016, 8:40:32 AM)
+[2016.05.19-23.40.32:798][182]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.40.32:806][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008610s)
+[2016.05.19-23.40.32:807][182]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.40.32:807][182]LogPlayLevel: PIE: World Init took: (0.000576s)
+[2016.05.19-23.40.32:807][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.009381s)
+[2016.05.19-23.40.32:807][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.40.32:807][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.40.32:807][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2016.05.19-23.40.32:833][182]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.40.32:842][182]LogInit: FAudioDevice initialized.
+[2016.05.19-23.40.32:903][182]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.40.32:911][182]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.40.32
+[2016.05.19-23.40.32:913][182]LogWorld: Bringing up level for play took: 0.009673
+[2016.05.19-23.40.32:930][182]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.807
+[2016.05.19-23.40.59:489][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-23.40.59:599][137]LogSavePackage: Save=80.55ms
+[2016.05.19-23.40.59:599][137]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1EFF4DA4143D4700C69DA409268449194.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-23.40.59:601][137]LogSavePackage: Total save time: 93.19ms
+[2016.05.19-23.40.59:601][137]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-23.40.59:623][137]LogFileHelpers: Saving map 'Level1' took 0.207
+[2016.05.19-23.40.59:644][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.19-23.41.00:167][137]LogSavePackage: Save=511.34ms
+[2016.05.19-23.41.00:167][137]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player9A4B8B754BF44C5B996F4EB9675B4649.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.19-23.41.00:169][137]LogSavePackage: Total save time: 524.52ms
+[2016.05.19-23.41.00:169][137]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.19-23.41.02:839][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.41.09:258][980]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2016.05.19-23.41.19:296][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.19-23.41.19:296][ 19]PIE: New page: PIE session: Level1 (May 19, 2016, 8:41:19 AM)
+[2016.05.19-23.41.19:296][ 19]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2016.05.19-23.41.19:305][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008844s)
+[2016.05.19-23.41.19:305][ 19]LogAIModule: Creating AISystem for world Level1
+[2016.05.19-23.41.19:305][ 19]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2016.05.19-23.41.19:305][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.009558s)
+[2016.05.19-23.41.19:329][ 19]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.19-23.41.19:337][ 19]LogInit: FAudioDevice initialized.
+[2016.05.19-23.41.19:367][ 19]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.19-23.41.19:375][ 19]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2016.05.19-16.41.19
+[2016.05.19-23.41.19:378][ 19]LogWorld: Bringing up level for play took: 0.009822
+[2016.05.19-23.41.19:382][ 19]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0.355
+[2016.05.19-23.42.05:546][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-23.42.05:650][522]LogSavePackage: Save=68.70ms
+[2016.05.19-23.42.05:650][522]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1F90E6A184EF03AC80026E9BC0E7783ED.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-23.42.05:651][522]LogSavePackage: Total save time: 85.22ms
+[2016.05.19-23.42.05:651][522]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-23.42.05:675][522]LogFileHelpers: Saving map 'Level1' took 0.217
+[2016.05.19-23.42.13:772][319]BlueprintLog: New page: Compile Player
+[2016.05.19-23.42.14:181][319]BlueprintEditorCompileResults: Info [4914.03] Compile of Player successful! [in 408 ms]
+[2016.05.19-23.42.14:619][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.19-23.42.14:619][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.42.14:619][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2016.05.19-23.42.14:689][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.19-23.42.15:221][340]LogSavePackage: Save=518.71ms
+[2016.05.19-23.42.15:221][340]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player17CDE9E14DC445F8456BE984CA725774.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.19-23.42.15:223][340]LogSavePackage: Total save time: 532.61ms
+[2016.05.19-23.42.15:223][340]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.19-23.42.20:760][926]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.05.19-23.42.23:156][206]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.05.19-23.42.25:198][435]Cmd: DELETE
+[2016.05.19-23.42.25:198][435]Cmd: ACTOR DELETE
+[2016.05.19-23.42.25:199][435]LogEditorActor: Deleted Actor: Brush
+[2016.05.19-23.42.25:199][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.19-23.42.25:232][435]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2016.05.19-23.42.28:761][825]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2016.05.19-23.42.31:003][ 88]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.05.19-23.42.31:419][136]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.05.19-23.42.32:672][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-23.42.32:773][271]LogSavePackage: Save=66.56ms
+[2016.05.19-23.42.32:773][271]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1F31F494645EEE6F49F6A2FAED623D6C5.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-23.42.32:774][271]LogSavePackage: Total save time: 78.25ms
+[2016.05.19-23.42.32:774][271]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-23.42.32:795][271]LogFileHelpers: Saving map 'Level1' took 0.199
+[2016.05.19-23.42.48:748][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.19-23.42.48:867][ 76]LogSavePackage: Save=76.61ms
+[2016.05.19-23.42.48:867][ 76]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Level1B6908250430976F79F05C0BBA67351E6.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap'
+[2016.05.19-23.42.48:869][ 76]LogSavePackage: Total save time: 89.69ms
+[2016.05.19-23.42.48:869][ 76]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/Level1.umap
+[2016.05.19-23.42.48:912][ 76]LogFileHelpers: Saving map 'Level1' took 0.253
+[2016.05.19-23.43.00:650][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.19-23.43.00:699][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.19-23.43.00:750][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.19-23.43.00:802][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.19-23.43.01:061][460]Cmd: QUIT_EDITOR
+[2016.05.19-23.43.01:531][460]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.19-23.43.01:605][460]LogExit: Preparing to exit.
+[2016.05.19-23.43.02:643][460]LogExit: Editor shut down
+[2016.05.19-23.43.02:644][460]LogExit: Transaction tracking system shut down
+[2016.05.19-23.43.02:854][460]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.19-23.43.02:854][460]LogExit: Object subsystem successfully closed.
+[2016.05.19-23.43.02:878][460]LogD3D11RHI: Shutdown
+[2016.05.19-23.43.02:878][460]LogD3D11RHI: CleanupD3DDevice
+[2016.05.19-23.43.02:998][460]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.19-23.43.03:020][460]LogDerivedDataCache: Shutdown
+[2016.05.19-23.43.03:034][460]LogModuleManager: Shutting down and abandoning module MaterialEditor (208)
+[2016.05.19-23.43.03:034][460]LogModuleManager: Shutting down and abandoning module BlueprintGraph (207)
+[2016.05.19-23.43.03:034][460]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (206)
+[2016.05.19-23.43.03:034][460]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.19-23.43.03:035][460]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.19-23.43.03:035][460]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.19-23.43.03:035][460]LogModuleManager: Shutting down and abandoning module WorldBrowser (202)
+[2016.05.19-23.43.03:035][460]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.19-23.43.03:035][460]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.19-23.43.03:035][460]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.19-23.43.03:037][460]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.19-23.43.03:037][460]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.19-23.43.03:037][460]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.19-23.43.03:038][460]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.19-23.43.03:039][460]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.19-23.43.03:041][460]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.19-23.43.03:042][460]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.19-23.43.03:043][460]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.19-23.43.03:043][460]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.19-23.43.03:043][460]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.19-23.43.03:043][460]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.19-23.43.03:938][460]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.19-23.43.03:938][460]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.19-23.43.03:938][460]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.19-23.43.03:939][460]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.19-23.43.03:939][460]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.19-23.43.03:940][460]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.19-23.43.03:940][460]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.19-23.43.03:940][460]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.19-23.43.03:941][460]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.19-23.43.03:941][460]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.19-23.43.03:941][460]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.19-23.43.03:942][460]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.19-23.43.03:942][460]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.19-23.43.03:942][460]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.19-23.43.03:942][460]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.19-23.43.03:943][460]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.19-23.43.03:943][460]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.19-23.43.03:943][460]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.19-23.43.03:944][460]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.19-23.43.03:944][460]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.19-23.43.03:946][460]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.19-23.43.03:946][460]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.19-23.43.03:948][460]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.19-23.43.03:948][460]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.19-23.43.03:948][460]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.19-23.43.03:979][460]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.19-23.43.03:980][460]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.19-23.43.03:981][460]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.19-23.43.03:983][460]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.19-23.43.03:983][460]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.19-23.43.03:984][460]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.19-23.43.03:984][460]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.19-23.43.03:987][460]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.19-23.43.03:987][460]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.19-23.43.03:987][460]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.19-23.43.03:990][460]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.19-23.43.03:990][460]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.19-23.43.03:991][460]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.19-23.43.03:991][460]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.19-23.43.03:992][460]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.19-23.43.03:993][460]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.19-23.43.03:994][460]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.19-23.43.03:994][460]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.19-23.43.04:165][460]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.19-23.43.04:166][460]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.19-23.43.04:168][460]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.19-23.43.04:168][460]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.19-23.43.04:168][460]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.19-23.43.04:169][460]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.19-23.43.04:169][460]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.19-23.43.04:170][460]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.19-23.43.04:170][460]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.19-23.43.04:170][460]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.19-23.43.04:170][460]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.19-23.43.04:171][460]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.19-23.43.04:172][460]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.19-23.43.04:172][460]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.19-23.43.04:172][460]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.19-23.43.04:173][460]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.19-23.43.04:173][460]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.19-23.43.04:173][460]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.19-23.43.04:174][460]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.19-23.43.04:174][460]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.19-23.43.04:175][460]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.19-23.43.04:177][460]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.19-23.43.04:437][460]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.19-23.43.04:438][460]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.19-23.43.04:438][460]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.19-23.43.04:539][460]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.19-23.43.04:539][460]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.19-23.43.04:539][460]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.19-23.43.04:540][460]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.19-23.43.04:541][460]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.19-23.43.04:541][460]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.19-23.43.04:542][460]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.19-23.43.04:542][460]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.19-23.43.04:542][460]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.19-23.43.04:543][460]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.19-23.43.04:544][460]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.19-23.43.04:545][460]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.19-23.43.04:546][460]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.19-23.43.04:547][460]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.19-23.43.04:547][460]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.19-23.43.04:551][460]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.19-23.43.04:552][460]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.19-23.43.04:554][460]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.19-23.43.04:554][460]LogDerivedDataCache: Shutdown
+[2016.05.19-23.43.04:554][460]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.19-23.43.04:555][460]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.19-23.43.04:555][460]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.19-23.43.04:555][460]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.19-23.43.04:555][460]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.19-23.43.04:555][460]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.19-23.43.04:556][460]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.19-23.43.04:557][460]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.19-23.43.04:558][460]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.19-23.43.04:558][460]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.19-23.43.04:558][460]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.19-23.43.04:558][460]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.19-23.43.04:558][460]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.19-23.43.04:558][460]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.19-23.43.07:063][460]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.19-23.43.07:064][460]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.19-23.43.07:065][460]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.19-23.43.07:065][460]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.19-23.43.07:066][460]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.19-23.43.07:066][460]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.19-23.43.07:066][460]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.19-23.43.07:073][460]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.19-23.43.07:074][460]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.19-23.43.07:074][460]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.19-23.43.07:074][460]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.19-23.43.07:074][460]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.19-23.43.07:074][460]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.19-23.43.07:074][460]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.19-23.43.07:075][460]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.19-23.43.07:075][460]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.19-23.43.07:075][460]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.19-23.43.07:077][460]LogExit: Exiting.
+[2016.05.19-23.43.07:089][460]Log file closed, 05/19/16 16:43:07
