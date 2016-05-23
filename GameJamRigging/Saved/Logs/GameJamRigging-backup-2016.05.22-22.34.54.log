@@ -1,0 +1,909 @@
+﻿Log file open, 05/22/16 22:07:02
+LogInit:Display: Running engine for game: GameJamRigging
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1682250742) SRandInit(1682250743).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.081509
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.23-05.07.02:327][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.23-05.07.02:327][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.23-05.07.02:338][  0]LogInit: Computer: DUMPRING
+[2016.05.23-05.07.02:338][  0]LogInit: User: theco000
+[2016.05.23-05.07.02:338][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.23-05.07.02:338][  0]LogInit: High frequency timer resolution =3.615405 MHz
+[2016.05.23-05.07.02:338][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.23-05.07.02:338][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.23-05.07.02:338][  0]LogMemory: Process Physical Memory: 313.61 MB used, 313.61 MB peak
+[2016.05.23-05.07.02:338][  0]LogMemory: Process Virtual Memory: 314.97 MB used, 314.97 MB peak
+[2016.05.23-05.07.02:338][  0]LogMemory: Physical Memory: 5013.64 MB used, 16326.09 MB total
+[2016.05.23-05.07.02:338][  0]LogMemory: Virtual Memory: 639.07 MB used, 134217728.00 MB total
+[2016.05.23-05.07.02:372][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.23-05.07.02:786][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.23-05.07.02:807][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.05.23-05.07.02:807][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.05.23-05.07.02:808][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.23-05.07.02:808][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.05.23-05.07.02:808][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.23-05.07.02:813][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.23-05.07.02:813][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.05.23-05.07.02:813][  0]LogD3D11RHI:   Driver Version: 10.18.13.6510 (internal 10.18.13.6510)
+[2016.05.23-05.07.02:813][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.05.23-05.07.02:813][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.23-05.07.02:827][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.23-05.07.02:837][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (D:/Git/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/11772/).
+[2016.05.23-05.07.02:837][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/THECO_~1/AppData/Local/Temp/UnrealShaderWorkingDir/311A7F6C49983848D393A7AF29AD4562/'.
+[2016.05.23-05.07.02:837][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.23-05.07.03:979][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.23-05.07.03:982][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.23-05.07.03:986][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.23-05.07.03:989][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.23-05.07.03:993][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.23-05.07.03:997][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.23-05.07.04:000][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.23-05.07.04:004][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.23-05.07.04:006][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.23-05.07.04:009][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.23-05.07.04:012][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.23-05.07.04:017][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.23-05.07.04:017][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.23-05.07.04:018][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.23-05.07.04:034][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.23-05.07.04:036][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.23-05.07.04:039][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.23-05.07.04:042][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.23-05.07.04:045][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.23-05.07.04:045][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.23-05.07.04:105][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.23-05.07.04:269][  0]LogDerivedDataCache: Loaded boot cache 0.16s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.23-05.07.04:269][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.23-05.07.04:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.23-05.07.04:269][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.23-05.07.04:269][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.23-05.07.04:269][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.23-05.07.04:285][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.23-05.07.04:298][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theco_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.23-05.07.04:835][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.23-05.07.04:841][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.23-05.07.04:939][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.23-05.07.05:120][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.23-05.07.05:120][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.23-05.07.05:120][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.23-05.07.05:496][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.23-05.07.05:496][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.23-05.07.05:496][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.23-05.07.05:503][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.23-05.07.05:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.23-05.07.05:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.23-05.07.05:962][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.23-05.07.05:962][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.23-05.07.05:962][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.23-05.07.05:962][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.23-05.07.05:962][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.23-05.07.05:962][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.23-05.07.07:035][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.23-05.07.07:178][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2016.05.23-05.07.07:430][  0]SourceControl: Info Source control is disabled
+[2016.05.23-05.07.07:431][  0]SourceControl: Info Source control is disabled
+[2016.05.23-05.07.07:443][  0]SourceControl: Info Source control is disabled
+[2016.05.23-05.07.07:453][  0]SourceControl: Info Source control is disabled
+[2016.05.23-05.07.07:610][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.23-05.07.07:721][  0]LogEngine: Initializing Engine...
+[2016.05.23-05.07.07:912][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.23-05.07.07:930][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.07.07:955][  0]LogInit: FAudioDevice initialized.
+[2016.05.23-05.07.07:981][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.23-05.07.07:985][  0]LogInit: Texture streaming: Enabled
+[2016.05.23-05.07.08:015][  0]LogInit: Transaction tracking system initialized
+[2016.05.23-05.07.08:058][  0]BlueprintLog: New page: Editor Load
+[2016.05.23-05.07.08:212][  0]LocalizationService: Info Localization service is disabled
+[2016.05.23-05.07.08:322][  0]LogConsoleResponse:Display: 
+[2016.05.23-05.07.08:475][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.23-05.07.08:475][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.23-05.07.08:476][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.23-05.07.08:568][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/' took 0.02s
+[2016.05.23-05.07.08:568][  0]SourceControl: Info Source control is disabled
+[2016.05.23-05.07.08:569][  0]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.23-05.07.08:593][  0]LightingResults: New page: Lighting Build
+[2016.05.23-05.07.08:602][  0]MapCheck: New page: Map Check
+[2016.05.23-05.07.08:602][  0]LightingResults: New page: Lighting Build
+[2016.05.23-05.07.12:502][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.05.23-05.07.12:536][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.23-05.07.12:537][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.23-05.07.12:587][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.26ms to complete.
+[2016.05.23-05.07.12:587][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.018
+[2016.05.23-05.07.12:831][  0]LogCollectionManager: Loaded 0 collections in 0.016529 seconds
+[2016.05.23-05.07.12:894][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
+[2016.05.23-05.07.12:894][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Developers/theco000/Collections/' took 0.01s
+[2016.05.23-05.07.12:894][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
+[2016.05.23-05.07.12:894][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.23-05.07.12:903][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 1979 classes and 343 folders.
+[2016.05.23-05.07.12:909][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.23-05.07.12:909][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.23-05.07.12:910][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.23-05.07.12:915][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.23-05.07.12:930][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.23-05.07.13:050][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.23-05.07.13:064][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2016.05.23-05.07.13:081][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.23-05.07.13:221][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.23-05.07.13:232][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.23-05.07.13:263][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.23-05.07.13:263][  0]LogLoad: Full Startup: 11.82 seconds (BP compile: 0.54 seconds)
+[2016.05.23-05.07.13:263][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.23-05.07.13:263][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.23-05.07.13:273][  0]LogOcInput: OculusInput pre-init called
+[2016.05.23-05.07.13:329][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.23-05.07.13:510][  0]LogRenderer: Reallocating scene render targets to support 1596x808 (Frame:2).
+[2016.05.23-05.07.13:607][  1]LogAssetRegistry: Asset discovery search completed in 6.4517 seconds
+[2016.05.23-05.07.13:607][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.23-05.07.13:607][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000190 seconds (updated 0 objects)
+[2016.05.23-05.07.25:802][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.23-05.07.29:614][708]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.07.29:651][708]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.23-05.07.29:651][708]LightingResults: New page: Lighting Build
+[2016.05.23-05.07.29:671][708]LoadErrors: New page: Loading map: ChrisTest.umap
+[2016.05.23-05.07.29:673][708]MapCheck: New page: Map Check
+[2016.05.23-05.07.29:673][708]LightingResults: New page: Lighting Build
+[2016.05.23-05.07.29:756][708]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.23-05.07.29:795][708]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.23-05.07.29:854][708]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.444ms to complete.
+[2016.05.23-05.07.29:855][708]LogFileHelpers: Loading map 'ChrisTest' took 0.206
+[2016.05.23-05.07.42:288][107]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.05.23-05.08.00:508][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.00:511][506]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.23-05.08.00:516][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.08.00:516][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.23-05.08.00:526][506]LogPlayLevel: [PlayLevel] Compiling Enemy_Turret before play...
+[2016.05.23-05.08.00:630][506]LogPlayLevel: PlayLevel: Blueprint regeneration took 118 ms (2 blueprints)
+[2016.05.23-05.08.00:631][506]LogPlayLevel: [PlayLevel] Compiling BTTask_RotateScanTurret before play...
+[2016.05.23-05.08.00:733][506]LogPlayLevel: PlayLevel: Blueprint regeneration took 221 ms (2 blueprints)
+[2016.05.23-05.08.00:774][506]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:08:00 PM)
+[2016.05.23-05.08.00:774][506]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.08.00:788][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013581s)
+[2016.05.23-05.08.00:789][506]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.08.00:789][506]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2016.05.23-05.08.00:789][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.014812s)
+[2016.05.23-05.08.00:816][506]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.08.00:824][506]LogInit: FAudioDevice initialized.
+[2016.05.23-05.08.00:868][506]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.08.00:872][506]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.08.00
+[2016.05.23-05.08.00:873][506]LogWorld: Bringing up level for play took: 0.003406
+[2016.05.23-05.08.00:880][506]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.05.23-05.08.00:886][506]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.295
+[2016.05.23-05.08.00:886][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.01:417][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.01:461][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.01:462][540]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.08.09:162][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.08.14:805][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.23-05.08.33:072][968]BlueprintLog: New page: Compile Enemy_Turret
+[2016.05.23-05.08.33:107][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.23-05.08.33:203][968]BlueprintEditorCompileResults: Info [0091.76] Compile of Enemy_Turret successful! [in 131 ms]
+[2016.05.23-05.08.34:318][ 44]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.34:320][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.08.34:320][ 44]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:08:34 PM)
+[2016.05.23-05.08.34:321][ 44]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.08.34:329][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008657s)
+[2016.05.23-05.08.34:330][ 44]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.08.34:330][ 44]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2016.05.23-05.08.34:330][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009357s)
+[2016.05.23-05.08.34:330][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.05.23-05.08.34:351][ 44]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.08.34:358][ 44]LogInit: FAudioDevice initialized.
+[2016.05.23-05.08.34:387][ 44]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.08.34:390][ 44]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.08.34
+[2016.05.23-05.08.34:391][ 44]LogWorld: Bringing up level for play took: 0.003075
+[2016.05.23-05.08.34:395][ 44]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.786
+[2016.05.23-05.08.34:395][ 44]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.40:717][498]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.40:761][498]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.57:678][783]BlueprintLog: New page: Compile Enemy_Turret
+[2016.05.23-05.08.57:710][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.05.23-05.08.57:799][783]BlueprintEditorCompileResults: Info [0116.36] Compile of Enemy_Turret successful! [in 121 ms]
+[2016.05.23-05.08.58:494][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.08.58:497][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.08.58:497][831]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:08:58 PM)
+[2016.05.23-05.08.58:497][831]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.08.58:506][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008660s)
+[2016.05.23-05.08.58:506][831]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.08.58:507][831]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2016.05.23-05.08.58:507][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009349s)
+[2016.05.23-05.08.58:507][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.05.23-05.08.58:528][831]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.08.58:536][831]LogInit: FAudioDevice initialized.
+[2016.05.23-05.08.58:569][831]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.08.58:572][831]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.08.58
+[2016.05.23-05.08.58:573][831]LogWorld: Bringing up level for play took: 0.002514
+[2016.05.23-05.08.58:579][831]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.602
+[2016.05.23-05.08.58:579][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.09.08:744][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.09.08:789][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.09.10:035][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.23-05.09.10:277][651]LogSavePackage: Save=133.83ms
+[2016.05.23-05.09.10:277][651]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest3606AB2047C4CCC4777CBBA404AB2200.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.23-05.09.10:278][651]LogSavePackage: Total save time: 212.05ms
+[2016.05.23-05.09.10:278][651]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.23-05.09.10:306][651]LogFileHelpers: Saving map 'ChrisTest' took 0.331
+[2016.05.23-05.09.10:336][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/Enemy_Turret" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset" SILENT=true
+[2016.05.23-05.09.10:465][651]LogSavePackage: Save=111.13ms
+[2016.05.23-05.09.10:465][651]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Turret81BE1A1348BF37DE72B4FA973548AD99.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset'
+[2016.05.23-05.09.10:468][651]LogSavePackage: Total save time: 130.81ms
+[2016.05.23-05.09.10:468][651]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset
+[2016.05.23-05.09.27:862][830]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.05.23-05.09.58:163][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.05.23-05.10.06:568][476]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.05.23-05.10.17:188][656]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.05.23-05.10.20:927][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.05.23-05.10.22:970][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.05.23-05.11.22:774][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.05.23-05.12.25:238][632]BlueprintLog: New page: Compile Enemy_Turret
+[2016.05.23-05.12.25:273][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.05.23-05.12.25:366][632]BlueprintEditorCompileResults: Info [0323.92] Compile of Enemy_Turret successful! [in 127 ms]
+[2016.05.23-05.12.44:426][291]BlueprintLog: New page: Compile Enemy_Turret
+[2016.05.23-05.12.44:461][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.12.44:548][291]BlueprintEditorCompileResults: Info [0343.10] Compile of Enemy_Turret successful! [in 122 ms]
+[2016.05.23-05.12.46:118][420]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.12.46:121][420]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.05.23-05.12.46:127][420]LogPlayLevel: [PlayLevel] Compiling Enemy_Parent before play...
+[2016.05.23-05.12.46:195][420]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.12.46:343][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 221 ms (5 blueprints)
+[2016.05.23-05.12.46:344][420]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2016.05.23-05.12.46:508][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 386 ms (8 blueprints)
+[2016.05.23-05.12.46:509][420]LogPlayLevel: [PlayLevel] Compiling BTTask_FireWeapon before play...
+[2016.05.23-05.12.46:605][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 483 ms (8 blueprints)
+[2016.05.23-05.12.46:611][420]LogPlayLevel: [PlayLevel] Compiling Enemy_Turret before play...
+[2016.05.23-05.12.46:746][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 624 ms (9 blueprints)
+[2016.05.23-05.12.46:746][420]LogPlayLevel: [PlayLevel] Compiling TurretAIController before play...
+[2016.05.23-05.12.46:823][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 701 ms (9 blueprints)
+[2016.05.23-05.12.46:825][420]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.05.23-05.12.47:152][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 1030 ms (10 blueprints)
+[2016.05.23-05.12.47:153][420]LogPlayLevel: [PlayLevel] Compiling GravityWell2 before play...
+[2016.05.23-05.12.47:354][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 1232 ms (10 blueprints)
+[2016.05.23-05.12.47:355][420]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.05.23-05.12.47:481][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 1359 ms (10 blueprints)
+[2016.05.23-05.12.47:481][420]LogPlayLevel: [PlayLevel] Compiling BTTask_RotateScanTurret before play...
+[2016.05.23-05.12.47:577][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 1455 ms (10 blueprints)
+[2016.05.23-05.12.47:579][420]LogPlayLevel: [PlayLevel] Compiling UE4ASP_HeroTPP_AnimBlueprint2 before play...
+[2016.05.23-05.12.47:730][420]LogPlayLevel: PlayLevel: Blueprint regeneration took 1608 ms (10 blueprints)
+[2016.05.23-05.12.47:783][420]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:12:47 PM)
+[2016.05.23-05.12.47:783][420]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.12.47:791][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008536s)
+[2016.05.23-05.12.47:792][420]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.12.47:792][420]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2016.05.23-05.12.47:792][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009273s)
+[2016.05.23-05.12.47:816][420]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.12.47:824][420]LogInit: FAudioDevice initialized.
+[2016.05.23-05.12.47:854][420]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.12.47:858][420]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.12.47
+[2016.05.23-05.12.47:858][420]LogWorld: Bringing up level for play took: 0.002339
+[2016.05.23-05.12.47:861][420]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 2.68
+[2016.05.23-05.12.47:861][420]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.12.50:074][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.12.50:120][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.12.50:120][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.13.01:757][587]LogEditorTransaction: Undo Delete current selection
+[2016.05.23-05.13.01:768][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.13.17:979][918]BlueprintLog: New page: Compile Enemy_Turret
+[2016.05.23-05.13.18:016][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.05.23-05.13.18:137][918]BlueprintEditorCompileResults: Info [0376.69] Compile of Enemy_Turret successful! [in 157 ms]
+[2016.05.23-05.13.18:984][985]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.13.18:986][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.13.18:986][985]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:13:18 PM)
+[2016.05.23-05.13.18:987][985]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.13.18:995][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008718s)
+[2016.05.23-05.13.18:996][985]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.13.18:996][985]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2016.05.23-05.13.18:996][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009603s)
+[2016.05.23-05.13.18:996][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.13.19:019][985]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.13.19:026][985]LogInit: FAudioDevice initialized.
+[2016.05.23-05.13.19:053][985]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.13.19:056][985]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.13.19
+[2016.05.23-05.13.19:057][985]LogWorld: Bringing up level for play took: 0.002488
+[2016.05.23-05.13.19:060][985]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.121
+[2016.05.23-05.13.19:060][985]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.13.20:623][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.13.20:668][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.13.25:217][501]BlueprintLog: New page: Compile Enemy_Turret
+[2016.05.23-05.13.25:254][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.13.25:348][501]BlueprintEditorCompileResults: Info [0383.90] Compile of Enemy_Turret successful! [in 130 ms]
+[2016.05.23-05.13.26:398][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.13.26:400][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.13.26:401][589]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:13:26 PM)
+[2016.05.23-05.13.26:401][589]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.13.26:409][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008805s)
+[2016.05.23-05.13.26:410][589]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.13.26:410][589]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2016.05.23-05.13.26:410][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009522s)
+[2016.05.23-05.13.26:410][589]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.13.26:442][589]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.13.26:454][589]LogInit: FAudioDevice initialized.
+[2016.05.23-05.13.26:482][589]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.13.26:500][589]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.13.26
+[2016.05.23-05.13.26:501][589]LogWorld: Bringing up level for play took: 0.002582
+[2016.05.23-05.13.26:504][589]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.677
+[2016.05.23-05.13.26:505][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.13.33:288][173]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.13.33:334][173]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.13.35:605][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.23-05.13.35:798][355]LogSavePackage: Save=163.23ms
+[2016.05.23-05.13.35:798][355]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest6FF752EF48F2A9C4E5CF8F8FBF180911.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.23-05.13.35:799][355]LogSavePackage: Total save time: 177.33ms
+[2016.05.23-05.13.35:799][355]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.23-05.13.35:829][355]LogFileHelpers: Saving map 'ChrisTest' took 0.283
+[2016.05.23-05.13.35:836][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Enemy_Parent" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset" SILENT=true
+[2016.05.23-05.13.35:903][355]LogSavePackage: Save=46.71ms
+[2016.05.23-05.13.35:903][355]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Parent3871A2C14131A24EB5BC1097B823DDFA.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset'
+[2016.05.23-05.13.35:904][355]LogSavePackage: Total save time: 67.10ms
+[2016.05.23-05.13.35:904][355]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Enemy_Parent.uasset
+[2016.05.23-05.13.35:927][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/Enemy_Turret" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset" SILENT=true
+[2016.05.23-05.13.36:077][355]LogSavePackage: Save=135.62ms
+[2016.05.23-05.13.36:077][355]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Turret6289F80046797DC3CD49D5A09422AA4E.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset'
+[2016.05.23-05.13.36:081][355]LogSavePackage: Total save time: 153.21ms
+[2016.05.23-05.13.36:081][355]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset
+[2016.05.23-05.13.40:598][749]LogEditorViewport: Clicking on Actor (LMB): Enemy_Turret_C (Enemy_Turret)
+[2016.05.23-05.13.47:586][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.13.51:390][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.05.23-05.13.53:289][585]BlueprintLog: New page: Compile Enemy_Turret
+[2016.05.23-05.13.53:353][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.05.23-05.13.53:447][585]BlueprintEditorCompileResults: Info [0412.00] Compile of Enemy_Turret successful! [in 157 ms]
+[2016.05.23-05.13.55:167][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.13.55:254][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.23-05.13.55:443][695]LogSavePackage: Save=139.32ms
+[2016.05.23-05.13.55:443][695]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest04F938114CF667EA2383F3A5A09727FB.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.23-05.13.55:444][695]LogSavePackage: Total save time: 162.42ms
+[2016.05.23-05.13.55:444][695]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.23-05.13.55:473][695]LogFileHelpers: Saving map 'ChrisTest' took 0.278
+[2016.05.23-05.13.55:494][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/Enemy_Turret" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset" SILENT=true
+[2016.05.23-05.13.55:653][695]LogSavePackage: Save=134.76ms
+[2016.05.23-05.13.55:653][695]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Enemy_Turret5504C44D46375B43F05EDB9428CD14F6.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset'
+[2016.05.23-05.13.55:654][695]LogSavePackage: Total save time: 158.19ms
+[2016.05.23-05.13.55:654][695]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/Enemy_Turret.uasset
+[2016.05.23-05.14.14:203][812]BlueprintLog: New page: Compile BTTask_RotateScanTurret
+[2016.05.23-05.14.14:233][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.14.14:332][812]BlueprintEditorCompileResults: Info [0432.89] Compile of BTTask_RotateScanTurret successful! [in 129 ms]
+[2016.05.23-05.14.14:848][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/BTTask_RotateScanTurret" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTTask_RotateScanTurret.uasset" SILENT=true
+[2016.05.23-05.14.14:968][845]LogSavePackage: Save=95.04ms
+[2016.05.23-05.14.14:968][845]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/BTTask_RotateScanTurretD8EF84074BAED46B835113BC785BF698.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTTask_RotateScanTurret.uasset'
+[2016.05.23-05.14.14:971][845]LogSavePackage: Total save time: 122.13ms
+[2016.05.23-05.14.14:971][845]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTTask_RotateScanTurret.uasset
+[2016.05.23-05.14.26:782][767]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.23-05.14.27:010][767]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Enemies/Turret/BTService_BlueprintBase_New.
+[2016.05.23-05.14.41:702][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.14.41:791][ 92]LogMetaData: Removing '/Game/Enemies/Turret/BTService_TurretTrackPlayer.SKEL_BTService_TurretTrackPlayer_C' ref from Metadata '/Game/Enemies/Turret/BTService_BlueprintBase_New.PackageMetaData'
+[2016.05.23-05.14.41:791][ 92]LogMetaData: Removing '/Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer_C' ref from Metadata '/Game/Enemies/Turret/BTService_BlueprintBase_New.PackageMetaData'
+[2016.05.23-05.14.41:822][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/BTService_TurretTrackPlayer" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset" SILENT=true
+[2016.05.23-05.14.41:825][ 92]LogSavePackage: Save=1.76ms
+[2016.05.23-05.14.41:825][ 92]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/BTService_TurretTrackPlayerB3C4A5714C6657188CC9459106DD5DC8.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset'
+[2016.05.23-05.14.41:826][ 92]LogSavePackage: Total save time: 2.75ms
+[2016.05.23-05.14.41:826][ 92]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset
+[2016.05.23-05.14.41:973][ 94]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Enemies/Turret/BTService_TurretTrackPlayer.
+[2016.05.23-05.14.43:392][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.23-05.14.43:392][222]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.14.43:442][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/BTService_BlueprintBase_New" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_BlueprintBase_New.uasset" SILENT=true
+[2016.05.23-05.14.43:443][222]LogSavePackage: Save=0.78ms
+[2016.05.23-05.14.43:443][222]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/BTService_BlueprintBase_New13CFFB2E453F95C08FFDA9950B435EE0.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_BlueprintBase_New.uasset'
+[2016.05.23-05.14.43:444][222]LogSavePackage: Total save time: 1.80ms
+[2016.05.23-05.14.43:444][222]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_BlueprintBase_New.uasset
+[2016.05.23-05.15.10:729][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/TurretBehaviorTree" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/TurretBehaviorTree.uasset" SILENT=true
+[2016.05.23-05.15.10:746][501]LogSavePackage: Save=4.12ms
+[2016.05.23-05.15.10:746][501]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/TurretBehaviorTree2CB4B0EF4C874707B53B8A88C55CA374.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/TurretBehaviorTree.uasset'
+[2016.05.23-05.15.10:747][501]LogSavePackage: Total save time: 17.49ms
+[2016.05.23-05.15.10:747][501]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/TurretBehaviorTree.uasset
+[2016.05.23-05.18.06:228][239]BlueprintLog: New page: Compile BTService_TurretTrackPlayer
+[2016.05.23-05.18.06:323][239]BlueprintEditorCompileResults: Info [0664.88] Compile of BTService_TurretTrackPlayer successful! [in 94 ms]
+[2016.05.23-05.18.07:887][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.18.07:891][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.18.07:891][364]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:18:07 PM)
+[2016.05.23-05.18.07:891][364]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.18.07:899][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008699s)
+[2016.05.23-05.18.07:900][364]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.18.07:900][364]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2016.05.23-05.18.07:900][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009475s)
+[2016.05.23-05.18.07:933][364]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.18.07:942][364]LogInit: FAudioDevice initialized.
+[2016.05.23-05.18.07:974][364]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.18.07:977][364]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.18.07
+[2016.05.23-05.18.07:978][364]LogWorld: Bringing up level for play took: 0.002575
+[2016.05.23-05.18.07:981][364]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.8
+[2016.05.23-05.18.07:981][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.18.15:651][157]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.18.15:726][157]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.18.21:197][577]BlueprintLog: New page: Compile BTService_TurretTrackPlayer
+[2016.05.23-05.18.21:296][577]BlueprintEditorCompileResults: Info [0679.85] Compile of BTService_TurretTrackPlayer successful! [in 98 ms]
+[2016.05.23-05.18.27:313][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.18.27:315][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.18.27:316][ 65]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:18:27 PM)
+[2016.05.23-05.18.27:316][ 65]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.18.27:324][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008432s)
+[2016.05.23-05.18.27:324][ 65]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.18.27:325][ 65]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2016.05.23-05.18.27:325][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009115s)
+[2016.05.23-05.18.27:350][ 65]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.18.27:358][ 65]LogInit: FAudioDevice initialized.
+[2016.05.23-05.18.27:387][ 65]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.18.27:391][ 65]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.18.27
+[2016.05.23-05.18.27:392][ 65]LogWorld: Bringing up level for play took: 0.004250
+[2016.05.23-05.18.27:400][ 65]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.219
+[2016.05.23-05.18.27:400][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.18.34:228][764]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.18.34:304][764]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.20.08:549][270]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.23-05.21.19:620][426]BlueprintLog: New page: Compile BTService_TurretTrackPlayer
+[2016.05.23-05.21.19:635][426]LogBlueprint:Error: [compiler BTService_TurretTrackPlayer] Error The type of  Object  is undetermined.  Connect something to  Cast To Player  to imply a specific type.
+[2016.05.23-05.21.19:636][426]LogBlueprint:Error: [compiler BTService_TurretTrackPlayer] Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.05.23-05.21.19:639][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.23-05.21.19:820][426]LogBlueprint:Warning: [compiler BTService_TurretTrackPlayer] Warning [0858.38] Compile of BTService_TurretTrackPlayer failed. 2 Fatal Issue(s) 0 Warning(s) [in 198 ms]
+[2016.05.23-05.21.19:820][426]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To Player  to imply a specific type.
+[2016.05.23-05.21.19:820][426]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2016.05.23-05.21.19:820][426]BlueprintEditorCompileResults:Warning: Warning [0858.38] Compile of BTService_TurretTrackPlayer failed. 2 Fatal Issue(s) 0 Warning(s) [in 198 ms]
+[2016.05.23-05.21.20:551][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.21.20:554][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.21.32:472][213]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5719.EdGraphPin_56383''
+[2016.05.23-05.21.36:116][480]BlueprintLog: New page: Compile BTService_TurretTrackPlayer
+[2016.05.23-05.21.36:216][480]BlueprintEditorCompileResults: Info [0874.77] Compile of BTService_TurretTrackPlayer successful! [in 99 ms]
+[2016.05.23-05.21.37:281][559]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.21.37:284][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.21.37:284][559]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:21:37 PM)
+[2016.05.23-05.21.37:284][559]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.21.37:293][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008574s)
+[2016.05.23-05.21.37:293][559]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.21.37:293][559]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2016.05.23-05.21.37:293][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009315s)
+[2016.05.23-05.21.37:317][559]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.21.37:325][559]LogInit: FAudioDevice initialized.
+[2016.05.23-05.21.37:356][559]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.21.37:360][559]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.21.37
+[2016.05.23-05.21.37:360][559]LogWorld: Bringing up level for play took: 0.002617
+[2016.05.23-05.21.37:365][559]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.184
+[2016.05.23-05.21.37:365][559]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.21.42:624][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.21.42:703][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.31:143][767]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5794.EdGraphPin_56383''
+[2016.05.23-05.22.40:631][486]BlueprintLog: New page: Compile BTService_TurretTrackPlayer
+[2016.05.23-05.22.40:755][486]BlueprintEditorCompileResults: Info [0939.31] Compile of BTService_TurretTrackPlayer successful! [in 124 ms]
+[2016.05.23-05.22.43:861][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.43:863][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.22.43:863][703]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:22:43 PM)
+[2016.05.23-05.22.43:863][703]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.22.43:872][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008544s)
+[2016.05.23-05.22.43:872][703]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.22.43:873][703]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2016.05.23-05.22.43:873][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009241s)
+[2016.05.23-05.22.43:897][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.22.43:904][703]LogInit: FAudioDevice initialized.
+[2016.05.23-05.22.43:936][703]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.22.43:939][703]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.22.43
+[2016.05.23-05.22.43:939][703]LogWorld: Bringing up level for play took: 0.002507
+[2016.05.23-05.22.43:944][703]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.763
+[2016.05.23-05.22.43:944][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.48:277][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.48:351][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.49:530][162]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.49:533][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.22.49:533][162]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:22:49 PM)
+[2016.05.23-05.22.49:533][162]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.22.49:542][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008602s)
+[2016.05.23-05.22.49:542][162]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.22.49:542][162]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2016.05.23-05.22.49:542][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009297s)
+[2016.05.23-05.22.49:571][162]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.22.49:579][162]LogInit: FAudioDevice initialized.
+[2016.05.23-05.22.49:609][162]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.22.49:612][162]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.22.49
+[2016.05.23-05.22.49:613][162]LogWorld: Bringing up level for play took: 0.002544
+[2016.05.23-05.22.49:617][162]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.436
+[2016.05.23-05.22.49:617][162]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.54:991][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.55:061][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.55:834][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.22.55:837][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.22.55:837][684]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:22:55 PM)
+[2016.05.23-05.22.55:837][684]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.22.55:846][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008457s)
+[2016.05.23-05.22.55:846][684]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.22.55:846][684]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2016.05.23-05.22.55:846][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009158s)
+[2016.05.23-05.22.55:873][684]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.22.55:880][684]LogInit: FAudioDevice initialized.
+[2016.05.23-05.22.55:910][684]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.22.55:913][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.22.55
+[2016.05.23-05.22.55:914][684]LogWorld: Bringing up level for play took: 0.002498
+[2016.05.23-05.22.55:918][684]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.737
+[2016.05.23-05.22.55:918][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.23.08:365][781]LogSelection:Warning: PIE object was selected: "Enemy_Turret_C /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest:PersistentLevel.Enemy_Turret_688"
+[2016.05.23-05.23.09:044][817]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest:PersistentLevel.BoxBrush8"
+[2016.05.23-05.23.10:120][878]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:120][878]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:146][879]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:146][879]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:171][880]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:171][880]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:197][881]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:197][881]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:222][882]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:222][882]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:251][883]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:251][883]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:281][884]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:281][884]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:307][885]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:307][885]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:333][886]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:334][886]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:361][887]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:361][887]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:386][888]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:386][888]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:412][889]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:412][889]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:437][890]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:437][890]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:461][891]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:461][891]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:488][892]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:488][892]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:636][898]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.10:637][898]PIE:Warning: Warning Mobility of BoxBrush8 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2016.05.23-05.23.14:050][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.23.14:129][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.23.21:771][610]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.23.21:774][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.23.21:774][610]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:23:21 PM)
+[2016.05.23-05.23.21:774][610]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.23.21:783][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008735s)
+[2016.05.23-05.23.21:783][610]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.23.21:783][610]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2016.05.23-05.23.21:783][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009467s)
+[2016.05.23-05.23.21:807][610]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.23.21:814][610]LogInit: FAudioDevice initialized.
+[2016.05.23-05.23.21:846][610]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.23.21:849][610]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.23.21
+[2016.05.23-05.23.21:849][610]LogWorld: Bringing up level for play took: 0.002621
+[2016.05.23-05.23.21:854][610]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.673
+[2016.05.23-05.23.21:854][610]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.23.32:279][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.23.32:324][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.26.13:934][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5868.EdGraphPin_56662''
+[2016.05.23-05.26.44:027][159]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5869.EdGraphPin_56662''
+[2016.05.23-05.26.55:008][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.23-05.26.55:220][919]LogSavePackage: Save=163.42ms
+[2016.05.23-05.26.55:220][919]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest8F0B13C9418C82751514F0992AECF72F.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.23-05.26.55:221][919]LogSavePackage: Total save time: 184.47ms
+[2016.05.23-05.26.55:221][919]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.23-05.26.55:256][919]LogFileHelpers: Saving map 'ChrisTest' took 0.310
+[2016.05.23-05.26.55:261][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/TurretBehaviorTree" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/TurretBehaviorTree.uasset" SILENT=true
+[2016.05.23-05.26.55:280][919]LogSavePackage: Save=4.21ms
+[2016.05.23-05.26.55:280][919]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/TurretBehaviorTreeC976448F487374B351BCA69F61449DC1.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/TurretBehaviorTree.uasset'
+[2016.05.23-05.26.55:281][919]LogSavePackage: Total save time: 19.56ms
+[2016.05.23-05.26.55:281][919]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/TurretBehaviorTree.uasset
+[2016.05.23-05.26.55:287][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/BTService_TurretTrackPlayer" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset" SILENT=true
+[2016.05.23-05.26.55:409][919]LogSavePackage: Save=105.19ms
+[2016.05.23-05.26.55:409][919]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/BTService_TurretTrackPlayerB1823D31402943F3B03D3390A26C32B3.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset'
+[2016.05.23-05.26.55:412][919]LogSavePackage: Total save time: 123.37ms
+[2016.05.23-05.26.55:412][919]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_CallFunction_6065.EdGraphPin_24612) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_CallFunction_5787.EdGraphPin_24533).  Import failed...
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6065.EdGraphPin_24612''
+[2016.05.23-05.28.07:598][661]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_973 or K2Node_VariableGet /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_VariableGet_973
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_973.EdGraphPin_55883) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_CallFunction_5787.EdGraphPin_24532).  Import failed...
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_973.EdGraphPin_55883''
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_Event_513.EdGraphPin_24468) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_CallFunction_5787.EdGraphPin_24531).  Import failed...
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_513.EdGraphPin_24468''
+[2016.05.23-05.28.07:598][661]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_1312 or K2Node_VariableGet /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_VariableGet_1312
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_1312.EdGraphPin_22948) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_CallFunction_5787.EdGraphPin_24530).  Import failed...
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1312.EdGraphPin_22948''
+[2016.05.23-05.28.07:598][661]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_1266 or K2Node_VariableGet /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_VariableGet_1266
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_1266.EdGraphPin_24603) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_CallFunction_5787.EdGraphPin_24529).  Import failed...
+[2016.05.23-05.28.07:598][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1266.EdGraphPin_24603''
+[2016.05.23-05.28.07:599][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_1323.EdGraphPin_22993) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_VariableGet_973.EdGraphPin_55884).  Import failed...
+[2016.05.23-05.28.07:599][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1323.EdGraphPin_22993''
+[2016.05.23-05.28.07:599][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_1323.EdGraphPin_22993) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_VariableGet_1265.EdGraphPin_24598).  Import failed...
+[2016.05.23-05.28.07:599][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1323.EdGraphPin_22993''
+[2016.05.23-05.28.07:599][661]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_1266 or K2Node_VariableGet /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_VariableGet_1266
+[2016.05.23-05.28.07:599][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_VariableGet_1266.EdGraphPin_24604) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_VariableGet_1265.EdGraphPin_24597).  Import failed...
+[2016.05.23-05.28.07:599][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1266.EdGraphPin_24604''
+[2016.05.23-05.28.07:599][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Enemies/Turret/BTTask_RotateScanTurret.BTTask_RotateScanTurret:EventGraph.K2Node_CallFunction_6065.EdGraphPin_24611) from referencer (EdGraphPin /Game/Enemies/Turret/BTService_TurretTrackPlayer.BTService_TurretTrackPlayer:EventGraph.K2Node_VariableGet_1265.EdGraphPin_24597).  Import failed...
+[2016.05.23-05.28.07:599][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6065.EdGraphPin_24611''
+[2016.05.23-05.28.07:608][661]LogBlueprint:Warning: [BTService_TurretTrackPlayer] CreatePinForVariable: 'TargetRotation' variable not found. Base class was probably changed.
+[2016.05.23-05.29.49:164][ 88]LogEditorTransaction: Undo Add Node
+[2016.05.23-05.29.49:445][103]LogEditorTransaction: Undo Move Node
+[2016.05.23-05.29.49:823][127]LogEditorTransaction: Undo Move Node
+[2016.05.23-05.29.50:237][164]LogEditorTransaction: Undo Delete current selection
+[2016.05.23-05.29.50:581][189]LogEditorTransaction: Undo Delete current selection
+[2016.05.23-05.29.50:985][223]LogEditorTransaction: Undo Move Nodes
+[2016.05.23-05.29.51:405][257]LogEditorTransaction: Undo Move Node
+[2016.05.23-05.29.51:821][288]LogEditorTransaction: Undo Create Pin Link
+[2016.05.23-05.29.52:220][318]LogEditorTransaction: Undo Delete current selection
+[2016.05.23-05.29.52:623][350]LogEditorTransaction: Undo Delete current selection
+[2016.05.23-05.29.53:042][383]LogEditorTransaction: Undo Delete current selection
+[2016.05.23-05.29.53:443][413]LogEditorTransaction: Undo Create Pin Link
+[2016.05.23-05.29.53:918][444]LogEditorTransaction: Undo Create Pin Link
+[2016.05.23-05.29.54:309][470]LogEditorTransaction: Undo Paste clipboard contents
+[2016.05.23-05.29.54:653][497]LogEditorTransaction: Undo Move Node
+[2016.05.23-05.29.55:751][597]LogEditorTransaction: Undo Create Pin Link
+[2016.05.23-05.29.56:282][640]LogEditorTransaction: Undo Add Node
+[2016.05.23-05.29.56:875][697]LogEditorTransaction: Undo Delete current selection
+[2016.05.23-05.29.57:612][761]LogEditorTransaction: Undo Delete current selection
+[2016.05.23-05.30.08:874][780]BlueprintLog: New page: Compile BTService_TurretTrackPlayer
+[2016.05.23-05.30.09:011][780]BlueprintEditorCompileResults: Info [1387.57] Compile of BTService_TurretTrackPlayer successful! [in 135 ms]
+[2016.05.23-05.30.09:639][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.30.09:641][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.23-05.30.09:642][831]PIE: New page: PIE session: ChrisTest (May 22, 2016, 2:30:09 PM)
+[2016.05.23-05.30.09:642][831]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.23-05.30.09:651][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008883s)
+[2016.05.23-05.30.09:651][831]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.23-05.30.09:651][831]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2016.05.23-05.30.09:651][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.009747s)
+[2016.05.23-05.30.09:675][831]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.23-05.30.09:687][831]LogInit: FAudioDevice initialized.
+[2016.05.23-05.30.09:745][831]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.23-05.30.09:749][831]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.22-22.30.09
+[2016.05.23-05.30.09:750][831]LogWorld: Bringing up level for play took: 0.004021
+[2016.05.23-05.30.09:770][831]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.588
+[2016.05.23-05.30.09:776][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.30.11:457][972]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-72.284966 Y=90.000000 R=-0.000007
+[2016.05.23-05.30.11:565][981]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-63.045773 Y=90.000000 R=-0.000006
+[2016.05.23-05.30.11:672][990]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-55.106327 Y=90.000000 R=-0.000006
+[2016.05.23-05.30.11:778][999]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-48.513443 Y=90.000000 R=-0.000005
+[2016.05.23-05.30.11:884][  8]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-43.027630 Y=90.000000 R=-0.000005
+[2016.05.23-05.30.12:008][ 18]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-37.811867 Y=90.000000 R=-0.000004
+[2016.05.23-05.30.12:118][ 27]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-34.009159 Y=90.000000 R=-0.000004
+[2016.05.23-05.30.12:227][ 36]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-30.836510 Y=90.000000 R=-0.000004
+[2016.05.23-05.30.12:336][ 45]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-28.188490 Y=90.000000 R=-0.000003
+[2016.05.23-05.30.12:443][ 54]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-25.945730 Y=90.000000 R=-0.000003
+[2016.05.23-05.30.12:551][ 63]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-24.009361 Y=90.000000 R=-0.000003
+[2016.05.23-05.30.12:660][ 72]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-22.320129 Y=90.000000 R=-0.000003
+[2016.05.23-05.30.12:782][ 82]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-20.662235 Y=90.000000 R=-0.000002
+[2016.05.23-05.30.12:892][ 91]LogBlueprintUserMessages: [BTService_TurretTrackPlayer_C_0] P=-19.364962 Y=90.000000 R=-0.000002
+[2016.05.23-05.30.14:229][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.30.14:296][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.23-05.31.14:650][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Turret/BTService_TurretTrackPlayer" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset" SILENT=true
+[2016.05.23-05.31.14:736][535]LogSavePackage: Save=73.80ms
+[2016.05.23-05.31.14:736][535]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/BTService_TurretTrackPlayer3FDADB8E4C8C52BC257D7199A31DF7CC.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset'
+[2016.05.23-05.31.14:737][535]LogSavePackage: Total save time: 87.11ms
+[2016.05.23-05.31.14:737][535]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Enemies/Turret/BTService_TurretTrackPlayer.uasset
+[2016.05.23-05.31.15:586][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.05.23-05.31.15:700][604]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.23-05.31.15:982][605]Cmd: QUIT_EDITOR
+[2016.05.23-05.31.16:880][605]LogExit: Preparing to exit.
+[2016.05.23-05.31.17:614][605]LogExit: Editor shut down
+[2016.05.23-05.31.17:614][605]LogExit: Transaction tracking system shut down
+[2016.05.23-05.31.17:778][605]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.23-05.31.17:778][605]LogExit: Object subsystem successfully closed.
+[2016.05.23-05.31.17:799][605]LogD3D11RHI: Shutdown
+[2016.05.23-05.31.17:799][605]LogD3D11RHI: CleanupD3DDevice
+[2016.05.23-05.31.17:859][605]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.23-05.31.17:887][605]LogDerivedDataCache: Shutdown
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module BlueprintGraph (207)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (206)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module WorldBrowser (202)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.23-05.31.17:893][605]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.23-05.31.17:897][605]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.23-05.31.17:897][605]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.23-05.31.17:897][605]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.23-05.31.17:897][605]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.23-05.31.17:897][605]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.23-05.31.17:897][605]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.23-05.31.17:898][605]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.23-05.31.17:899][605]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.23-05.31.17:899][605]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.23-05.31.17:899][605]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.23-05.31.17:899][605]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.23-05.31.17:899][605]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.23-05.31.17:899][605]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.23-05.31.18:660][605]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.23-05.31.18:660][605]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.23-05.31.18:660][605]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.23-05.31.18:660][605]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.23-05.31.18:661][605]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.23-05.31.18:661][605]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.23-05.31.18:661][605]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.23-05.31.18:661][605]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.23-05.31.18:661][605]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.23-05.31.18:661][605]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.23-05.31.18:661][605]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.23-05.31.18:661][605]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.23-05.31.18:662][605]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.23-05.31.18:663][605]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.23-05.31.18:663][605]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.23-05.31.18:664][605]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.23-05.31.18:664][605]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.23-05.31.18:697][605]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.23-05.31.18:697][605]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.23-05.31.18:698][605]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.23-05.31.18:698][605]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.23-05.31.18:698][605]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.23-05.31.18:699][605]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.23-05.31.18:699][605]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.23-05.31.18:700][605]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.23-05.31.18:700][605]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.23-05.31.18:700][605]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.23-05.31.18:701][605]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.23-05.31.18:701][605]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.23-05.31.18:702][605]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.23-05.31.18:859][605]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.23-05.31.18:860][605]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.23-05.31.18:861][605]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.23-05.31.18:862][605]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.23-05.31.18:863][605]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.23-05.31.19:076][605]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.23-05.31.19:077][605]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.23-05.31.19:077][605]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.23-05.31.19:179][605]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.23-05.31.19:180][605]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.23-05.31.19:180][605]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.23-05.31.19:180][605]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.23-05.31.19:180][605]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.23-05.31.19:181][605]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.23-05.31.19:181][605]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.23-05.31.19:182][605]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.23-05.31.19:182][605]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.23-05.31.19:182][605]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.23-05.31.19:185][605]LogDerivedDataCache: Shutdown
+[2016.05.23-05.31.19:185][605]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.23-05.31.19:186][605]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.23-05.31.19:187][605]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.23-05.31.20:689][605]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.23-05.31.20:690][605]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.23-05.31.20:690][605]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.23-05.31.20:690][605]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.23-05.31.20:691][605]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.23-05.31.20:691][605]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.23-05.31.20:691][605]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.23-05.31.20:696][605]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.23-05.31.20:697][605]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.23-05.31.20:697][605]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.23-05.31.20:697][605]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.23-05.31.20:697][605]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.23-05.31.20:697][605]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.23-05.31.20:697][605]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.23-05.31.20:697][605]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.23-05.31.20:697][605]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.23-05.31.20:698][605]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.23-05.31.20:699][605]LogExit: Exiting.
+[2016.05.23-05.31.20:718][605]Log file closed, 05/22/16 22:31:20
