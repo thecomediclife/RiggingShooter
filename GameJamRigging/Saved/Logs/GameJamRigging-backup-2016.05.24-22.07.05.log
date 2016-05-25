@@ -1,0 +1,1562 @@
+﻿Log file open, 05/24/16 19:47:21
+LogInit:Display: Running engine for game: GameJamRigging
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(317680129) SRandInit(317680131).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.071602
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.25-02.47.22:005][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.25-02.47.22:005][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.25-02.47.22:010][  0]LogInit: Computer: DUMPRING
+[2016.05.25-02.47.22:010][  0]LogInit: User: theco000
+[2016.05.25-02.47.22:010][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.25-02.47.22:010][  0]LogInit: High frequency timer resolution =3.615397 MHz
+[2016.05.25-02.47.22:010][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.25-02.47.22:010][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.25-02.47.22:010][  0]LogMemory: Process Physical Memory: 314.48 MB used, 314.48 MB peak
+[2016.05.25-02.47.22:010][  0]LogMemory: Process Virtual Memory: 315.03 MB used, 315.03 MB peak
+[2016.05.25-02.47.22:010][  0]LogMemory: Physical Memory: 5540.05 MB used, 16326.09 MB total
+[2016.05.25-02.47.22:010][  0]LogMemory: Virtual Memory: 639.07 MB used, 134217728.00 MB total
+[2016.05.25-02.47.22:041][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.25-02.47.22:407][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.25-02.47.22:426][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.05.25-02.47.22:426][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.05.25-02.47.22:427][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.25-02.47.22:427][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.05.25-02.47.22:427][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.25-02.47.22:431][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.25-02.47.22:431][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.05.25-02.47.22:431][  0]LogD3D11RHI:   Driver Version: 10.18.13.6510 (internal 10.18.13.6510)
+[2016.05.25-02.47.22:431][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.05.25-02.47.22:431][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.25-02.47.22:442][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.25-02.47.22:452][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/Git/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/2020/).
+[2016.05.25-02.47.22:452][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/THECO_~1/AppData/Local/Temp/UnrealShaderWorkingDir/C085421240A65961FEA4E6A6DF4AEF03/'.
+[2016.05.25-02.47.22:453][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.25-02.47.23:406][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.25-02.47.23:410][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.25-02.47.23:414][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.25-02.47.23:418][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.25-02.47.23:421][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.25-02.47.23:424][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.25-02.47.23:427][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.25-02.47.23:430][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.25-02.47.23:434][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.25-02.47.23:437][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.25-02.47.23:439][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.25-02.47.23:445][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.25-02.47.23:445][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.25-02.47.23:445][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.25-02.47.23:461][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.25-02.47.23:464][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.25-02.47.23:468][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.25-02.47.23:471][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.25-02.47.23:473][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.25-02.47.23:473][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.25-02.47.23:532][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.25-02.47.23:584][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.25-02.47.23:584][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.25-02.47.23:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.25-02.47.23:584][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.25-02.47.23:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.25-02.47.23:584][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.25-02.47.23:597][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.25-02.47.23:609][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theco_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.25-02.47.23:786][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.25-02.47.23:787][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.25-02.47.23:832][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.25-02.47.23:976][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.25-02.47.23:976][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.25-02.47.23:976][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.25-02.47.24:184][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.25-02.47.24:184][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.25-02.47.24:184][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.25-02.47.24:189][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.25-02.47.24:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.25-02.47.24:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.25-02.47.24:344][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.25-02.47.24:344][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.25-02.47.24:344][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.25-02.47.24:344][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.25-02.47.24:344][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.25-02.47.24:344][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.25-02.47.24:814][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.25-02.47.24:915][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2016.05.25-02.47.25:052][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.47.25:053][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.47.25:059][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.47.25:066][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.47.25:155][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.25-02.47.25:216][  0]LogEngine: Initializing Engine...
+[2016.05.25-02.47.25:351][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.25-02.47.25:369][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.25-02.47.25:409][  0]LogInit: FAudioDevice initialized.
+[2016.05.25-02.47.25:433][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.25-02.47.25:436][  0]LogInit: Texture streaming: Enabled
+[2016.05.25-02.47.25:458][  0]LogInit: Transaction tracking system initialized
+[2016.05.25-02.47.25:481][  0]BlueprintLog: New page: Editor Load
+[2016.05.25-02.47.25:536][  0]LocalizationService: Info Localization service is disabled
+[2016.05.25-02.47.25:590][  0]LogConsoleResponse:Display: 
+[2016.05.25-02.47.25:690][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.25-02.47.25:690][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.25-02.47.25:690][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.25-02.47.25:732][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/' took 0.02s
+[2016.05.25-02.47.25:732][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.47.25:732][  0]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.25-02.47.25:732][  0]LightingResults: New page: Lighting Build
+[2016.05.25-02.47.25:734][  0]MapCheck: New page: Map Check
+[2016.05.25-02.47.25:734][  0]LightingResults: New page: Lighting Build
+[2016.05.25-02.47.27:273][  0]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.25-02.47.27:280][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.25-02.47.27:280][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.25-02.47.27:332][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.589ms to complete.
+[2016.05.25-02.47.27:332][  0]LogFileHelpers: Loading map 'ChrisTest' took 1.600
+[2016.05.25-02.47.27:457][  0]LogCollectionManager: Loaded 0 collections in 0.001216 seconds
+[2016.05.25-02.47.27:504][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
+[2016.05.25-02.47.27:504][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Developers/theco000/Collections/' took 0.01s
+[2016.05.25-02.47.27:504][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
+[2016.05.25-02.47.27:504][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.05.25-02.47.27:511][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1979 classes and 343 folders.
+[2016.05.25-02.47.27:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.25-02.47.27:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.25-02.47.27:514][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.25-02.47.27:517][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.05.25-02.47.27:522][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.25-02.47.27:554][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.25-02.47.27:559][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 1 classes and 3 folders.
+[2016.05.25-02.47.27:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.25-02.47.27:621][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.25-02.47.27:639][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.25-02.47.27:664][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.25-02.47.27:665][  0]LogLoad: Full Startup: 6.30 seconds (BP compile: 0.50 seconds)
+[2016.05.25-02.47.27:665][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.25-02.47.27:665][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.25-02.47.27:674][  0]LogOcInput: OculusInput pre-init called
+[2016.05.25-02.47.27:721][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.25-02.47.27:874][  0]LogRenderer: Reallocating scene render targets to support 1596x808 (Frame:2).
+[2016.05.25-02.47.27:998][  1]LogAssetRegistry: Asset discovery search completed in 3.1058 seconds
+[2016.05.25-02.47.27:998][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.25-02.47.27:998][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.05.25-02.47.42:330][419]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 108 classes and 0 folders.
+[2016.05.25-02.47.54:615][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.47.54:615][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.47.54:615][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.25-02.47.55:268][134]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.25-02.47.55:380][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.25-02.47.55:922][134]LogSavePackage: Save=504.75ms
+[2016.05.25-02.47.55:922][134]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/PlayerB916E7264DB54D34F3F6E7877B8FC7ED.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.25-02.47.55:924][134]LogSavePackage: Total save time: 544.02ms
+[2016.05.25-02.47.55:924][134]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.25-02.48.04:092][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.48.04:092][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.48.06:951][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewAnimBlueprint_C_0' or package '/Engine/Transient'.
+[2016.05.25-02.48.06:951][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewAnimBlueprint_C_1' or package '/Engine/Transient'.
+[2016.05.25-02.48.06:952][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_NewAnimBlueprint_C_1' or package '/Engine/Transient'.
+[2016.05.25-02.48.06:955][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_NewAnimBlueprint_C_0' or package '/Engine/Transient'.
+[2016.05.25-02.48.06:956][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2016.05.25-02.48.06:957][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_NewAnimBlueprint_C_7' or package '/Engine/Transient'.
+[2016.05.25-02.48.06:957][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewAnimBlueprint_C_7' or package '/Engine/Transient'.
+[2016.05.25-02.48.06:957][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_NewAnimBlueprint_C_6' or package '/Engine/Transient'.
+[2016.05.25-02.48.06:957][617]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewAnimBlueprint_C_6' or package '/Engine/Transient'.
+[2016.05.25-02.48.12:577][629]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx)
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: NodeAttribute, ItemCount : 22
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: Geometry, ItemCount : 3
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: Model, ItemCount : 25
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: Pose, ItemCount : 3
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: Deformer, ItemCount : 64
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: Material, ItemCount : 4
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: AnimationStack, ItemCount : 5
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: AnimationLayer, ItemCount : 5
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: AnimationCurveNode, ItemCount : 267
+[2016.05.25-02.48.12:586][629]LogFbx: ItemName: AnimationCurve, ItemCount : 801
+[2016.05.25-02.48.12:590][629]LogFbx: Loading FBX Scene from D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx
+[2016.05.25-02.48.12:627][629]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.25-02.48.14:367][629]LogFbx: Loading FBX Scene from D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx
+[2016.05.25-02.48.14:407][629]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.48.14:412][629]LogFbx: 	Total Deformer Count 982878144.
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.48.14:412][629]LogFbx: 	Total Deformer Count 2013725744.
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.48.14:412][629]LogFbx: 	Total Deformer Count 2013725744.
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.48.14:412][629]LogFbx: 	Total Deformer Count 982891200.
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.48.14:412][629]LogFbx: 	Total Deformer Count 2013725072.
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.48.14:412][629]LogFbx: 	Total Deformer Count 2013725072.
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:412][629]LogFbx: =================================================
+[2016.05.25-02.48.14:412][629]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.48.14:412][629]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.48.14:412][629]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.48.14:413][629]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Character2 : The relative matrices do not match
+[2016.05.25-02.48.14:413][629]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Hair : The relative matrices do not match
+[2016.05.25-02.48.14:413][629]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Cube : The relative matrices do not match
+[2016.05.25-02.48.14:413][629]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Character2 : The relative matrices do not match
+[2016.05.25-02.48.14:414][629]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Hair : The relative matrices do not match
+[2016.05.25-02.48.14:414][629]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Cube : The relative matrices do not match
+[2016.05.25-02.48.14:414][629]LogFbx: Valid bind pose for Pose (Cube.000) - Character2
+[2016.05.25-02.48.14:415][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material'
+[2016.05.25-02.48.14:415][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material'
+[2016.05.25-02.48.14:417][629]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.05.25-02.48.14:440][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_001'
+[2016.05.25-02.48.14:441][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_001'
+[2016.05.25-02.48.14:446][629]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.05.25-02.48.14:453][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_002'
+[2016.05.25-02.48.14:454][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_002'
+[2016.05.25-02.48.14:457][629]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.05.25-02.48.14:466][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_003'
+[2016.05.25-02.48.14:466][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_003'
+[2016.05.25-02.48.14:470][629]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.05.25-02.48.14:480][629]LogFbx: Triangulating skeletal mesh Character2
+[2016.05.25-02.48.14:568][629]LogFbx: Triangulating skeletal mesh Hair
+[2016.05.25-02.48.14:626][629]LogFbx: Triangulating skeletal mesh Cube
+[2016.05.25-02.48.14:646][629]LogFbx:Warning: Bones digested - 35  Depth of hierarchy - 7
+[2016.05.25-02.48.14:664][629]LogSkeletalMesh: Chunk 0: 368 rigid vertices, 1098 soft vertices, 11 active bones
+[2016.05.25-02.48.14:664][629]LogSkeletalMesh: Chunk 1: 1169 rigid vertices, 246 soft vertices, 8 active bones
+[2016.05.25-02.48.14:664][629]LogSkeletalMesh: Chunk 2: 77 rigid vertices, 9 soft vertices, 3 active bones
+[2016.05.25-02.48.14:664][629]LogSkeletalMesh: Chunk 3: 91 rigid vertices, 68 soft vertices, 9 active bones
+[2016.05.25-02.48.14:666][629]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 757 triangles
+[2016.05.25-02.48.14:666][629]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 699 triangles
+[2016.05.25-02.48.14:666][629]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 46 triangles
+[2016.05.25-02.48.14:666][629]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 92 triangles
+[2016.05.25-02.48.14:669][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.48.14:669][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.48.14:669][629]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset.RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.48.14:671][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.48.14:671][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.48.14:671][629]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton.RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.48.14:672][629]LogFbx: =================================================
+[2016.05.25-02.48.14:672][629]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.48.14:672][629]LogFbx: 	Total Deformer Count 788563392.
+[2016.05.25-02.48.14:672][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:672][629]LogFbx: =================================================
+[2016.05.25-02.48.14:672][629]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.48.14:672][629]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.48.14:672][629]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.48.14:672][629]LogFbx: =================================================
+[2016.05.25-02.48.14:672][629]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.48.14:672][629]LogFbx: 	Total Deformer Count -2087599488.
+[2016.05.25-02.48.14:672][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:672][629]LogFbx: =================================================
+[2016.05.25-02.48.14:672][629]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.48.14:672][629]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.48.14:672][629]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.48.14:672][629]LogFbx: =================================================
+[2016.05.25-02.48.14:672][629]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.48.14:672][629]LogFbx: 	Total Deformer Count -2087599488.
+[2016.05.25-02.48.14:672][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:672][629]LogFbx: =================================================
+[2016.05.25-02.48.14:672][629]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.48.14:673][629]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.48.14:673][629]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.48.14:673][629]LogFbx: =================================================
+[2016.05.25-02.48.14:673][629]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.48.14:673][629]LogFbx: 	Total Deformer Count 788569792.
+[2016.05.25-02.48.14:673][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:673][629]LogFbx: =================================================
+[2016.05.25-02.48.14:673][629]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.48.14:673][629]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.48.14:673][629]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.48.14:673][629]LogFbx: =================================================
+[2016.05.25-02.48.14:673][629]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.48.14:673][629]LogFbx: 	Total Deformer Count -2087592528.
+[2016.05.25-02.48.14:673][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:673][629]LogFbx: =================================================
+[2016.05.25-02.48.14:673][629]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.48.14:673][629]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.48.14:673][629]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.48.14:673][629]LogFbx: =================================================
+[2016.05.25-02.48.14:673][629]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.48.14:673][629]LogFbx: 	Total Deformer Count -2087592528.
+[2016.05.25-02.48.14:673][629]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.48.14:673][629]LogFbx: =================================================
+[2016.05.25-02.48.14:673][629]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.48.14:673][629]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.48.14:673][629]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.48.14:673][629]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.48.14:674][629]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.48.14:675][629]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.48.14:677][629]LogFbx: Parsing AnimStack Armature|Idle
+[2016.05.25-02.48.14:679][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.48.14:679][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.48.14:679][629]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle.RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.48.14:798][629]LogFbx: Parsing AnimStack Armature|InAir
+[2016.05.25-02.48.14:800][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.48.14:800][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.48.14:800][629]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir.RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.48.14:848][629]LogFbx: Parsing AnimStack Armature|JumpStart
+[2016.05.25-02.48.14:851][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.48.14:851][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.48.14:851][629]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart.RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.48.14:911][629]LogFbx: Parsing AnimStack Armature|Walk
+[2016.05.25-02.48.14:914][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.48.14:914][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.48.14:914][629]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.48.15:034][629]LogFbx: Parsing AnimStack Cube|Idle
+[2016.05.25-02.48.15:034][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.48.15:034][629]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.48.15:034][629]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle.RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.48.15:177][629]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.25-02.48.15:177][629]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Knee.L_end  
+Knee.R_end  
+Elbow.L_end  
+Elbow.R_end  
+Head_end  
+Hand.l_end  
+Gun_end  
+Foot.l_end  
+Foot.R_end  
+ArmIK.l_end  
+ArmIK.R_end  
+FootIK.L_end  
+FootIK.R_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2016.05.25-02.48.15:177][629]FBXImport:Warning: Warning Mesh 'Character2' has no UV set. Creating a default set. 
+[2016.05.25-02.48.15:177][629]FBXImport:Warning: Warning Mesh 'Hair' has no UV set. Creating a default set. 
+[2016.05.25-02.48.15:177][629]FBXImport:Warning: Warning Mesh 'Cube' has no UV set. Creating a default set. 
+[2016.05.25-02.48.15:183][629]LogMaterial:Warning: Material /Game/Models/NewFolder/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.48.15:186][629]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.05.25-02.48.15:209][629]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.48.15:209][629]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.48.15:211][629]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.05.25-02.48.15:233][629]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.48.15:233][629]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.48.15:236][629]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.05.25-02.48.15:256][629]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.48.15:257][629]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_003.Material_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.48.15:259][629]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.05.25-02.48.15:277][629]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.48.16:911][732]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.05.25-02.48.17:007][732]LogRenderer: Reallocating scene render targets to support 1596x848 (Frame:5810).
+[2016.05.25-02.48.28:962][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.48.28:962][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.48.31:979][396]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2016.05.25-02.48.52:192][566]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx)
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: NodeAttribute, ItemCount : 22
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: Model, ItemCount : 26
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: Pose, ItemCount : 4
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: Deformer, ItemCount : 85
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: Material, ItemCount : 5
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: AnimationStack, ItemCount : 5
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: AnimationLayer, ItemCount : 5
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: AnimationCurveNode, ItemCount : 267
+[2016.05.25-02.48.52:197][566]LogFbx: ItemName: AnimationCurve, ItemCount : 801
+[2016.05.25-02.48.52:202][566]LogFbx: Loading FBX Scene from D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx
+[2016.05.25-02.48.52:251][566]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.25-02.49.05:788][566]LogFbx: Loading FBX Scene from D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx
+[2016.05.25-02.49.05:828][566]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.25-02.49.05:833][566]LogFbx: =================================================
+[2016.05.25-02.49.05:833][566]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.25-02.49.05:833][566]LogFbx: 	Total Deformer Count 2015182120.
+[2016.05.25-02.49.05:833][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.05:833][566]LogFbx: =================================================
+[2016.05.25-02.49.05:833][566]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2016.05.25-02.49.05:833][566]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.25-02.49.05:833][566]LogFbx: Dumping Node END [Cylinder]
+[2016.05.25-02.49.05:833][566]LogFbx: =================================================
+[2016.05.25-02.49.05:833][566]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.49.05:833][566]LogFbx: 	Total Deformer Count 775964800.
+[2016.05.25-02.49.05:833][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.05:833][566]LogFbx: =================================================
+[2016.05.25-02.49.05:833][566]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.49.05:833][566]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.49.05:833][566]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.49.05:833][566]LogFbx: =================================================
+[2016.05.25-02.49.05:833][566]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.49.05:833][566]LogFbx: 	Total Deformer Count 2013319648.
+[2016.05.25-02.49.05:833][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.05:833][566]LogFbx: =================================================
+[2016.05.25-02.49.05:833][566]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.49.05:833][566]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.49.05:833][566]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.49.05:833][566]LogFbx: =================================================
+[2016.05.25-02.49.05:833][566]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.49.05:833][566]LogFbx: 	Total Deformer Count 2013319648.
+[2016.05.25-02.49.05:833][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.05:833][566]LogFbx: =================================================
+[2016.05.25-02.49.05:833][566]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.49.05:833][566]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.49.05:833][566]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.49.05:834][566]LogFbx: =================================================
+[2016.05.25-02.49.05:834][566]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.25-02.49.05:834][566]LogFbx: 	Total Deformer Count 2015179432.
+[2016.05.25-02.49.05:834][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.05:834][566]LogFbx: =================================================
+[2016.05.25-02.49.05:834][566]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2016.05.25-02.49.05:834][566]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.25-02.49.05:834][566]LogFbx: Dumping Node END [Cylinder]
+[2016.05.25-02.49.05:834][566]LogFbx: =================================================
+[2016.05.25-02.49.05:834][566]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.49.05:834][566]LogFbx: 	Total Deformer Count 775963520.
+[2016.05.25-02.49.05:834][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.05:834][566]LogFbx: =================================================
+[2016.05.25-02.49.05:834][566]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.49.05:834][566]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.49.05:834][566]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.49.05:834][566]LogFbx: =================================================
+[2016.05.25-02.49.05:834][566]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.49.05:834][566]LogFbx: 	Total Deformer Count 2013318304.
+[2016.05.25-02.49.05:834][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.05:834][566]LogFbx: =================================================
+[2016.05.25-02.49.05:834][566]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.49.05:834][566]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.49.05:834][566]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.49.05:834][566]LogFbx: =================================================
+[2016.05.25-02.49.05:834][566]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.49.05:834][566]LogFbx: 	Total Deformer Count 2013318304.
+[2016.05.25-02.49.05:834][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.05:834][566]LogFbx: =================================================
+[2016.05.25-02.49.05:834][566]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.49.05:834][566]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.49.05:834][566]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.49.05:834][566]LogFbx:Warning: Not valid bind pose for Pose (Cylinder.001) - Node Cylinder : The relative matrices do not match
+[2016.05.25-02.49.05:835][566]LogFbx:Warning: Not valid bind pose for Pose (Cylinder.001) - Node Character2 : The relative matrices do not match
+[2016.05.25-02.49.05:835][566]LogFbx:Warning: Not valid bind pose for Pose (Cylinder.001) - Node Hair : The relative matrices do not match
+[2016.05.25-02.49.05:835][566]LogFbx:Warning: Not valid bind pose for Pose (Cylinder.001) - Node Cube : The relative matrices do not match
+[2016.05.25-02.49.05:835][566]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Cylinder : The relative matrices do not match
+[2016.05.25-02.49.05:835][566]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Character2 : The relative matrices do not match
+[2016.05.25-02.49.05:836][566]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Hair : The relative matrices do not match
+[2016.05.25-02.49.05:836][566]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Cube : The relative matrices do not match
+[2016.05.25-02.49.05:836][566]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Cylinder : The relative matrices do not match
+[2016.05.25-02.49.05:836][566]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Character2 : The relative matrices do not match
+[2016.05.25-02.49.05:836][566]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Hair : The relative matrices do not match
+[2016.05.25-02.49.05:836][566]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Cube : The relative matrices do not match
+[2016.05.25-02.49.05:837][566]LogFbx: Valid bind pose for Pose (Cube.000) - Cylinder
+[2016.05.25-02.49.05:837][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_001'
+[2016.05.25-02.49.05:837][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_001'
+[2016.05.25-02.49.05:840][566]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.05.25-02.49.05:848][566]LogFbx: Triangulating skeletal mesh Cylinder
+[2016.05.25-02.49.05:855][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material'
+[2016.05.25-02.49.05:855][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material'
+[2016.05.25-02.49.05:858][566]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.05.25-02.49.05:866][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_002'
+[2016.05.25-02.49.05:866][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_002'
+[2016.05.25-02.49.05:872][566]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.05.25-02.49.05:881][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_003'
+[2016.05.25-02.49.05:881][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_003'
+[2016.05.25-02.49.05:887][566]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.05.25-02.49.05:899][566]LogFbx: Triangulating skeletal mesh Character2
+[2016.05.25-02.49.05:986][566]LogFbx: Triangulating skeletal mesh Hair
+[2016.05.25-02.49.06:049][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/GunMat'
+[2016.05.25-02.49.06:049][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/GunMat'
+[2016.05.25-02.49.06:054][566]LogMaterial: Missing cached shader map for material GunMat, compiling. 
+[2016.05.25-02.49.06:067][566]LogFbx: Triangulating skeletal mesh Cube
+[2016.05.25-02.49.06:086][566]LogFbx:Warning: Bones digested - 35  Depth of hierarchy - 7
+[2016.05.25-02.49.06:099][566]LogSkeletalMesh: Chunk 0: 1279 rigid vertices, 246 soft vertices, 8 active bones
+[2016.05.25-02.49.06:100][566]LogSkeletalMesh: Chunk 1: 154 rigid vertices, 1098 soft vertices, 10 active bones
+[2016.05.25-02.49.06:100][566]LogSkeletalMesh: Chunk 2: 77 rigid vertices, 9 soft vertices, 3 active bones
+[2016.05.25-02.49.06:100][566]LogSkeletalMesh: Chunk 3: 91 rigid vertices, 68 soft vertices, 9 active bones
+[2016.05.25-02.49.06:100][566]LogSkeletalMesh: Chunk 4: 214 rigid vertices, 0 soft vertices, 1 active bones
+[2016.05.25-02.49.06:101][566]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 763 triangles
+[2016.05.25-02.49.06:101][566]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 625 triangles
+[2016.05.25-02.49.06:101][566]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 46 triangles
+[2016.05.25-02.49.06:101][566]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 92 triangles
+[2016.05.25-02.49.06:101][566]LogSkeletalMesh: Section 4: Material=4, Chunk=4, 132 triangles
+[2016.05.25-02.49.06:104][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.49.06:105][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.49.06:105][566]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset.RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.49.06:106][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.49.06:106][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.49.06:107][566]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton.RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.49.06:107][566]LogFbx: =================================================
+[2016.05.25-02.49.06:107][566]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.25-02.49.06:107][566]LogFbx: 	Total Deformer Count 984042648.
+[2016.05.25-02.49.06:107][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.06:107][566]LogFbx: =================================================
+[2016.05.25-02.49.06:107][566]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2016.05.25-02.49.06:107][566]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.25-02.49.06:107][566]LogFbx: Dumping Node END [Cylinder]
+[2016.05.25-02.49.06:107][566]LogFbx: =================================================
+[2016.05.25-02.49.06:107][566]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.49.06:107][566]LogFbx: 	Total Deformer Count 1999991424.
+[2016.05.25-02.49.06:107][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.06:107][566]LogFbx: =================================================
+[2016.05.25-02.49.06:107][566]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.49.06:107][566]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.49.06:107][566]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.49.06:107][566]LogFbx: =================================================
+[2016.05.25-02.49.06:107][566]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.49.06:107][566]LogFbx: 	Total Deformer Count 2014298016.
+[2016.05.25-02.49.06:107][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.06:107][566]LogFbx: =================================================
+[2016.05.25-02.49.06:107][566]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.49.06:107][566]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.49.06:107][566]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.49.06:107][566]LogFbx: =================================================
+[2016.05.25-02.49.06:107][566]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.49.06:108][566]LogFbx: 	Total Deformer Count 2014298016.
+[2016.05.25-02.49.06:108][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.06:108][566]LogFbx: =================================================
+[2016.05.25-02.49.06:108][566]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.49.06:108][566]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.49.06:108][566]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.49.06:108][566]LogFbx: =================================================
+[2016.05.25-02.49.06:108][566]LogFbx: Dumping Node START [Cylinder] 
+[2016.05.25-02.49.06:108][566]LogFbx: 	Total Deformer Count 984042480.
+[2016.05.25-02.49.06:108][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.06:108][566]LogFbx: =================================================
+[2016.05.25-02.49.06:108][566]LogFbx: 	Attribute (Cylinder.001) Type (4).
+[2016.05.25-02.49.06:108][566]LogFbx: 		[Node Attribute Child 1] Cylinder (Type Mesh).
+[2016.05.25-02.49.06:108][566]LogFbx: Dumping Node END [Cylinder]
+[2016.05.25-02.49.06:108][566]LogFbx: =================================================
+[2016.05.25-02.49.06:108][566]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.49.06:108][566]LogFbx: 	Total Deformer Count 1999988032.
+[2016.05.25-02.49.06:108][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.06:108][566]LogFbx: =================================================
+[2016.05.25-02.49.06:109][566]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.49.06:109][566]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.49.06:109][566]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.49.06:109][566]LogFbx: =================================================
+[2016.05.25-02.49.06:109][566]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.49.06:109][566]LogFbx: 	Total Deformer Count 2014296480.
+[2016.05.25-02.49.06:109][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.06:109][566]LogFbx: =================================================
+[2016.05.25-02.49.06:109][566]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.49.06:109][566]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.49.06:109][566]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.49.06:109][566]LogFbx: =================================================
+[2016.05.25-02.49.06:109][566]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.49.06:109][566]LogFbx: 	Total Deformer Count 2014296480.
+[2016.05.25-02.49.06:109][566]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.49.06:109][566]LogFbx: =================================================
+[2016.05.25-02.49.06:109][566]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.49.06:109][566]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.49.06:109][566]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.49.06:109][566]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.49.06:110][566]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.49.06:111][566]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.49.06:112][566]LogFbx: Parsing AnimStack Armature|Idle
+[2016.05.25-02.49.06:114][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.49.06:114][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.49.06:114][566]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle.RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.49.06:239][566]LogFbx: Parsing AnimStack Armature|InAir
+[2016.05.25-02.49.06:241][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.49.06:242][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.49.06:242][566]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir.RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.49.06:298][566]LogFbx: Parsing AnimStack Armature|JumpStart
+[2016.05.25-02.49.06:301][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.49.06:301][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.49.06:301][566]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart.RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.49.06:348][566]LogFbx: Parsing AnimStack Armature|Walk
+[2016.05.25-02.49.06:352][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.49.06:352][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.49.06:352][566]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.49.06:477][566]LogFbx: Parsing AnimStack Cube|Idle
+[2016.05.25-02.49.06:477][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.49.06:478][566]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.49.06:478][566]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle.RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.49.06:621][566]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.25-02.49.06:622][566]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Knee.L_end  
+Knee.R_end  
+Elbow.L_end  
+Elbow.R_end  
+Head_end  
+Hand.l_end  
+Gun_end  
+Foot.l_end  
+Foot.R_end  
+ArmIK.l_end  
+ArmIK.R_end  
+FootIK.L_end  
+FootIK.R_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2016.05.25-02.49.06:622][566]FBXImport:Warning: Warning Mesh 'Cylinder' has no UV set. Creating a default set. 
+[2016.05.25-02.49.06:622][566]FBXImport:Warning: Warning Mesh 'Character2' has no UV set. Creating a default set. 
+[2016.05.25-02.49.06:622][566]FBXImport:Warning: Warning Mesh 'Hair' has no UV set. Creating a default set. 
+[2016.05.25-02.49.06:622][566]FBXImport:Warning: Warning Mesh 'Cube' has no UV set. Creating a default set. 
+[2016.05.25-02.49.06:628][566]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.49.06:632][566]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.05.25-02.49.06:657][566]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.49.06:657][566]LogMaterial:Warning: Material /Game/Models/NewFolder/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.49.06:660][566]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.05.25-02.49.06:682][566]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.49.06:682][566]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.49.06:685][566]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.05.25-02.49.06:710][566]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.49.06:710][566]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_003.Material_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.49.06:712][566]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.05.25-02.49.06:733][566]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.49.06:733][566]LogMaterial:Warning: Material /Game/Models/NewFolder/GunMat.GunMat needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.49.06:735][566]LogMaterial: Missing cached shader map for material GunMat, compiling. 
+[2016.05.25-02.49.06:757][566]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.49.08:809][695]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.05.25-02.49.52:058][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.49.52:058][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.49.52:095][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.25-02.49.52:613][462]LogSavePackage: Save=504.82ms
+[2016.05.25-02.49.52:613][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player1557242C4746CCA77F34138C59E3E655.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.25-02.49.52:615][462]LogSavePackage: Total save time: 519.32ms
+[2016.05.25-02.49.52:615][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.25-02.49.52:645][462]LogSavePackage: Save=9.22ms
+[2016.05.25-02.49.52:645][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk0CA56043439B00CC88CE13AE467F996B.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.uasset'
+[2016.05.25-02.49.52:646][462]LogSavePackage: Total save time: 10.23ms
+[2016.05.25-02.49.52:646][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.uasset
+[2016.05.25-02.49.52:675][462]LogSavePackage: Save=8.96ms
+[2016.05.25-02.49.52:675][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart2AF8AF8349F0AF5C464FBE8CEE2873E9.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart.uasset'
+[2016.05.25-02.49.52:676][462]LogSavePackage: Total save time: 10.01ms
+[2016.05.25-02.49.52:676][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart.uasset
+[2016.05.25-02.49.52:705][462]LogSavePackage: Save=8.97ms
+[2016.05.25-02.49.52:705][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir79B9FD33478C4BAD9F27239FA2215C5B.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir.uasset'
+[2016.05.25-02.49.52:706][462]LogSavePackage: Total save time: 9.98ms
+[2016.05.25-02.49.52:706][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir.uasset
+[2016.05.25-02.49.52:734][462]LogSavePackage: Save=8.93ms
+[2016.05.25-02.49.52:734][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_IdleF00F41E84C5BA329D5723F8CA38686D2.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle.uasset'
+[2016.05.25-02.49.52:735][462]LogSavePackage: Total save time: 9.96ms
+[2016.05.25-02.49.52:735][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle.uasset
+[2016.05.25-02.49.52:754][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3.uasset" SILENT=true
+[2016.05.25-02.49.52:769][462]LogSavePackage: Save=13.99ms
+[2016.05.25-02.49.52:769][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3C003AA074CC634116F5242900844E81C.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3.uasset'
+[2016.05.25-02.49.52:769][462]LogSavePackage: Total save time: 15.07ms
+[2016.05.25-02.49.52:770][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3.uasset
+[2016.05.25-02.49.52:789][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/Material_001" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_001.uasset" SILENT=true
+[2016.05.25-02.49.52:800][462]LogSavePackage: Save=9.92ms
+[2016.05.25-02.49.52:800][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Material_0012FA7318544ED44A6A5F852869D0C8759.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_001.uasset'
+[2016.05.25-02.49.52:801][462]LogSavePackage: Total save time: 10.94ms
+[2016.05.25-02.49.52:801][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_001.uasset
+[2016.05.25-02.49.52:821][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/Material" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material.uasset" SILENT=true
+[2016.05.25-02.49.52:830][462]LogSavePackage: Save=8.71ms
+[2016.05.25-02.49.52:830][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Material2F3A45C147FD5CCBBDACE68B454A9EAA.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material.uasset'
+[2016.05.25-02.49.52:831][462]LogSavePackage: Total save time: 9.67ms
+[2016.05.25-02.49.52:831][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material.uasset
+[2016.05.25-02.49.52:851][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/Material_002" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_002.uasset" SILENT=true
+[2016.05.25-02.49.52:860][462]LogSavePackage: Save=9.07ms
+[2016.05.25-02.49.52:860][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Material_002BEAE9A704829B1F9E98267A1D6946ECD.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_002.uasset'
+[2016.05.25-02.49.52:861][462]LogSavePackage: Total save time: 10.07ms
+[2016.05.25-02.49.52:861][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_002.uasset
+[2016.05.25-02.49.52:881][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/Material_003" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_003.uasset" SILENT=true
+[2016.05.25-02.49.52:891][462]LogSavePackage: Save=9.42ms
+[2016.05.25-02.49.52:891][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Material_0030F059A7944BE0F0CB062C6AD22446A3C.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_003.uasset'
+[2016.05.25-02.49.52:892][462]LogSavePackage: Total save time: 10.49ms
+[2016.05.25-02.49.52:892][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_003.uasset
+[2016.05.25-02.49.52:914][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/GunMat" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/GunMat.uasset" SILENT=true
+[2016.05.25-02.49.52:923][462]LogSavePackage: Save=8.93ms
+[2016.05.25-02.49.52:923][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/GunMatD4C4C4E44A668604221DA5B0AC54F75A.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/GunMat.uasset'
+[2016.05.25-02.49.52:924][462]LogSavePackage: Total save time: 9.97ms
+[2016.05.25-02.49.52:924][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/GunMat.uasset
+[2016.05.25-02.49.52:935][462]LogSavePackage: Save=3.98ms
+[2016.05.25-02.49.52:935][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_PhysicsAssetDDF8DB6843A808C6EFB30FA1C3161795.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset.uasset'
+[2016.05.25-02.49.52:936][462]LogSavePackage: Total save time: 5.08ms
+[2016.05.25-02.49.52:936][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset.uasset
+[2016.05.25-02.49.52:943][462]LogSavePackage: Save=1.10ms
+[2016.05.25-02.49.52:943][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Skeleton3E5223984734A2F08604E7BCEEBB4801.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton.uasset'
+[2016.05.25-02.49.52:944][462]LogSavePackage: Total save time: 2.06ms
+[2016.05.25-02.49.52:944][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton.uasset
+[2016.05.25-02.49.52:973][462]LogSavePackage: Save=9.15ms
+[2016.05.25-02.49.52:973][462]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle2A991E5C469CB0EB803F798CD10F3E2B.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle.uasset'
+[2016.05.25-02.49.52:974][462]LogSavePackage: Total save time: 10.25ms
+[2016.05.25-02.49.52:974][462]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle.uasset
+[2016.05.25-02.50.01:136][823]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2016.05.25-02.50.01:214][823]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.51.07:673][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/IdleWalk" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset" SILENT=true
+[2016.05.25-02.51.07:682][705]LogSavePackage: Save=8.39ms
+[2016.05.25-02.51.07:682][705]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/IdleWalk73BE24C9458837BB4DE92FB92709C337.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset'
+[2016.05.25-02.51.07:683][705]LogSavePackage: Total save time: 9.71ms
+[2016.05.25-02.51.07:683][705]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset
+[2016.05.25-02.51.09:484][796]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.52.12:785][713]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.52.29:314][ 44]LogRenderer: Reallocating scene render targets to support 1596x884 (Frame:37181).
+[2016.05.25-02.52.29:314][ 44]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.52.49:312][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.52.49:312][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.52.49:397][597]LogSavePackage: Save=9.29ms
+[2016.05.25-02.52.49:397][597]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk77CDAB8746461D0E82DFD8AA5BC287F1.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.uasset'
+[2016.05.25-02.52.49:398][597]LogSavePackage: Total save time: 23.34ms
+[2016.05.25-02.52.49:398][597]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.uasset
+[2016.05.25-02.52.49:419][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/NewAnimBlueprint" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset" SILENT=true
+[2016.05.25-02.52.49:439][597]LogSavePackage: Save=19.09ms
+[2016.05.25-02.52.49:439][597]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/NewAnimBlueprint27CAD9604F8E93188671F79D8C4D4C8F.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset'
+[2016.05.25-02.52.49:440][597]LogSavePackage: Total save time: 20.10ms
+[2016.05.25-02.52.49:440][597]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset
+[2016.05.25-02.52.49:445][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/NewBlendSpace1D" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewBlendSpace1D.uasset" SILENT=true
+[2016.05.25-02.52.49:446][597]LogSavePackage: Save=0.67ms
+[2016.05.25-02.52.49:446][597]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/NewBlendSpace1D842448C24337A0E9851373890D20886A.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewBlendSpace1D.uasset'
+[2016.05.25-02.52.49:447][597]LogSavePackage: Total save time: 1.75ms
+[2016.05.25-02.52.49:447][597]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewBlendSpace1D.uasset
+[2016.05.25-02.52.49:454][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/IdleWalk" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset" SILENT=true
+[2016.05.25-02.52.49:470][597]LogSavePackage: Save=1.38ms
+[2016.05.25-02.52.49:470][597]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/IdleWalk6CF1A54B41B1D8FFC05DFD8906938445.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset'
+[2016.05.25-02.52.49:471][597]LogSavePackage: Total save time: 16.33ms
+[2016.05.25-02.52.49:471][597]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset
+[2016.05.25-02.52.53:752][806]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2016.05.25-02.52.53:846][806]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.53.01:746][404]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.53.08:116][832]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.53.28:086][128]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.53.30:350][288]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.53.30:984][327]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.53.52:301][ 53]BlueprintLog: New page: Compile NewAnimBlueprint
+[2016.05.25-02.53.52:319][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.53.52:543][ 53]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.05.25-02.53.52:543][ 53]BlueprintEditorCompileResults: Info [0391.18] Compile of NewAnimBlueprint successful! [in 241 ms]
+[2016.05.25-02.53.53:410][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/NewAnimBlueprint" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset" SILENT=true
+[2016.05.25-02.53.53:445][119]LogSavePackage: Save=21.27ms
+[2016.05.25-02.53.53:445][119]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/NewAnimBlueprint85FD55D5489803DD6AFEABAA920EECA0.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset'
+[2016.05.25-02.53.53:446][119]LogSavePackage: Total save time: 35.21ms
+[2016.05.25-02.53.53:446][119]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset
+[2016.05.25-02.53.53:451][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/IdleWalk" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset" SILENT=true
+[2016.05.25-02.53.53:466][119]LogSavePackage: Save=1.64ms
+[2016.05.25-02.53.53:466][119]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/IdleWalk1A7C34144CB6C0A2D9D19088C477821D.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset'
+[2016.05.25-02.53.53:467][119]LogSavePackage: Total save time: 15.32ms
+[2016.05.25-02.53.53:467][119]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/IdleWalk.uasset
+[2016.05.25-02.54.16:768][970]BlueprintLog: New page: Compile NewAnimBlueprint
+[2016.05.25-02.54.16:775][970]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_0
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:775][970]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_1
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:846][970]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:847][970]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.05.25-02.54.16:847][970]BlueprintEditorCompileResults: Info [0415.48] Compile of NewAnimBlueprint successful! [in 78 ms]
+[2016.05.25-02.54.16:847][970]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_3
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:849][970]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:874][971]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:889][972]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:902][973]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:920][974]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:938][975]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:960][976]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.16:982][977]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.17:006][978]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.17:028][979]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.17:046][980]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.17:058][981]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.17:071][982]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.17:083][983]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.17:095][984]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.17:107][985]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_2
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.40:899][909]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_4
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.40:996][914]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.41:086][919]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_6
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.41:182][924]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_7
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.41:278][929]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_8
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.41:375][934]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_9
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.44:301][116]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.54.58:555][995]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_10
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:478][ 47]BlueprintLog: New page: Compile NewAnimBlueprint
+[2016.05.25-02.54.59:487][ 47]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_0
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:488][ 47]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_3
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:488][ 47]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_4
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:594][ 47]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:595][ 47]BlueprintEditorCompileResults: Info [0458.23] Compile of NewAnimBlueprint successful! [in 115 ms]
+[2016.05.25-02.54.59:595][ 47]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_6
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:598][ 47]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:626][ 48]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:642][ 49]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:660][ 50]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:676][ 51]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:693][ 52]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:709][ 53]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:725][ 54]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:742][ 55]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:758][ 56]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:775][ 57]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:793][ 58]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:810][ 59]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:832][ 60]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.54.59:849][ 61]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.DebugSkelMeshComponent_2:NewAnimBlueprint_C_5
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.55.13:321][849]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_7
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.55.13:322][849]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_8
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.55.16:260][ 19]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_9
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.55.21:528][322]LogScript:Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	NewAnimBlueprint_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.NewAnimBlueprint_C_10
+	Function /Game/Models/NewFolder/NewAnimBlueprint.NewAnimBlueprint_C:ExecuteUbergraph_NewAnimBlueprint:003E
+[2016.05.25-02.55.22:477][374]BlueprintLog: New page: Compile NewAnimBlueprint
+[2016.05.25-02.55.22:558][374]BlueprintEditorCompileResults: Info [0481.19] Compile of NewAnimBlueprint successful! [in 80 ms]
+[2016.05.25-02.55.31:627][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/NewAnimBlueprint" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset" SILENT=true
+[2016.05.25-02.55.31:673][893]LogSavePackage: Save=32.90ms
+[2016.05.25-02.55.31:673][893]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/NewAnimBlueprint41E8DFB74B6F42E1CC2377BE2F96E3F1.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset'
+[2016.05.25-02.55.31:674][893]LogSavePackage: Total save time: 46.92ms
+[2016.05.25-02.55.31:674][893]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset
+[2016.05.25-02.55.44:432][618]LogAnimation:Warning: AnimBP UE4ASP_HeroTPP_AnimBlueprint2_C is incompatible with skeleton RiggingShooterCharacter2_dot_3_Skeleton, removing AnimBP from actor.
+[2016.05.25-02.55.44:432][618]LogAnimation:Warning: AnimBP UE4ASP_HeroTPP_AnimBlueprint2_C is incompatible with skeleton RiggingShooterCharacter2_dot_3_Skeleton, removing AnimBP from actor.
+[2016.05.25-02.55.44:435][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.55.44:436][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.55.45:296][665]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.25-02.55.46:784][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.05.25-02.55.47:667][804]BlueprintLog: New page: Compile Player
+[2016.05.25-02.55.47:955][804]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.05.25-02.55.48:155][804]BlueprintEditorCompileResults: Info [0506.79] Compile of Player successful! [in 487 ms]
+[2016.05.25-02.55.52:616][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.55.52:616][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.05.25-02.55.53:448][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.05.25-02.55.53:995][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.05.25-02.55.58:042][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.05.25-02.56.08:660][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.05.25-02.56.08:968][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.05.25-02.56.09:265][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.05.25-02.56.27:860][623]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.05.25-02.56.43:560][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.05.25-02.56.43:803][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.05.25-02.56.44:539][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.05.25-02.56.58:463][706]BlueprintLog: New page: Compile Player
+[2016.05.25-02.56.58:682][706]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.05.25-02.56.58:908][706]BlueprintEditorCompileResults: Info [0577.54] Compile of Player successful! [in 445 ms]
+[2016.05.25-02.57.00:499][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.57.00:499][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.25-02.57.00:500][808]PIE: New page: PIE session: ChrisTest (May 24, 2016, 11:57:00 AM)
+[2016.05.25-02.57.00:500][808]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.25-02.57.00:509][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009596s)
+[2016.05.25-02.57.00:510][808]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.25-02.57.00:510][808]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2016.05.25-02.57.00:510][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.010332s)
+[2016.05.25-02.57.00:510][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.57.00:510][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.05.25-02.57.00:533][808]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.25-02.57.00:542][808]LogInit: FAudioDevice initialized.
+[2016.05.25-02.57.00:605][808]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.25-02.57.00:608][808]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.24-19.57.00
+[2016.05.25-02.57.00:609][808]LogWorld: Bringing up level for play took: 0.003085
+[2016.05.25-02.57.00:614][808]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.05.25-02.57.00:634][808]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.454
+[2016.05.25-02.57.00:635][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.57.05:883][121]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.57.05:931][121]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.57.06:844][179]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.57.06:844][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.25-02.57.06:845][179]PIE: New page: PIE session: ChrisTest (May 24, 2016, 11:57:06 AM)
+[2016.05.25-02.57.06:845][179]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.25-02.57.06:856][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011572s)
+[2016.05.25-02.57.06:857][179]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.25-02.57.06:857][179]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2016.05.25-02.57.06:857][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.012342s)
+[2016.05.25-02.57.06:880][179]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.25-02.57.06:888][179]LogInit: FAudioDevice initialized.
+[2016.05.25-02.57.06:933][179]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.25-02.57.06:936][179]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.24-19.57.06
+[2016.05.25-02.57.06:937][179]LogWorld: Bringing up level for play took: 0.002892
+[2016.05.25-02.57.06:954][179]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.773
+[2016.05.25-02.57.06:954][179]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.57.22:998][150]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.57.23:049][150]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.57.23:854][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.25-02.57.24:443][200]LogSavePackage: Save=554.36ms
+[2016.05.25-02.57.24:443][200]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player59D04D7548FCE82C515E28A5A42E5D80.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.25-02.57.24:445][200]LogSavePackage: Total save time: 589.92ms
+[2016.05.25-02.57.24:445][200]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.25-02.57.24:909][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.57.25:301][233]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.25-02.57.25:498][234]Cmd: QUIT_EDITOR
+[2016.05.25-02.57.26:261][234]LogExit: Preparing to exit.
+[2016.05.25-02.57.27:129][234]LogExit: Editor shut down
+[2016.05.25-02.57.27:129][234]LogExit: Transaction tracking system shut down
+[2016.05.25-02.57.27:280][234]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.25-02.57.27:280][234]LogExit: Object subsystem successfully closed.
+[2016.05.25-02.57.27:295][234]LogD3D11RHI: Shutdown
+[2016.05.25-02.57.27:295][234]LogD3D11RHI: CleanupD3DDevice
+[2016.05.25-02.57.27:378][234]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.25-02.57.27:422][234]LogDerivedDataCache: Shutdown
+[2016.05.25-02.57.27:422][234]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (207)
+[2016.05.25-02.57.27:423][234]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2016.05.25-02.57.27:423][234]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.25-02.57.27:423][234]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.25-02.57.27:423][234]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.25-02.57.27:423][234]LogModuleManager: Shutting down and abandoning module WorldBrowser (202)
+[2016.05.25-02.57.27:423][234]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.25-02.57.27:423][234]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.25-02.57.27:423][234]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.25-02.57.27:424][234]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.25-02.57.27:731][234]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.25-02.57.27:732][234]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.25-02.57.27:764][234]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.25-02.57.27:766][234]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.25-02.57.27:767][234]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.25-02.57.27:779][234]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.25-02.57.27:780][234]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.25-02.57.27:781][234]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.25-02.57.27:781][234]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.25-02.57.27:782][234]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.25-02.57.27:782][234]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.25-02.57.28:014][234]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.25-02.57.28:015][234]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.25-02.57.28:015][234]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.25-02.57.28:116][234]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.25-02.57.28:117][234]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.25-02.57.28:117][234]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.25-02.57.28:117][234]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.25-02.57.28:117][234]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.25-02.57.28:117][234]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.25-02.57.28:120][234]LogDerivedDataCache: Shutdown
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.25-02.57.28:120][234]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.25-02.57.28:121][234]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.25-02.57.30:124][234]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.25-02.57.30:124][234]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.25-02.57.30:124][234]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.25-02.57.30:124][234]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.25-02.57.30:124][234]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.25-02.57.30:124][234]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.25-02.57.30:124][234]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.25-02.57.30:128][234]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.25-02.57.30:130][234]LogExit: Exiting.
+[2016.05.25-02.57.30:132][234]Log file closed, 05/24/16 19:57:30

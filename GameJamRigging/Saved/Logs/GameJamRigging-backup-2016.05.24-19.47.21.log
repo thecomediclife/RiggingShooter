@@ -1,0 +1,937 @@
+﻿Log file open, 05/24/16 19:36:03
+LogInit:Display: Running engine for game: GameJamRigging
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2135563643) SRandInit(-2135563641).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.068675
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.25-02.36.03:440][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.25-02.36.03:440][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.25-02.36.03:447][  0]LogInit: Computer: DUMPRING
+[2016.05.25-02.36.03:447][  0]LogInit: User: theco000
+[2016.05.25-02.36.03:447][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.25-02.36.03:447][  0]LogInit: High frequency timer resolution =3.615397 MHz
+[2016.05.25-02.36.03:447][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.05.25-02.36.03:447][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.25-02.36.03:447][  0]LogMemory: Process Physical Memory: 314.45 MB used, 314.45 MB peak
+[2016.05.25-02.36.03:447][  0]LogMemory: Process Virtual Memory: 315.03 MB used, 315.03 MB peak
+[2016.05.25-02.36.03:447][  0]LogMemory: Physical Memory: 5656.69 MB used, 16326.09 MB total
+[2016.05.25-02.36.03:447][  0]LogMemory: Virtual Memory: 639.07 MB used, 134217728.00 MB total
+[2016.05.25-02.36.03:478][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.05.25-02.36.03:871][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.25-02.36.03:890][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2016.05.25-02.36.03:890][  0]LogD3D11RHI:       3013MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.05.25-02.36.03:891][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.25-02.36.03:891][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.05.25-02.36.03:891][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.25-02.36.03:896][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.25-02.36.03:896][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2016.05.25-02.36.03:896][  0]LogD3D11RHI:   Driver Version: 10.18.13.6510 (internal 10.18.13.6510)
+[2016.05.25-02.36.03:896][  0]LogD3D11RHI:      Driver Date: 4-27-2016
+[2016.05.25-02.36.03:896][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.25-02.36.03:906][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.25-02.36.03:916][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (D:/Git/RiggingShooter/GameJamRigging/Intermediate/Shaders/WorkingDirectory/13444/).
+[2016.05.25-02.36.03:916][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/THECO_~1/AppData/Local/Temp/UnrealShaderWorkingDir/F7F756E14EFA568EDA473FA3B6AB5657/'.
+[2016.05.25-02.36.03:916][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.25-02.36.04:827][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.25-02.36.04:832][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.25-02.36.04:838][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.25-02.36.04:847][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.25-02.36.04:856][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.25-02.36.04:862][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.25-02.36.04:868][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.25-02.36.04:871][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.25-02.36.04:874][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.25-02.36.04:877][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.25-02.36.04:880][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.25-02.36.04:886][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.25-02.36.04:886][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.25-02.36.04:887][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.25-02.36.04:903][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.25-02.36.04:908][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.25-02.36.04:913][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.25-02.36.04:918][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.25-02.36.04:922][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.25-02.36.04:922][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.25-02.36.04:981][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.25-02.36.05:024][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.25-02.36.05:024][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.25-02.36.05:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.25-02.36.05:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.25-02.36.05:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Git/RiggingShooter/GameJamRigging/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.25-02.36.05:024][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.25-02.36.05:037][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.25-02.36.05:048][  0]LogDerivedDataCache: Using Local data cache path C:/Users/theco_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.25-02.36.05:219][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.25-02.36.05:220][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.25-02.36.05:270][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.25-02.36.05:398][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.25-02.36.05:398][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.25-02.36.05:398][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.25-02.36.05:602][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.25-02.36.05:602][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.25-02.36.05:602][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.25-02.36.05:607][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.25-02.36.05:687][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.25-02.36.05:687][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.25-02.36.05:766][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.25-02.36.05:766][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.25-02.36.05:766][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.25-02.36.05:766][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.25-02.36.05:766][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.25-02.36.05:766][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.25-02.36.06:285][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.25-02.36.06:382][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2016.05.25-02.36.06:513][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.36.06:514][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.36.06:520][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.36.06:526][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.36.06:614][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.05.25-02.36.06:683][  0]LogEngine: Initializing Engine...
+[2016.05.25-02.36.06:798][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.05.25-02.36.06:807][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.25-02.36.06:819][  0]LogInit: FAudioDevice initialized.
+[2016.05.25-02.36.06:841][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/theco_000/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.25-02.36.06:845][  0]LogInit: Texture streaming: Enabled
+[2016.05.25-02.36.06:862][  0]LogInit: Transaction tracking system initialized
+[2016.05.25-02.36.06:879][  0]BlueprintLog: New page: Editor Load
+[2016.05.25-02.36.06:932][  0]LocalizationService: Info Localization service is disabled
+[2016.05.25-02.36.06:989][  0]LogConsoleResponse:Display: 
+[2016.05.25-02.36.07:077][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.05.25-02.36.07:077][  0]LogCook:Display: Mobile HDR setting 1
+[2016.05.25-02.36.07:077][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.05.25-02.36.07:116][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/' took 0.01s
+[2016.05.25-02.36.07:116][  0]SourceControl: Info Source control is disabled
+[2016.05.25-02.36.07:116][  0]Cmd: MAP LOAD FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.05.25-02.36.07:116][  0]LightingResults: New page: Lighting Build
+[2016.05.25-02.36.07:118][  0]MapCheck: New page: Map Check
+[2016.05.25-02.36.07:118][  0]LightingResults: New page: Lighting Build
+[2016.05.25-02.36.08:769][  0]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.25-02.36.08:777][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.05.25-02.36.08:778][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.05.25-02.36.08:827][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.231ms to complete.
+[2016.05.25-02.36.08:827][  0]LogFileHelpers: Loading map 'ChrisTest' took 1.711
+[2016.05.25-02.36.08:946][  0]LogCollectionManager: Loaded 0 collections in 0.001257 seconds
+[2016.05.25-02.36.08:989][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Saved/Collections/' took 0.01s
+[2016.05.25-02.36.08:989][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Developers/theco000/Collections/' took 0.01s
+[2016.05.25-02.36.08:989][  0]LogFileCache: Scanning file cache for directory 'D:/Git/RiggingShooter/GameJamRigging/Content/Collections/' took 0.01s
+[2016.05.25-02.36.08:989][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.05.25-02.36.08:996][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1979 classes and 343 folders.
+[2016.05.25-02.36.08:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.05.25-02.36.08:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.05.25-02.36.08:999][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.05.25-02.36.09:004][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.05.25-02.36.09:008][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.05.25-02.36.09:043][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.05.25-02.36.09:049][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2016.05.25-02.36.09:054][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.05.25-02.36.09:115][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.05.25-02.36.09:130][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.05.25-02.36.09:159][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.05.25-02.36.09:159][  0]LogLoad: Full Startup: 6.34 seconds (BP compile: 0.54 seconds)
+[2016.05.25-02.36.09:159][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.05.25-02.36.09:159][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.05.25-02.36.09:169][  0]LogOcInput: OculusInput pre-init called
+[2016.05.25-02.36.09:229][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.05.25-02.36.09:374][  0]LogRenderer: Reallocating scene render targets to support 1596x808 (Frame:2).
+[2016.05.25-02.36.09:458][  1]LogAssetRegistry: Asset discovery search completed in 3.0971 seconds
+[2016.05.25-02.36.09:459][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.05.25-02.36.09:459][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2016.05.25-02.36.20:403][232]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (RiggingShooterCharacter2_dot_3)
+[2016.05.25-02.36.20:891][280]Cmd: DELETE
+[2016.05.25-02.36.20:891][280]Cmd: ACTOR DELETE
+[2016.05.25-02.36.20:893][280]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2016.05.25-02.36.20:893][280]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.36.20:893][280]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.36.20:945][280]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2016.05.25-02.36.26:935][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ChrisTest" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.05.25-02.36.27:094][704]LogSavePackage: Save=117.56ms
+[2016.05.25-02.36.27:094][704]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/ChrisTest8F3482844507C5002784EC8767CCB2E1.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap'
+[2016.05.25-02.36.27:095][704]LogSavePackage: Total save time: 151.94ms
+[2016.05.25-02.36.27:095][704]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Maps/ChrisTest.umap
+[2016.05.25-02.36.27:126][704]LogFileHelpers: Saving map 'ChrisTest' took 0.239
+[2016.05.25-02.36.32:721][107]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2016.05.25-02.36.44:322][242]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx)
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: NodeAttribute, ItemCount : 22
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: Geometry, ItemCount : 3
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: Model, ItemCount : 25
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: Pose, ItemCount : 3
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: Deformer, ItemCount : 64
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: Material, ItemCount : 4
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: AnimationStack, ItemCount : 5
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: AnimationLayer, ItemCount : 5
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: AnimationCurveNode, ItemCount : 267
+[2016.05.25-02.36.44:331][242]LogFbx: ItemName: AnimationCurve, ItemCount : 801
+[2016.05.25-02.36.44:336][242]LogFbx: Loading FBX Scene from D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx
+[2016.05.25-02.36.44:375][242]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.25-02.36.47:836][242]LogFbx: Loading FBX Scene from D:\GameAssets\RiggingShooter\RiggingShooterCharacter2 dot 3.fbx
+[2016.05.25-02.36.47:874][242]LogFbx: FBX Scene Loaded Succesfully
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.36.47:878][242]LogFbx: 	Total Deformer Count 214748288.
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.36.47:878][242]LogFbx: 	Total Deformer Count 34065616.
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.36.47:878][242]LogFbx: 	Total Deformer Count 34065616.
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.36.47:878][242]LogFbx: 	Total Deformer Count 214748224.
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.36.47:878][242]LogFbx: 	Total Deformer Count 34065568.
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.36.47:878][242]LogFbx: 	Total Deformer Count 34065568.
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.47:878][242]LogFbx: =================================================
+[2016.05.25-02.36.47:878][242]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.36.47:878][242]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.36.47:878][242]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.36.47:879][242]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Character2 : The relative matrices do not match
+[2016.05.25-02.36.47:879][242]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Hair : The relative matrices do not match
+[2016.05.25-02.36.47:879][242]LogFbx:Warning: Not valid bind pose for Pose (Cube.001) - Node Cube : The relative matrices do not match
+[2016.05.25-02.36.47:879][242]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Character2 : The relative matrices do not match
+[2016.05.25-02.36.47:880][242]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Hair : The relative matrices do not match
+[2016.05.25-02.36.47:880][242]LogFbx:Warning: Not valid bind pose for Pose (Mesh) - Node Cube : The relative matrices do not match
+[2016.05.25-02.36.47:880][242]LogFbx: Valid bind pose for Pose (Cube.000) - Character2
+[2016.05.25-02.36.47:881][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material'
+[2016.05.25-02.36.47:881][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material'
+[2016.05.25-02.36.47:883][242]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.05.25-02.36.47:907][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_001'
+[2016.05.25-02.36.47:907][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_001'
+[2016.05.25-02.36.47:911][242]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.05.25-02.36.47:922][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_002'
+[2016.05.25-02.36.47:923][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_002'
+[2016.05.25-02.36.47:927][242]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.05.25-02.36.47:936][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_003'
+[2016.05.25-02.36.47:936][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/Material_003'
+[2016.05.25-02.36.47:942][242]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.05.25-02.36.47:955][242]LogFbx: Triangulating skeletal mesh Character2
+[2016.05.25-02.36.48:044][242]LogFbx: Triangulating skeletal mesh Hair
+[2016.05.25-02.36.48:105][242]LogFbx: Triangulating skeletal mesh Cube
+[2016.05.25-02.36.48:126][242]LogFbx:Warning: Bones digested - 35  Depth of hierarchy - 7
+[2016.05.25-02.36.48:142][242]LogSkeletalMesh: Chunk 0: 368 rigid vertices, 1098 soft vertices, 11 active bones
+[2016.05.25-02.36.48:142][242]LogSkeletalMesh: Chunk 1: 1169 rigid vertices, 246 soft vertices, 8 active bones
+[2016.05.25-02.36.48:142][242]LogSkeletalMesh: Chunk 2: 77 rigid vertices, 9 soft vertices, 3 active bones
+[2016.05.25-02.36.48:142][242]LogSkeletalMesh: Chunk 3: 91 rigid vertices, 68 soft vertices, 9 active bones
+[2016.05.25-02.36.48:143][242]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 757 triangles
+[2016.05.25-02.36.48:143][242]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 699 triangles
+[2016.05.25-02.36.48:143][242]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 46 triangles
+[2016.05.25-02.36.48:143][242]LogSkeletalMesh: Section 3: Material=3, Chunk=3, 92 triangles
+[2016.05.25-02.36.48:146][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.36.48:146][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.36.48:146][242]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset.RiggingShooterCharacter2_dot_3_PhysicsAsset'
+[2016.05.25-02.36.48:147][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.36.48:147][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.36.48:147][242]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton.RiggingShooterCharacter2_dot_3_Skeleton'
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.36.48:148][242]LogFbx: 	Total Deformer Count 1765434816.
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.36.48:148][242]LogFbx: 	Total Deformer Count 213483040.
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.36.48:148][242]LogFbx: 	Total Deformer Count 213483040.
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node START [Character2] 
+[2016.05.25-02.36.48:148][242]LogFbx: 	Total Deformer Count 1765439936.
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: 	Attribute (Cube.001) Type (4).
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node Attribute Child 1] Character2 (Type Mesh).
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node END [Character2]
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node START [Hair] 
+[2016.05.25-02.36.48:148][242]LogFbx: 	Total Deformer Count 213482320.
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: 	Attribute (Mesh) Type (4).
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node Attribute Child 1] Hair (Type Mesh).
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node END [Hair]
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node START [Cube] 
+[2016.05.25-02.36.48:148][242]LogFbx: 	Total Deformer Count 213482320.
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node 1] Armature (Type Skin).
+[2016.05.25-02.36.48:148][242]LogFbx: =================================================
+[2016.05.25-02.36.48:148][242]LogFbx: 	Attribute (Cube.000) Type (4).
+[2016.05.25-02.36.48:148][242]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2016.05.25-02.36.48:148][242]LogFbx: Dumping Node END [Cube]
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.36.48:148][242]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(0) Armature
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(1) Root
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(2) Knee_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(3) Knee_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(4) Knee_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(5) Knee_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(6) Elbow_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(7) Elbow_L_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(8) Elbow_R
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(9) Elbow_R_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(10) Waist
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(11) Chest
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(12) Head
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(13) Head_end
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(14) Arm_L
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(15) Hand_l
+[2016.05.25-02.36.48:149][242]LogFbx: SortedLinks :(16) Hand_l_end
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(17) Arm_R
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(18) Hand_R
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(19) Gun
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(20) Gun_end
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(21) Leg_l
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(22) Foot_l
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(23) Foot_l_end
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(24) Leg_R
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(25) Foot_R
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(26) Foot_R_end
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(27) ArmIK_l
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(28) ArmIK_l_end
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(29) ArmIK_R
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(30) ArmIK_R_end
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(31) FootIK_L
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(32) FootIK_L_end
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(33) FootIK_R
+[2016.05.25-02.36.48:150][242]LogFbx: SortedLinks :(34) FootIK_R_end
+[2016.05.25-02.36.48:151][242]LogFbx: Parsing AnimStack Armature|Idle
+[2016.05.25-02.36.48:153][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.36.48:153][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.36.48:153][242]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle.RiggingShooterCharacter2_dot_3_Anim_Armature_Idle'
+[2016.05.25-02.36.48:284][242]LogFbx: Parsing AnimStack Armature|InAir
+[2016.05.25-02.36.48:286][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.36.48:286][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.36.48:286][242]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir.RiggingShooterCharacter2_dot_3_Anim_Armature_InAir'
+[2016.05.25-02.36.48:359][242]LogFbx: Parsing AnimStack Armature|JumpStart
+[2016.05.25-02.36.48:361][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.36.48:361][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.36.48:361][242]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart.RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart'
+[2016.05.25-02.36.48:403][242]LogFbx: Parsing AnimStack Armature|Walk
+[2016.05.25-02.36.48:406][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.36.48:407][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.36.48:407][242]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.RiggingShooterCharacter2_dot_3_Anim_Armature_Walk'
+[2016.05.25-02.36.48:533][242]LogFbx: Parsing AnimStack Cube|Idle
+[2016.05.25-02.36.48:534][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.36.48:534][242]LogLinker:Warning: Can't find file '/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.36.48:534][242]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle.RiggingShooterCharacter2_dot_3_Anim_Cube_Idle'
+[2016.05.25-02.36.48:678][242]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.05.25-02.36.48:678][242]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Knee.L_end  
+Knee.R_end  
+Elbow.L_end  
+Elbow.R_end  
+Head_end  
+Hand.l_end  
+Gun_end  
+Foot.l_end  
+Foot.R_end  
+ArmIK.l_end  
+ArmIK.R_end  
+FootIK.L_end  
+FootIK.R_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2016.05.25-02.36.48:678][242]FBXImport:Warning: Warning Mesh 'Character2' has no UV set. Creating a default set. 
+[2016.05.25-02.36.48:678][242]FBXImport:Warning: Warning Mesh 'Hair' has no UV set. Creating a default set. 
+[2016.05.25-02.36.48:678][242]FBXImport:Warning: Warning Mesh 'Cube' has no UV set. Creating a default set. 
+[2016.05.25-02.36.48:684][242]LogMaterial:Warning: Material /Game/Models/NewFolder/Material.Material needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.36.48:686][242]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2016.05.25-02.36.48:712][242]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.36.48:712][242]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.36.48:715][242]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.05.25-02.36.48:740][242]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.36.48:740][242]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.36.48:742][242]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2016.05.25-02.36.48:770][242]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.36.48:770][242]LogMaterial:Warning: Material /Game/Models/NewFolder/Material_003.Material_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2016.05.25-02.36.48:772][242]LogMaterial: Missing cached shader map for material Material_003, compiling. 
+[2016.05.25-02.36.48:797][242]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.36.49:922][320]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.05.25-02.36.50:028][320]LogRenderer: Reallocating scene render targets to support 1596x848 (Frame:3882).
+[2016.05.25-02.37.13:599][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RiggingShooterCharacter5)
+[2016.05.25-02.37.18:853][952]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2016.05.25-02.37.18:959][952]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2016.05.25-02.37.18:977][952]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.37.19:006][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.05.25-02.37.21:892][119]MaterialEditorStats: Info Base pass shader with static lighting: 51 instructions
+[2016.05.25-02.37.21:892][119]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.05.25-02.37.21:892][119]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.05.25-02.37.21:892][119]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.05.25-02.37.25:537][462]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2016.05.25-02.37.25:548][462]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.05.25-02.37.25:573][462]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.05.25-02.37.53:064][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.37.53:064][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.37.53:064][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.05.25-02.37.53:117][ 63]LogSavePackage: Save=9.16ms
+[2016.05.25-02.37.53:117][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir538A638C4AB23AD01F2CF0AA6A0FCBE1.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir.uasset'
+[2016.05.25-02.37.53:118][ 63]LogSavePackage: Total save time: 10.20ms
+[2016.05.25-02.37.53:118][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_InAir.uasset
+[2016.05.25-02.37.53:144][ 63]LogSavePackage: Save=8.93ms
+[2016.05.25-02.37.53:144][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_IdleB1E802A548A9ECE2CE5F30B625A80522.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle.uasset'
+[2016.05.25-02.37.53:144][ 63]LogSavePackage: Total save time: 10.01ms
+[2016.05.25-02.37.53:144][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Idle.uasset
+[2016.05.25-02.37.53:152][ 63]LogSavePackage: Save=1.10ms
+[2016.05.25-02.37.53:152][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_SkeletonB83E15384FD1C345520E80B60CE52A41.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton.uasset'
+[2016.05.25-02.37.53:153][ 63]LogSavePackage: Total save time: 2.10ms
+[2016.05.25-02.37.53:153][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Skeleton.uasset
+[2016.05.25-02.37.53:169][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/RiggingShooterCharacter2_dot_3" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3.uasset" SILENT=true
+[2016.05.25-02.37.53:185][ 63]LogSavePackage: Save=15.33ms
+[2016.05.25-02.37.53:185][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3CC8BC6C842827F0CE30BE18629952879.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3.uasset'
+[2016.05.25-02.37.53:186][ 63]LogSavePackage: Total save time: 16.50ms
+[2016.05.25-02.37.53:186][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3.uasset
+[2016.05.25-02.37.53:204][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/Material" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material.uasset" SILENT=true
+[2016.05.25-02.37.53:213][ 63]LogSavePackage: Save=8.62ms
+[2016.05.25-02.37.53:213][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/MaterialCE09E4C243F500A8288CB2A8B2D6097B.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material.uasset'
+[2016.05.25-02.37.53:214][ 63]LogSavePackage: Total save time: 9.62ms
+[2016.05.25-02.37.53:214][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material.uasset
+[2016.05.25-02.37.53:231][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/Material_001" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_001.uasset" SILENT=true
+[2016.05.25-02.37.53:242][ 63]LogSavePackage: Save=9.94ms
+[2016.05.25-02.37.53:242][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Material_0018796A9B94226CB3C67EB6EBA951AFE95.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_001.uasset'
+[2016.05.25-02.37.53:243][ 63]LogSavePackage: Total save time: 11.02ms
+[2016.05.25-02.37.53:243][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_001.uasset
+[2016.05.25-02.37.53:261][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/Material_002" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_002.uasset" SILENT=true
+[2016.05.25-02.37.53:270][ 63]LogSavePackage: Save=8.88ms
+[2016.05.25-02.37.53:270][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Material_002D1EFEA70413444D6074C43997172E25F.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_002.uasset'
+[2016.05.25-02.37.53:271][ 63]LogSavePackage: Total save time: 9.88ms
+[2016.05.25-02.37.53:271][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_002.uasset
+[2016.05.25-02.37.53:289][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/Material_003" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_003.uasset" SILENT=true
+[2016.05.25-02.37.53:299][ 63]LogSavePackage: Save=9.31ms
+[2016.05.25-02.37.53:299][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Material_003986223F747E47EB8D725638B52C2D7A9.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_003.uasset'
+[2016.05.25-02.37.53:300][ 63]LogSavePackage: Total save time: 10.34ms
+[2016.05.25-02.37.53:300][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/Material_003.uasset
+[2016.05.25-02.37.53:309][ 63]LogSavePackage: Save=4.15ms
+[2016.05.25-02.37.53:310][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_PhysicsAsset3965A358454F12526D3CB99200C3FADF.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset.uasset'
+[2016.05.25-02.37.53:311][ 63]LogSavePackage: Total save time: 5.35ms
+[2016.05.25-02.37.53:311][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_PhysicsAsset.uasset
+[2016.05.25-02.37.53:339][ 63]LogSavePackage: Save=9.05ms
+[2016.05.25-02.37.53:339][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart3ED5CBEC416CC2213E5F73AE8A22ED8C.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart.uasset'
+[2016.05.25-02.37.53:340][ 63]LogSavePackage: Total save time: 10.07ms
+[2016.05.25-02.37.53:340][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_JumpStart.uasset
+[2016.05.25-02.37.53:367][ 63]LogSavePackage: Save=9.16ms
+[2016.05.25-02.37.53:367][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Armature_WalkB1C649A546183450C29A92B170B4E214.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.uasset'
+[2016.05.25-02.37.53:368][ 63]LogSavePackage: Total save time: 10.24ms
+[2016.05.25-02.37.53:368][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Armature_Walk.uasset
+[2016.05.25-02.37.53:397][ 63]LogSavePackage: Save=9.04ms
+[2016.05.25-02.37.53:397][ 63]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/RiggingShooterCharacter2_dot_3_Anim_Cube_IdleB43F0B104D237DAFF556649E95BC6FEC.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle.uasset'
+[2016.05.25-02.37.53:398][ 63]LogSavePackage: Total save time: 10.06ms
+[2016.05.25-02.37.53:398][ 63]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/RiggingShooterCharacter2_dot_3_Anim_Cube_Idle.uasset
+[2016.05.25-02.38.07:061][537]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.05.25-02.38.07:647][537]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.05.25-02.38.11:236][760]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.05.25-02.38.18:191][200]BlueprintLog: New page: Compile NewAnimBlueprint
+[2016.05.25-02.38.18:307][200]BlueprintEditorCompileResults: Info [0135.49] Compile of NewAnimBlueprint successful! [in 115 ms]
+[2016.05.25-02.38.57:612][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.38.57:612][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.05.25-02.39.01:895][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.05.25-02.39.03:179][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.05.25-02.39.04:148][872]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.05.25-02.39.06:025][976]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.05.25-02.39.08:130][108]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.05.25-02.39.09:355][182]LogUnrealMath: Expression Error : No value recognized
+[2016.05.25-02.39.09:355][182]LogUnrealMath: Expression Error : Error in expression
+[2016.05.25-02.39.09:357][182]LogUnrealMath: Expression Error : No value recognized
+[2016.05.25-02.39.09:357][182]LogUnrealMath: Expression Error : Error in expression
+[2016.05.25-02.39.09:358][182]LogUnrealMath: Expression Error : No value recognized
+[2016.05.25-02.39.09:358][182]LogUnrealMath: Expression Error : Error in expression
+[2016.05.25-02.39.09:359][182]LogUnrealMath: Expression Error : No value recognized
+[2016.05.25-02.39.09:359][182]LogUnrealMath: Expression Error : Error in expression
+[2016.05.25-02.39.09:359][182]LogUnrealMath: Expression Error : No value recognized
+[2016.05.25-02.39.09:360][182]LogUnrealMath: Expression Error : Error in expression
+[2016.05.25-02.39.09:360][182]LogUnrealMath: Expression Error : No value recognized
+[2016.05.25-02.39.09:360][182]LogUnrealMath: Expression Error : Error in expression
+[2016.05.25-02.39.09:361][182]LogUnrealMath: Expression Error : No value recognized
+[2016.05.25-02.39.09:361][182]LogUnrealMath: Expression Error : Error in expression
+[2016.05.25-02.39.09:361][182]LogUnrealMath: Expression Error : No value recognized
+[2016.05.25-02.39.09:363][182]LogUnrealMath: Expression Error : Error in expression
+[2016.05.25-02.39.21:746][890]BlueprintLog: New page: Compile Player
+[2016.05.25-02.39.21:962][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.05.25-02.39.22:176][890]BlueprintEditorCompileResults: Info [0199.36] Compile of Player successful! [in 429 ms]
+[2016.05.25-02.39.23:676][971]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.39.23:676][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.25-02.39.23:678][971]PIE: New page: PIE session: ChrisTest (May 24, 2016, 11:39:23 AM)
+[2016.05.25-02.39.23:678][971]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.25-02.39.23:689][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011323s)
+[2016.05.25-02.39.23:690][971]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.25-02.39.23:690][971]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2016.05.25-02.39.23:691][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.012497s)
+[2016.05.25-02.39.23:691][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.39.23:691][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.05.25-02.39.23:714][971]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.25-02.39.23:722][971]LogInit: FAudioDevice initialized.
+[2016.05.25-02.39.23:793][971]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.25-02.39.23:797][971]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.24-19.39.23
+[2016.05.25-02.39.23:802][971]LogWorld: Bringing up level for play took: 0.007876
+[2016.05.25-02.39.23:813][971]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.05.25-02.39.23:839][971]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest -0.341
+[2016.05.25-02.39.23:840][971]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.39.42:279][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.39.42:346][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.39.50:239][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.39.51:734][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.05.25-02.39.57:520][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.05.25-02.39.59:302][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.05.25-02.40.00:622][ 27]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.05.25-02.40.03:207][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.05.25-02.40.05:289][278]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.05.25-02.40.08:388][446]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.05.25-02.40.09:407][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.05.25-02.40.15:135][847]BlueprintLog: New page: Compile Player
+[2016.05.25-02.40.15:343][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.05.25-02.40.15:454][847]BlueprintEditorCompileResults: Info [0252.64] Compile of Player successful! [in 319 ms]
+[2016.05.25-02.40.16:571][907]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.40.16:571][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.05.25-02.40.16:571][907]PIE: New page: PIE session: ChrisTest (May 24, 2016, 11:40:16 AM)
+[2016.05.25-02.40.16:571][907]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ChrisTest
+[2016.05.25-02.40.16:581][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009833s)
+[2016.05.25-02.40.16:582][907]LogAIModule: Creating AISystem for world ChrisTest
+[2016.05.25-02.40.16:582][907]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2016.05.25-02.40.16:582][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ChrisTest.ChrisTest to /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest (0.010596s)
+[2016.05.25-02.40.16:582][907]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.40.16:582][907]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.05.25-02.40.16:606][907]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.05.25-02.40.16:614][907]LogInit: FAudioDevice initialized.
+[2016.05.25-02.40.16:664][907]LogWorld: Game class is 'ShooterGameMode_C'
+[2016.05.25-02.40.16:667][907]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ChrisTest.ChrisTest up for play (max tick rate 0) at 2016.05.24-19.40.16
+[2016.05.25-02.40.16:668][907]LogWorld: Bringing up level for play took: 0.002869
+[2016.05.25-02.40.16:686][907]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ChrisTest 0.505
+[2016.05.25-02.40.16:686][907]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.40.36:791][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset" SILENT=true
+[2016.05.25-02.40.37:349][114]LogSavePackage: Save=494.74ms
+[2016.05.25-02.40.37:349][114]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/Player8B251FA74129E1276E62A190A7DB7BE9.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset'
+[2016.05.25-02.40.37:370][114]LogSavePackage: Total save time: 578.37ms
+[2016.05.25-02.40.37:370][114]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Blueprints/Player.uasset
+[2016.05.25-02.40.37:391][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/NewFolder/NewAnimBlueprint" FILE="D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset" SILENT=true
+[2016.05.25-02.40.37:424][114]LogSavePackage: Save=31.72ms
+[2016.05.25-02.40.37:424][114]LogSavePackage: Moving 'D:/Git/RiggingShooter/GameJamRigging/Saved/NewAnimBlueprintD527ECEC484A65098B76E9B1017C1A38.tmp' to 'D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset'
+[2016.05.25-02.40.37:425][114]LogSavePackage: Total save time: 33.09ms
+[2016.05.25-02.40.37:425][114]LogSavePackage:Display: Finished SavePackage D:/Git/RiggingShooter/GameJamRigging/Content/Models/NewFolder/NewAnimBlueprint.uasset
+[2016.05.25-02.40.37:436][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.05.25-02.40.47:648][715]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.40.47:711][715]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest' with GeneratedClass '/Game/Maps/ChrisTest.ChrisTest_C' with ClassGeneratedBy '/Game/Maps/ChrisTest.ChrisTest:PersistentLevel.ChrisTest'
+[2016.05.25-02.40.50:850][881]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.25-02.40.51:063][882]Cmd: QUIT_EDITOR
+[2016.05.25-02.40.51:715][882]LogExit: Preparing to exit.
+[2016.05.25-02.40.52:507][882]LogExit: Editor shut down
+[2016.05.25-02.40.52:507][882]LogExit: Transaction tracking system shut down
+[2016.05.25-02.40.52:657][882]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.25-02.40.52:658][882]LogExit: Object subsystem successfully closed.
+[2016.05.25-02.40.52:669][882]LogD3D11RHI: Shutdown
+[2016.05.25-02.40.52:669][882]LogD3D11RHI: CleanupD3DDevice
+[2016.05.25-02.40.52:747][882]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.25-02.40.52:813][882]LogDerivedDataCache: Shutdown
+[2016.05.25-02.40.52:813][882]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
+[2016.05.25-02.40.52:813][882]LogModuleManager: Shutting down and abandoning module BlueprintGraph (207)
+[2016.05.25-02.40.52:813][882]LogModuleManager: Shutting down and abandoning module MaterialEditor (206)
+[2016.05.25-02.40.52:813][882]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (205)
+[2016.05.25-02.40.52:813][882]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.05.25-02.40.52:813][882]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.05.25-02.40.52:813][882]LogModuleManager: Shutting down and abandoning module WorldBrowser (202)
+[2016.05.25-02.40.52:814][882]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.05.25-02.40.52:814][882]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.05.25-02.40.52:814][882]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.05.25-02.40.52:816][882]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.05.25-02.40.52:816][882]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.05.25-02.40.52:816][882]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.05.25-02.40.52:816][882]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.05.25-02.40.52:816][882]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.05.25-02.40.52:816][882]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.05.25-02.40.52:817][882]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.05.25-02.40.52:818][882]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.05.25-02.40.52:818][882]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.05.25-02.40.52:818][882]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.05.25-02.40.52:818][882]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.05.25-02.40.53:036][882]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.05.25-02.40.53:037][882]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.05.25-02.40.53:068][882]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.05.25-02.40.53:068][882]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.05.25-02.40.53:068][882]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.05.25-02.40.53:068][882]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.05.25-02.40.53:068][882]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.05.25-02.40.53:068][882]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.05.25-02.40.53:068][882]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.05.25-02.40.53:068][882]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.05.25-02.40.53:069][882]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.05.25-02.40.53:069][882]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.05.25-02.40.53:070][882]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.05.25-02.40.53:167][882]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.05.25-02.40.53:168][882]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.05.25-02.40.53:168][882]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.05.25-02.40.53:170][882]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.05.25-02.40.53:170][882]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.05.25-02.40.53:317][882]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.05.25-02.40.53:318][882]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.05.25-02.40.53:318][882]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.25-02.40.53:419][882]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.25-02.40.53:420][882]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.25-02.40.53:423][882]LogDerivedDataCache: Shutdown
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.25-02.40.53:423][882]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.25-02.40.53:424][882]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.25-02.40.54:425][882]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.25-02.40.54:425][882]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.25-02.40.54:425][882]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.25-02.40.54:425][882]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.25-02.40.54:425][882]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.25-02.40.54:425][882]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.25-02.40.54:425][882]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.25-02.40.54:427][882]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.25-02.40.54:428][882]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.25-02.40.54:429][882]LogExit: Exiting.
+[2016.05.25-02.40.54:430][882]Log file closed, 05/24/16 19:40:54
